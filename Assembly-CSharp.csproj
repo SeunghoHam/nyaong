@@ -53,7 +53,10 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
+    <Compile Include="Assets\#Scripts\Menu\Dotween\Tween.cs" />
+    <Compile Include="Assets\#Scripts\Menu\Dotween\ImageShow.cs" />
+    <Compile Include="Assets\#Scripts\Menu\Dotween\ChangeEndValue.cs" />
+    <Compile Include="Assets\#Scripts\Menu\MySceneManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -269,11 +272,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\UnityEditor\2020.3.25f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\UnityEditor\2020.3.25f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
