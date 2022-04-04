@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 1838446759}
   - component: {fileID: 1838446763}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -681,3 +681,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a504f7b30ed42f94387cc2f8f1a4f0b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  go_PoolingObject: {fileID: 6892806475294408711, guid: 21aeb2afc9157da468d8005623a196fb, type: 3}
