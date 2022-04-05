@@ -7,7 +7,12 @@ public class MusicGameManager : MonoBehaviour
     public static MusicGameManager instance;
 
     public GameObject go_PoolingObject;
+
+    public GameObject note_Blue;
+    public GameObject note_Red;
     Queue<Note> poolingObjectQueue = new Queue<Note>();
+
+    Queue<Note> randomNoteQueu = new Queue<Note>();
 
 	private void Awake()
 	{
@@ -28,6 +33,7 @@ public class MusicGameManager : MonoBehaviour
         newObj.gameObject.SetActive(false); // 생성할때는 비활성화상태로
         newObj.transform.SetParent(transform);
         newObj.transform.position = this.transform.position;
+        Debug.Log(newObj.transform.position);
         return newObj;
     }
     public static Note GetObject() //오브젝트를 활성화 시킨다. (풀링 된 다음 활성화 시키기)
@@ -46,7 +52,6 @@ public class MusicGameManager : MonoBehaviour
             newObj.transform.SetParent(null);
             return newObj;
 		}
-
 	}
     public static void ReturnObject(Note obj)
 	{
@@ -54,14 +59,6 @@ public class MusicGameManager : MonoBehaviour
         obj.transform.SetParent(instance.transform);
         instance.poolingObjectQueue.Enqueue(obj);
 	}
-
-	// Start is called before the first frame update
-	void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))

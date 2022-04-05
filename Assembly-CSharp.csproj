@@ -55,12 +55,13 @@
   <ItemGroup>
     <Compile Include="Assets\#Scripts\Menu\MySceneManager.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\MusicGameManager.cs" />
+    <Compile Include="Assets\#Scripts\MusicGame\Note.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\Tween.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\ChangeEndValue.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\ImageShow.cs" />
     <Compile Include="Assets\#Scripts\Game\Cam_Game.cs" />
     <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
-    <Compile Include="Assets\#Scripts\MusicGame\Note.cs" />
+    <Compile Include="Assets\#Scripts\MusicGame\note_Blue.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
