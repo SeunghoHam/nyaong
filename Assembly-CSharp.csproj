@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DB98931A-071D-32D9-9C98-67A663D388B1}</ProjectGuid>
+    <ProjectGuid>{96BC99FA-6AA6-B418-3560-8F278CA86117}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\#Scripts\Menu\MySceneManager.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\MusicGameManager.cs" />
+    <Compile Include="Assets\#Scripts\MusicGame\MultiManager.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\Note.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\note_Blue.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\Tween.cs" />
@@ -62,7 +63,6 @@
     <Compile Include="Assets\#Scripts\Menu\Dotween\ImageShow.cs" />
     <Compile Include="Assets\#Scripts\Game\Cam_Game.cs" />
     <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
-    <Compile Include="Assets\#Scripts\MusicGame\MultiManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -671,7 +671,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{0E2E4AF1-98B9-35F1-DF94-7A77FC060036}</Project>
+      <Project>{22CD8E91-0507-9637-61CE-4BF594187FB6}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
