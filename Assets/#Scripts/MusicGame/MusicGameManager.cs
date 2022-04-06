@@ -12,12 +12,14 @@ public class MusicGameManager : MonoBehaviour
     public GameObject note_Red;
     Queue<Note> poolingObjectQueue = new Queue<Note>();
 
-    Queue<Note> randomNoteQueu = new Queue<Note>();
+
+
+     int maxObjCount= 10;
 
 	private void Awake()
 	{
         instance = this;
-        Initialize(10);
+        Initialize(maxObjCount);
 	}
 
     void Initialize(int initCount)
@@ -38,8 +40,10 @@ public class MusicGameManager : MonoBehaviour
     }
     public static Note GetObject() //오브젝트를 활성화 시킨다. (풀링 된 다음 활성화 시키기)
 	{
-        if(instance.poolingObjectQueue.Count >0)
+        
+        if(instance.poolingObjectQueue.Count > 0)
 		{
+            
             var obj = instance.poolingObjectQueue.Dequeue();
             obj.transform.SetParent(null);
             obj.gameObject.SetActive(true);
