@@ -8,8 +8,6 @@ public class MusicGameManager : MonoBehaviour
 
     public GameObject go_PoolingObject;
 
-    public GameObject note_Blue;
-    public GameObject note_Red;
     Queue<Note> poolingObjectQueue = new Queue<Note>();
 
 
