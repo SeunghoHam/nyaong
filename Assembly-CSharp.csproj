@@ -56,6 +56,7 @@
     <Compile Include="Assets\#Scripts\#GuiDoHyun\urCollider_Green.cs" />
     <Compile Include="Assets\#Scripts\#GuiDoHyun\urCollider_Blue.cs" />
     <Compile Include="Assets\#Scripts\Menu\MySceneManager.cs" />
+    <Compile Include="Assets\#Scripts\MusicGame\CanvasManager.cs" />
     <Compile Include="Assets\#Scripts\#GuiDoHyun\urGameManager.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\MusicGameManager.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\MultiManager.cs" />
@@ -68,7 +69,6 @@
     <Compile Include="Assets\#Scripts\Menu\Dotween\ImageShow.cs" />
     <Compile Include="Assets\#Scripts\Game\Cam_Game.cs" />
     <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
-    <Compile Include="Assets\#Scripts\MusicGame\CanvasManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

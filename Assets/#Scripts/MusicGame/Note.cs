@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Note : MonoBehaviour
 {
-    private float moveSpeed =5f;
+    private float moveSpeed =8f;
     private Vector3 direction;
     public void Move(Vector3 direction)
 	{
         this.direction = direction;
-        Invoke("DestroyNote", 2f);
+        //Invoke("DestroyNote", 3f);
 	}
 
     public void DestroyNote()
@@ -28,4 +28,27 @@ public class Note : MonoBehaviour
 	{
         return tf;
 	}
+
+
+	private void OnTriggerEnter(Collider other)
+	{
+        if(other.transform.name == "judgeLine_Bad")
+		{
+            //Debug.Log("");
+            MultiManager.instance.bBad = true;
+        }
+        else if(other.transform.name == "judgeLine_Good")
+		{
+            MultiManager.instance.bGood = true;
+		}
+        else if(other.transform.name == "judgeLine_Perfect")
+		{
+            MultiManager.instance.bPerfect = true;
+		}
+
+        else if(other.transform.name == "3d_BlackWendigo")
+		{
+            MultiManager.instance.hit();
+		}
+    }
 }
