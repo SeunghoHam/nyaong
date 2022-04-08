@@ -1,18 +1,60 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MultiManager : MonoBehaviour
 {
-    public static MultiManager instance;
+	public static MultiManager instance;
 
-    public GameObject go_noteRed;
-    public GameObject go_noteBlue;
-    Queue<Note> randomNoteQueue = new Queue<Note>();
 
+	public GameObject go_noteRed;
+	public GameObject go_noteBlue;
+	public GameObject go_noteDouble;
+
+	public Transform noteParents;
+
+	Queue<Note> randomNoteQueue = new Queue<Note>();
+	Queue<Note> activeNoteQueue = new Queue<Note>();
+	public Note[] noteArray;
+	public Note nearNote;
+
+	public BoxCollider judgeLine_Perfect;
+	public BoxCollider judgeLine_Normal;
+	public BoxCollider judgeLine_Bad;
+	public bool bPerfect;
+	public bool bNormal;
+	public bool bBad;
+	
+	
+	//List<Note> ActiveNote = new List<Note>();
 	private void Awake()
 	{
 		instance = this;
+		Initialize(20);
+		
+	}
+	private void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.Space))
+		{
+			var note = GetObject();
+			Vector3 direction = Vector3.left;
+			//note.transform.position = direction.normalized;
+			note.transform.position = this.transform.position;
+			note.Move(direction.normalized);
+			arrayUpdate();
+		}
+	}
+	int i = 0;
+	void arrayUpdate()
+	{
+		//noteArray = new Note[randomNoteQueue.Count];
+		nearNote = this.transform.GetChild(i).GetComponent<Note>();
+		i++;
+
+		if (i == 20)
+			i = 0;
 	}
 	void Initialize(int initCount)
 	{
@@ -23,12 +65,56 @@ public class MultiManager : MonoBehaviour
 	}
 	Note CreateNewObject()
 	{
-		var newObj = Instantiate(go_noteRed).GetComponent<Note>(); // 두개의 프리팹 랜덤으로 생성되게 해봐야함
+		var newObj = Instantiate(returnRandomPrefab()).GetComponent<Note>(); // 두개의 프리팹 랜덤으로 생성되게 해봐야함
 		newObj.gameObject.SetActive(false); // 생성할때는 비활성화상태로
 		newObj.transform.SetParent(transform);
 		newObj.transform.position = this.transform.position;
 		Debug.Log(newObj.transform.position);
 		return newObj;
+	}
+	public static Note GetObject() //오브젝트를 활성화 시킨다. (풀링 된 다음 활성화 시키기)
+	{
+		
+		if (instance.randomNoteQueue.Count > 0)
+		{
+			
+			var obj = instance.randomNoteQueue.Dequeue();
+			//obj.transform.SetParent();
+			//obj.gameObject.transform.SetParent();
+			obj.gameObject.SetActive(true);
+			
+			return obj;
+		}
+		else // 풀링되어있는 객체가 하나도 없을 때 & initialize 한 갯수보다 더 생성해야할 때
+		{
+			var newObj = instance.CreateNewObject();
+			newObj.gameObject.SetActive(true);
+			newObj.transform.SetParent(null);
+			return newObj;
+		}
+	}
+	public static void ReturnObject(Note obj)
+	{
+		obj.gameObject.SetActive(false);
+		obj.transform.SetParent(instance.transform);
+		instance.randomNoteQueue.Enqueue(obj);
+	}
+
+	GameObject returnRandomPrefab()
+	{
+		int count = Random.Range(0, 2);
+		GameObject returnObject = null;
+		switch (count)
+		{
+			case 0:
+				returnObject = go_noteRed;
+				break;
+			case 1:
+				returnObject = go_noteBlue;
+				break;
+		}
+		return returnObject;
+
 	}
 
 }

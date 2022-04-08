@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,24 +53,22 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="Assets\#Scripts\#GuiDoHyun\urCollider_Green.cs" />
+    <Compile Include="Assets\#Scripts\#GuiDoHyun\urCollider_Blue.cs" />
     <Compile Include="Assets\#Scripts\Menu\MySceneManager.cs" />
+    <Compile Include="Assets\#Scripts\#GuiDoHyun\urGameManager.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\MusicGameManager.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\MultiManager.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\Note.cs" />
     <Compile Include="Assets\#Scripts\MusicGame\note_Blue.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\Tween.cs" />
+    <Compile Include="Assets\#Scripts\#GuiDoHyun\urBall.cs" />
+    <Compile Include="Assets\#Scripts\#GuiDoHyun\urCollider_Red.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\ChangeEndValue.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\ImageShow.cs" />
     <Compile Include="Assets\#Scripts\Game\Cam_Game.cs" />
     <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
-    <Compile Include="Assets\#Scripts\#GuiDoHyun\urGameManager.cs" />
-    <Compile Include="Assets\#Scripts\#GuiDoHyun\urball_Blue.cs" />
-    <Compile Include="Assets\#Scripts\#GuiDoHyun\urball_Red.cs" />
-    <Compile Include="Assets\#Scripts\#GuiDoHyun\urball_Green.cs" />
-    <Compile Include="Assets\#Scripts\#GuiDoHyun\urball_Normal.cs" />
+    <Compile Include="Assets\#Scripts\MusicGame\CanvasManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -9,16 +9,23 @@ public class Note : MonoBehaviour
     public void Move(Vector3 direction)
 	{
         this.direction = direction;
-        Invoke("DestroyNote", 3f);
+        Invoke("DestroyNote", 2f);
 	}
 
     public void DestroyNote()
 	{
-        MusicGameManager.ReturnObject(this);
+        //MusicGameManager.ReturnObject(this);
+        MultiManager.ReturnObject(this);
 	}
     // Update is called once per frame
     void Update()
     {
         transform.Translate(direction *Time.deltaTime*moveSpeed);
     }
+
+    public Transform tf;
+    public Transform setTF()
+	{
+        return tf;
+	}
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class note_Blue : Note
 {
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,5 +15,10 @@ public class note_Blue : Note
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
     }
 }

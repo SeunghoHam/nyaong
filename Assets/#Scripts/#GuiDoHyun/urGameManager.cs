@@ -13,10 +13,11 @@ public class urGameManager : MonoBehaviour
 
 	public GameObject go_turnActor;
 	public GameObject[] go_ball;
-
+	private GameObject go_ChangedBall;
+	//public GameObject[] activeBalls;
 
 	RaycastHit hit;
-	float MaxDistance = 40f;
+	float MaxDistance = 100f;
 
 	public bool bOnRed = false;
 	public bool bOnBlue = false;
@@ -34,8 +35,9 @@ public class urGameManager : MonoBehaviour
 
 	public bool isGame;
 
-	public float axis = 360f;
-	public float angle = 2f;
+	public float axis = 360f; // 회전 방향
+	public float angle = 1f; // 회전 속도
+	const float turnSpeed = 1f;
 
 	public float falseDelaytime = 0.6f;
 	// Start is called before the first frame update
@@ -43,10 +45,10 @@ public class urGameManager : MonoBehaviour
 	private void Awake()
 	{
 		go_ball = new GameObject[go_turnActor.transform.childCount];
-
 		for (int i = 0; i < go_turnActor.transform.childCount; i++)
 		{
 			go_ball[i] = go_turnActor.transform.GetChild(i).gameObject;
+			go_ball[i].transform.GetChild(0).gameObject.SetActive(false);
 		}
 		correctCount = 0;
 
@@ -56,22 +58,29 @@ public class urGameManager : MonoBehaviour
 	}
 	void Start()
 	{
-		//CheckCorrectCount();
+		CheckCorrectCount();
 	}
 
 
 
-	void touch(RaycastHit hit, bool isCondition)
+	void touch( bool isCondition)
 	{
 		if (isCondition)
 		{
-			hit.transform.gameObject.SetActive(false);
+			Debug.Log("조건이 참");
+			go_ChangedBall.gameObject.SetActive(false);
 			correctCount++;
 			CheckCorrectCount();
 			sliderReset();
+			if (go_ball.Length > 0)
+				CheckActiveBall(go_ball.Length);
+			else go_ball[0].gameObject.SetActive(false);
+
+			stateReset();
 		}
 		else if (!isCondition)
 		{
+			Debug.Log("조건이 거짓");
 			ballReset();
 		}
 	}
@@ -86,31 +95,22 @@ public class urGameManager : MonoBehaviour
 			toggle_Red.isOn = bOnRed;
 			toggle_Green.isOn = bOnGreen;
 			Ray ray = Cam_Game.ScreenPointToRay(Input.mousePosition);
-			Debug.DrawRay(Cam_Game.transform.position, ray.direction, Color.blue, 1f);
+			//Debug.DrawRay(Cam_Game.transform.position, ray.direction, Color.blue, 1f);
 			if (Physics.Raycast(ray, out hit, Mathf.Infinity))
 			{
 				if (Input.GetMouseButtonDown(0))
 				{
-					//Debug.Log("클릭 인풋");
-					if (hit.transform.name == "Sphere_blue")
+					if(hit.transform.name == "col_Red")
 					{
-						//Debug.Log("파란색");
-						touch(hit, bOnBlue);
+						touch(bOnRed);
 					}
-					else if (hit.transform.name == "Sphere_green")
+					else if(hit.transform.name == "col_Blue")
 					{
-						//Debug.Log("초록색");
-						touch(hit, bOnGreen);
-
+						touch(bOnBlue);
 					}
-					else if (hit.transform.name == "Sphere_red")
+					else if(hit.transform.name == "col_Green")
 					{
-						//Debug.Log("빨간색");
-						touch(hit, bOnRed);
-					}
-					else if(hit.transform.name == "Sphere_normal")
-					{
-						ballReset();
+						touch(bOnGreen);
 					}
 				}
 			}
@@ -120,8 +120,10 @@ public class urGameManager : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.E)) angle += 1f;
 			if (Input.GetKeyDown(KeyCode.R)) angle -= 1f;
 
+			
+			if (Input.GetKeyDown(KeyCode.T)) return_RandomObejctChange(); 
 			CheckCorrectCount();
-			CheckSlider();
+			//CheckSlider();
 		}
 	}
 
@@ -129,27 +131,46 @@ public class urGameManager : MonoBehaviour
 	{
 		if(correctCount == 0)
 		{
-			angle = 2f;
+			angle = turnSpeed;
 		}
 		if (correctCount == 1)
 		{
-			angle = 3f;
+			angle = turnSpeed + 0.1f;
 		}
 		else if (correctCount == 2)
 		{
-			angle = 4f;
+			angle = turnSpeed + 0.2f;
 		}
 		else if(correctCount == 3)
 		{
-			Debug.Log("correctCount = 3!");
+			angle = turnSpeed + 0.3f;
+		}
+		else if(correctCount == 4)
+		{
+			angle = turnSpeed + 0.4f;
+		}
+		else if(correctCount == 5)
+		{
+			angle = turnSpeed + 0.5f;
+		}
+		else if (correctCount == 6)
+		{
+			Debug.Log("클리어!");
 			ballUnion();
 			isGame = false;
 			slider.gameObject.SetActive(false);
 		}
+
 	}
 
-	void ballUnion()
+	void ballUnion() // 엔딩 부분 스토리보드 나와야 알듯
 	{
+		for (int i = 0; i < go_turnActor.transform.childCount; i++)
+		{
+			go_turnActor.transform.GetChild(i).GetComponent<urBall>().ColorEnd();
+		}
+
+
 		float time = 4f;
 		angle = 10f;
 		go_turnActor.transform.DOScaleX(0f, time);
@@ -171,7 +192,7 @@ public class urGameManager : MonoBehaviour
 		}
 		else
 		{
-			Debug.Log("슬라이더 보이기");
+			//Debug.Log("슬라이더 보이기");
 			activeSlider();
 		}
 	}
@@ -194,13 +215,52 @@ public class urGameManager : MonoBehaviour
 	}
 	void ballReset()
 	{
-		sliderActiveTime = 2f;
+		sliderReset();
 		Debug.Log("볼 리셋");
-		for (int i = 0; i < go_ball.Length; i++)
+		go_ball = new GameObject[go_turnActor.transform.childCount];
+
+		for (int i = 0; i < go_turnActor.transform.childCount; i++)
 		{
+			go_ball[i] = go_turnActor.transform.GetChild(i).gameObject;
+			go_ball[i].GetComponent<urBall>().ColorReset();
 			go_ball[i].SetActive(true);
 		}
+		stateReset();
 		correctCount = 0;
 		CheckCorrectCount();
 	}
+	void stateReset()
+	{
+		bOnBlue = false;
+		bOnRed = false;
+		bOnGreen = false;
+	}
+	void CheckActiveBall(int activeBallCount)
+	{
+		//int j = 0;
+		go_ball = new GameObject[activeBallCount-1];
+		
+		for (int i = 0; i < go_turnActor.transform.childCount; i++) 
+		{ // 6번 반복
+			if (go_turnActor.transform.GetChild(i).transform.gameObject.activeSelf)
+			{ // turnActor의 자식중에 활성화 되어있는 애
+				for (int j = 0; j < activeBallCount-1;)
+				{
+					go_ball[j] = go_turnActor.transform.GetChild(i).gameObject;
+					j++;
+				}
+				//활성화 되어있는 turnActor의 자식을 go_ball 배열에 넣는다
+			}
+		}
+		
+	}
+	void return_RandomObejctChange()
+	{
+		int ran_Obj = UnityEngine.Random.Range(0, go_ball.Length);
+		int ran_Color = UnityEngine.Random.Range(0, 3);
+
+		go_ball[ran_Obj].GetComponent<urBall>().Change(ran_Color);
+		go_ChangedBall = go_ball[ran_Obj];
+	}
+
 }
