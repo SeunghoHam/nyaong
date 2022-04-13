@@ -56,7 +56,7 @@ public class MultiManager : MonoBehaviour
 	{
 		Debug.Log("웬디고 아파하는중");
 		ReturnObject(activeNoteQueue.Dequeue());
-		canvas.SliderValueChange(5, false);
+		StartCoroutine( canvas.CRT_sliderValueSmooth_Decrease(5));
 	}
 	public void FuncJudge_Perfect()
 	{

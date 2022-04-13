@@ -16,11 +16,24 @@ public class CanvasManager : MonoBehaviour
     public Slider slider;
     float maxValue = 30f;
     float sliderValue;
+
+
+
+    public GameObject img_Perfect;
+
+
+    [Header("모바일 동시터치 테스트용")]
+    public GameObject img_Right;
+    public GameObject img_Left;
+    public Text text_Test;
+    public Text text_touchCount;
+    //public Text text_Right;
     private void Awake()
     {
         m_ped = new PointerEventData(null);
         slider.maxValue = maxValue;
         sliderValue = maxValue / 2;
+        text_Test.text = "아무것도안누름";
     }
     // Start is called before the first frame update
     void Start()
@@ -31,7 +44,32 @@ public class CanvasManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        InputSystem();
+        text_touchCount.text = Input.touchCount.ToString();
+        if (Input.touchCount > 0 && Input.touchCount < 2)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            if (touch.position.x >= screen_WIDTH / 2)
+            {
+                text_Test.text = "오른쪽누름";
+            }
+            else
+                text_Test.text = "왼쪽누름";
+
+            
+            if (touch.phase == TouchPhase.Began)
+            {
+                Debug.Log("Began");
+            }
+
+
+        }
+        else if(Input.touchCount ==0) 
+            text_Test.text = "아무것도안누름";
+        else if(Input.touchCount >= 2)
+                text_Test.text = "같이 누르는중";
+
+        //InputSystem();
         //slider.value = sliderValue;
     }
 
@@ -53,28 +91,30 @@ public class CanvasManager : MonoBehaviour
 
             MultiManager.instance.StateReset();
         }
+
+
+
+        
     }
     void Input_Left()
     {
         if (MultiManager.instance.bPerfect)
         {
-            //Debug.Log("퍼펙트");
             MultiManager.instance.FuncJudge_Perfect();
             //SliderValueChange(2, true);
             StartCoroutine(CRT_sliderValueSmooth(3));
         }
         else if (MultiManager.instance.bGood)
         {
-            //Debug.Log("굿");
             MultiManager.instance.FuncJudge_Good();
-            SliderValueChange(1, true);
+            //SliderValueChange(1, true);
+            StartCoroutine(CRT_sliderValueSmooth(2));
 
         }
         else if (MultiManager.instance.bBad)
         {
-            //Debug.Log("베드");
             MultiManager.instance.FuncJudge_Bad();
-            SliderValueChange(1, false);
+            //StartCoroutine(CRT_sliderValueSmooth());
 
         }
     }
@@ -84,35 +124,30 @@ public class CanvasManager : MonoBehaviour
     {
     }
 
-    public void SliderValueChange(float length, bool inCrease)
-    {
-        //StartCoroutine(CRT_sliderValueSmooth(length, inCrease));
-        /*
-        if (inCrease)
-            slider.value += length;
-        else if (!inCrease)
-            slider.value -= length;*/
-    }
-
     IEnumerator CRT_sliderValueSmooth(float length)
     {
         float currentValue = slider.value;
         while (sliderValue <= currentValue + length)
         {
-            Debug.Log("슬라이더 증가");
-            sliderValue += length / 10;
+            //Debug.Log("슬라이더 증가");
+            sliderValue += length * Time.deltaTime * 3;
             slider.value = sliderValue;
-            yield return new WaitForSeconds(0.02f);
+            yield return new WaitForSeconds(0.01f);
+        }
+    }
+    public IEnumerator CRT_sliderValueSmooth_Decrease(float length)
+	{
+        // sliderValue = 임의의 슬라이더 값 변수
+        // slider.value = 실제 슬라이더 값 변수
+        // currentVaue = 현재 슬라이더 값 가져오기
+        float currentValue = slider.value;
+		while (slider.value >= currentValue - length)
+		{
+            //Debug.Log("슬라이더 감소");
+            //Debug.Log(".value = " + slider.value + " Value  = " + (currentValue-length));
+            sliderValue -= length  * Time.deltaTime * 3;
+            slider.value = sliderValue;
+            yield return new WaitForSeconds(0.01f);
         }
     }
 }
-    /*
-            while (sliderValue <= slider.value - length)
-            {
-                Debug.Log("슬라이더 감소");
-
-                slider.value -= length / 10;
-                yield return new WaitForSeconds(0.01f);
-
-            }*/
-    

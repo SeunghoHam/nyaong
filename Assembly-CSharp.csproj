@@ -69,6 +69,7 @@
     <Compile Include="Assets\#Scripts\Menu\Dotween\ImageShow.cs" />
     <Compile Include="Assets\#Scripts\Game\Cam_Game.cs" />
     <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
+    <Compile Include="Assets\#Scripts\MusicGame\note_Red.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
