@@ -11,6 +11,16 @@ public class MySceneManager : MonoBehaviour
 	float fadeDuration = 2; // 암전되는 시간
 	public GameObject go_Loading; // 로딩 애니메이션 같은거 들어있는 게임 오브젝트
 	public Text text_Loading; // 퍼센트 게이지 텍스트
+
+
+	public InputField inputField_ID;
+	public InputField inputField_PW;
+
+	string answer_ID = "root";
+	string answer_PW = "1234";
+	public GameObject go_LoginView;
+	public Button btn_Login;
+
 	public static MySceneManager Instance
 	{
 		get
@@ -29,11 +39,53 @@ public class MySceneManager : MonoBehaviour
 		instance = this;
 
 		DontDestroyOnLoad(this.gameObject);
-
 		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 
-	private void OnDestroy()
+	private void Awake()
+	{
+		btn_Login.onClick.AddListener(btnFunc_Login);
+		inputField_ID.Select();
+	}
+	private void Update()
+    {
+		if (Input.GetKeyDown(KeyCode.Tab)) tabkeyManager();
+		if (Input.GetKeyDown(KeyCode.Return)) btnFunc_Login();
+		//if(Input.GetKeyDown(keycode))
+	}
+
+
+	void tabkeyManager()
+    {
+		inputField_PW.Select();
+    }
+	void btnFunc_Login()
+    {
+		if(inputField_ID.text == answer_ID)
+        {
+			if(inputField_PW.text == answer_PW)
+            {
+				Debug.Log("로그인 성공!");
+				MySceneManager.instance.LoadScene("2");
+            }
+			else
+            {
+				Debug.Log("비밀번호 확인해");
+				inputField_PW.text = null;
+            }
+        }
+		else
+        {
+			Debug.Log("존재하지 않는 계정이다");
+			inputField_PW.text = null;
+        }
+
+    }
+
+
+
+    #region Login
+    private void OnDestroy()
 	{
 		SceneManager.sceneLoaded -= OnSceneLoaded;
 	}
@@ -49,7 +101,7 @@ public class MySceneManager : MonoBehaviour
 				img_Fade.blocksRaycasts = false;
 			});
 	}
-	public void ChangeScene(string sceneName)
+	public void ChangeScene(string sceneName) //전환할 씬 이름
 	{
 		Debug.Log("ChangeScene");
 		img_Fade.DOFade(1, fadeDuration).OnStart(() =>
@@ -60,41 +112,42 @@ public class MySceneManager : MonoBehaviour
 			// 로딩화면 띄우고 씬 로드 시작
 			StartCoroutine(LoadScene(sceneName));
 		});
-	}
+    }
 
 
-	IEnumerator LoadScene(string sceneName)
-	{
-		go_Loading.SetActive(true);
+    IEnumerator LoadScene(string sceneName)
+    {
+        go_Loading.SetActive(true);
 
-		AsyncOperation async = SceneManager.LoadSceneAsync(sceneName);
-		async.allowSceneActivation = false; // 퍼센트 딜레이용 | 퍼센트 100 되면 활성화 시킴
+        AsyncOperation async = SceneManager.LoadSceneAsync(sceneName);
+        async.allowSceneActivation = false; // 퍼센트 딜레이용 | 퍼센트 100 되면 활성화 시킴
 
-		float past_time = 0;
-		float percentage = 0;
+        float past_time = 0;
+        float percentage = 0;
 
-		while (!async.isDone)
-		{
-			yield return null;
+        while (!async.isDone)
+        {
+            yield return null;
 
-			past_time += Time.deltaTime;
+            past_time += Time.deltaTime;
 
-			if (percentage >= 90)
-			{
-				percentage = Mathf.Lerp(percentage, 100, past_time);
+            if (percentage >= 90)
+            {
+                percentage = Mathf.Lerp(percentage, 100, past_time);
 
-				if (percentage == 100)
-				{
-					async.allowSceneActivation = true; // 씬 전환 준비 완료(percentage 가 100이다)
-				}
-			}
-			else
-			{
-				percentage = Mathf.Lerp(percentage, async.progress * 100f, past_time);
-				if (percentage >= 90)
-					past_time = 0;
-			}
-			text_Loading.text = percentage.ToString("0") + "%";  // 퍼센트 표기
-		}
-	}
+                if (percentage == 100)
+                {
+                    async.allowSceneActivation = true; // 씬 전환 준비 완료(percentage 가 100이다)
+                }
+            }
+            else
+            {
+                percentage = Mathf.Lerp(percentage, async.progress * 100f, past_time);
+                if (percentage >= 90)
+                    past_time = 0;
+            }
+            text_Loading.text = percentage.ToString("0") + "%";  // 퍼센트 표기
+        }
+    }
+    #endregion
 }
