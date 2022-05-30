@@ -19,8 +19,10 @@ public class MySceneManager : MonoBehaviour
 	string answer_ID = "root";
 	string answer_PW = "1234";
 	public GameObject go_LoginView;
-	public Button btn_Login;
+	public GameObject go_SelectView;
 
+	public Button btn_Login;
+	public Button btn_Start;
 	public static MySceneManager Instance
 	{
 		get
@@ -44,14 +46,19 @@ public class MySceneManager : MonoBehaviour
 
 	private void Awake()
 	{
+		Debug.Log("Awake");
 		btn_Login.onClick.AddListener(btnFunc_Login);
+		btn_Start.onClick.AddListener(btnFunc_Start);
 		inputField_ID.Select();
+		go_LoginView.gameObject.SetActive(true);
+		go_SelectView.gameObject.SetActive(false);
 	}
+
+	
 	private void Update()
     {
 		if (Input.GetKeyDown(KeyCode.Tab)) tabkeyManager();
-		if (Input.GetKeyDown(KeyCode.Return)) btnFunc_Login();
-		//if(Input.GetKeyDown(keycode))
+		if (Input.GetKeyDown(KeyCode.Return)) btnFunc_Login(); // KeyCode.Return = Enter키
 	}
 
 
@@ -61,27 +68,29 @@ public class MySceneManager : MonoBehaviour
     }
 	void btnFunc_Login()
     {
-		if(inputField_ID.text == answer_ID)
-        {
-			if(inputField_PW.text == answer_PW)
-            {
+		if (inputField_ID.text == answer_ID)
+		{
+			if (inputField_PW.text == answer_PW)
+			{
 				Debug.Log("로그인 성공!");
-				MySceneManager.instance.LoadScene("2");
-            }
+				MySceneManager.instance.ChangeScene("2");
+			}
 			else
-            {
+			{
 				Debug.Log("비밀번호 확인해");
 				inputField_PW.text = null;
-            }
-        }
+			}
+		}
 		else
-        {
+		{
 			Debug.Log("존재하지 않는 계정이다");
 			inputField_PW.text = null;
-        }
-
+		}
     }
-
+	void btnFunc_Start()
+    {
+		MySceneManager.instance.ChangeScene("3");
+    }
 
 
     #region Login
@@ -103,7 +112,6 @@ public class MySceneManager : MonoBehaviour
 	}
 	public void ChangeScene(string sceneName) //전환할 씬 이름
 	{
-		Debug.Log("ChangeScene");
 		img_Fade.DOFade(1, fadeDuration).OnStart(() =>
 		{
 			img_Fade.blocksRaycasts = true; // 클릭 막기
@@ -111,6 +119,8 @@ public class MySceneManager : MonoBehaviour
 		{
 			// 로딩화면 띄우고 씬 로드 시작
 			StartCoroutine(LoadScene(sceneName));
+			go_LoginView.gameObject.SetActive(false);
+			go_SelectView.gameObject.SetActive(true);
 		});
     }
 
