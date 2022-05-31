@@ -58,48 +58,55 @@
   <ItemGroup>
     <Compile Include="Assets\#Scripts\Game\CharacterBase.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\AimingRig\AimReticle.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
     <Compile Include="Assets\#Scripts\Game\CanvasManager.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
     <Compile Include="Assets\#Scripts\Menu\MySceneManager.cs" />
     <Compile Include="Assets\#Scripts\UniRx\TextInputEffect.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\Tween.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\ChangeEndValue.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\#Scripts\Menu\Dotween\ImageShow.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\ActivateCamOnPlay.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
-    <Compile Include="Assets\#Scripts\Game\Cam_Game.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
-    <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\ActivateCamOnPlay.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerLookAt.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\DualTarget\PointAtAimTarget.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\AimingRig\AimReticle.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
+    <Compile Include="Assets\#Scripts\Game\Cam_Game.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\3rdPersonWithAimMode\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerLookAt.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetTargetController.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
-    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
+    <Compile Include="Assets\Samples\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
+    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
+    <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
+    <Compile Include="Assets\#Scripts\ScriptableObject\EnemControl.cs" />
+    <Compile Include="Assets\#Scripts\ScriptableObject\EnemData.cs" />
+    <Compile Include="Assets\#Scripts\ScriptableObject\EnemBase.cs" />
+    <Compile Include="Assets\#Scripts\ScriptableObject\EnemManager.cs" />
+    <Compile Include="Assets\#Scripts\Method\ListOfNumbers.cs" />
+    <Compile Include="Assets\#Scripts\Game\InputMovement.cs" />
+    <Compile Include="Assets\#Scripts\Game\Move.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
@@ -690,8 +697,14 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -719,12 +732,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
