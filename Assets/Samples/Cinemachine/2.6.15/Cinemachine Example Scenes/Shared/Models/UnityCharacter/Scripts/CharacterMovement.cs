@@ -23,8 +23,8 @@ public class CharacterMovement : MonoBehaviour
     private Camera mainCamera;
     private float velocity;
 
-	// Use this for initialization
-	void Start ()
+                                     // Use this for initialization
+        void Start ()
 	{
 	    anim = GetComponent<Animator>();
 	    mainCamera = Camera.main;
