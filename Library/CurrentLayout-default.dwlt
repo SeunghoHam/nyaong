@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 64
+  controlID: 85
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 342}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 65
+  controlID: 41
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,7 +274,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 790
-    height: 403
+    height: 413
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 26}
@@ -300,9 +300,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 403
+    y: 413
     width: 790
-    height: 536
+    height: 526
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -516,7 +516,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 72430000
     m_LastClickedID: 17266
-    m_ExpandedIDs: 0000000050480000524800005448000056480000584800005a4800005c4800005e48000060480000624800006448000066480000
+    m_ExpandedIDs: 00000000fa440000fc440000fe44000000450000024500000445000006450000084500000a4500000c4500000e4500001045000012450000144500001645000018450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -544,7 +544,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000050480000524800005448000056480000584800005a4800005c4800005e48000060480000624800006448000066480000
+    m_ExpandedIDs: 00000000fa440000fc440000fe44000000450000024500000445000006450000084500000a4500000c4500000e4500001045000012450000144500001645000018450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -621,9 +621,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1536
-    y: 476
+    y: 486
     width: 789
-    height: 515
+    height: 505
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -668,9 +668,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 789
-      height: 494
+      height: 484
     m_Scale: {x: 0.4109375, y: 0.4109375}
-    m_Translation: {x: 394.5, y: 246.99998}
+    m_Translation: {x: 394.5, y: 242}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -678,12 +678,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -960
-      y: -601.06464
+      y: -588.89734
       width: 1920
-      height: 1202.1293
+      height: 1177.7947
     m_MinimalGUI: 1
   m_defaultScale: 0.4109375
-  m_LastWindowPixelSize: {x: 789, y: 515}
+  m_LastWindowPixelSize: {x: 789, y: 505}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000000000000
@@ -1791,23 +1791,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 84490000
-      m_LastClickedID: 0
-      m_ExpandedIDs: b095feff9e96feff321fffff9addffff10edffff6efbffff
+      m_SelectedIDs: 1220ffff
+      m_LastClickedID: -57326
+      m_ExpandedIDs: be1dffffc21dffffc41fffffe021ffff2637ffff244bffff808dffff6ca0ffffb4a9ffff06beffff90c4fffff0caffff68d8ffff80e8ffff68fbffff60bd000052db0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: CharactererRect
-        m_OriginalName: CharactererRect
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -57550
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -1892,36 +1892,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/#Scene/LostArk/TopviewGame
+    - Assets/Knife/Customizable Hologramm Shader/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 61
   m_LastFolders:
-  - Assets/#Scene/LostArk/TopviewGame
+  - Assets/Knife/Customizable Hologramm Shader/Scenes
   m_LastFoldersGridSize: 61
   m_LastProjectPath: C:\UnityProject\nyaong
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b87d0000
-    m_LastClickedID: 32184
-    m_ExpandedIDs: 0000000050480000524800005448000056480000584800005a4800005c4800005e4800006048000062480000664800004649000064490000064a00000e4a00009451000000ca9a3b
+    m_SelectedIDs: c6d10000
+    m_LastClickedID: 53702
+    m_ExpandedIDs: 00000000fa440000fc440000fe44000000450000024500000445000006450000084500000a45000012450000144500001645000018450000da4500001647000036b60000b4d10000c6d10000ced1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: LostArk
-      m_OriginalName: LostArk
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 18788
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -1935,7 +1935,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000050480000524800005448000056480000584800005a4800005c4800005e48000060480000624800006448000066480000
+    m_ExpandedIDs: 00000000fa440000fc440000fe44000000450000024500000445000006450000084500000a4500000c4500000e4500001045000012450000144500001645000018450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1962,7 +1962,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 402608002c1e0000c809020072410000d61c010022910000426700004e5301006e990000585c0000f63d0000c2a7000090420000f06f0200f0f702005c84000028950000824f0000467a000082aa0000f678010034690000f01d01000000000058671400b2810000bcac0100c69b000020a00100802b0100725802001a37feff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2014,7 +2014,7 @@ MonoBehaviour:
     x: 1536
     y: 73
     width: 789
-    height: 382
+    height: 392
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: ff998d7aba1d47644a6fb7019a0d8a80
@@ -2027,9 +2027,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.95234907, y: 11.935379, z: -35.68026}
+    m_Target: {x: -1.5052347, y: 2.7394757, z: 2.7243843}
     speed: 2
-    m_Value: {x: 0.95234907, y: 11.935379, z: -35.68026}
+    m_Value: {x: -1.5052347, y: 2.7394757, z: 2.7243843}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2076,13 +2076,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.47232533, y: -0.03417529, z: 0.018383088, w: -0.8806138}
+    m_Target: {x: -0.26449907, y: 0.16554146, z: -0.046110578, w: -0.94899356}
     speed: 2
-    m_Value: {x: -0.47103846, y: -0.031557493, z: 0.016918046, w: -0.8813856}
+    m_Value: {x: -0.2673343, y: 0.16539584, z: -0.046605237, w: -0.94815844}
   m_Size:
-    m_Target: 27.165855
+    m_Target: 4.465866
     speed: 2
-    m_Value: 25.996035
+    m_Value: 4.165866
   m_Ortho:
     m_Target: 0
     speed: 2

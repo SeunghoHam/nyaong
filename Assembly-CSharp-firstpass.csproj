@@ -712,6 +712,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="com.saladgamer.volumetriclightbeam.csproj">
+      <Project>{C703C47C-6701-0968-317F-E3672ACD1913}</Project>
+      <Name>com.saladgamer.volumetriclightbeam</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

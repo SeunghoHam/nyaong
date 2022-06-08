@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/#Scene/LostArk/TopviewGame.unity
+- path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

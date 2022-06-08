@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
+    <Compile Include="Assets\Knife\Customizable Hologramm Shader\Editor\HologramShaderEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -743,6 +744,10 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{96BC99FA-6AA6-B418-3560-8F278CA86117}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.saladgamer.volumetriclightbeam.csproj">
+      <Project>{C703C47C-6701-0968-317F-E3672ACD1913}</Project>
+      <Name>com.saladgamer.volumetriclightbeam</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
