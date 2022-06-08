@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class DownCasting : MonoBehaviour
 {
-    // C++ ÀÇ ´Ù¿îÄ³½ºÆÃ°ú °ü·ÃµÈ À¯´ÏÆ¼ Á¦°ø ¿¬»êÀÚ is,as 
+    // C++ ì˜ ë‹¤ìš´ìºìŠ¤íŒ…ê³¼ ê´€ë ¨ëœ ìœ ë‹ˆí‹° ì œê³µ ì—°ì‚°ì is,as 
 
-    // is : °´Ã¼°¡ ÇØ´ç Çüšà¿¡ ÇØ´çÇÏ´ÂÁö °Ë»çÇÏ¿©, °á°ú¸¦ bool °ªÀ¸·Î ¹İÈ¯.
-    // as : Çü½Ä º¯È¯ ¿¬»çÀÚ¿Í °°Àº ¿ªÇÒ. but Çüº¯È¯ ¿¬»êÀÚ´Â º¯È¯ ½ÇÆĞ½Ã ¿¹¿Ü¸¦ ´øÁöÁö¸¸, as ¿¬»êÀÚ´Â °´Ã¼ ÂüÁ¶¸¦ null ·Î ¸¸µç´Ù.
+    // is : ê°ì²´ê°€ í•´ë‹¹ í˜•ì‹Ÿì— í•´ë‹¹í•˜ëŠ”ì§€ ê²€ì‚¬í•˜ì—¬, ê²°ê³¼ë¥¼ bool ê°’ìœ¼ë¡œ ë°˜í™˜.
+    // as : í˜•ì‹ ë³€í™˜ ì—°ì‚¬ìì™€ ê°™ì€ ì—­í• . but í˜•ë³€í™˜ ì—°ì‚°ìëŠ” ë³€í™˜ ì‹¤íŒ¨ì‹œ ì˜ˆì™¸ë¥¼ ë˜ì§€ì§€ë§Œ, as ì—°ì‚°ìëŠ” ê°ì²´ ì°¸ì¡°ë¥¼ null ë¡œ ë§Œë“ ë‹¤.
 
-    public class Mammal // mammal = Æ÷À¯·ù
+    public class Mammal // mammal = í¬ìœ ë¥˜
     {
      public void Nurse()
         {
@@ -34,9 +34,9 @@ public class DownCasting : MonoBehaviour
         m = new Dog();
         m.Nurse();
 
-        Dog dog = (Dog)m; // ´Ù¿îÄ³½ºÆÃ
-        dog.Nurse(); // ÇÏÁö¸¸ m ÀÌ °¡¸®Å°°í ÀÖ´Â °ÍÀÌ
-        dog.Bark(); // Dog ÀÌ±â¿¡ °¡´ÉÇÏ´Ù.
+        Dog dog = (Dog)m; // ë‹¤ìš´ìºìŠ¤íŒ…
+        dog.Nurse(); // í•˜ì§€ë§Œ m ì´ ê°€ë¦¬í‚¤ê³  ìˆëŠ” ê²ƒì´
+        dog.Bark(); // Dog ì´ê¸°ì— ê°€ëŠ¥í•˜ë‹¤.
 
         m = new Cat();
         m.Nurse();
@@ -51,16 +51,16 @@ public class DownCasting : MonoBehaviour
         Mammal m = new Dog();
         Dog dog;
 
-        if (m is Dog) // m ÀÌ Dog À» °¡¸®Å°°í ÀÖ³ª?
+        if (m is Dog) // m ì´ Dog ì„ ê°€ë¦¬í‚¤ê³  ìˆë‚˜?
         {
-            dog = (Dog)m; // ´Ù¿îÄ³½ºÆÃ
+            dog = (Dog)m; // ë‹¤ìš´ìºìŠ¤íŒ…
             dog.Bark();
         }
 
 
         Mammal m2 = new Cat();
-        Cat cat = m2 as Cat; // m2¸¦ Cat À¸·Î Çüº¯È¯ÇÏ¶ó
-        if(cat != null) // m2 ´Â Cat À» °¡¸®Å°°í ÀÖ±â ¶§¹®¿¡, ´Ù¿îÄ³½ºÆÃÀ» ÇÏÁö ¾Ê¾Æµµ °¡´ÉÇÏ´Ù. m2 = new Mammal() ÀÌ¾ú´Ù¸é ºÒ°¡´É.
+        Cat cat = m2 as Cat; // m2ë¥¼ Cat ìœ¼ë¡œ í˜•ë³€í™˜í•˜ë¼
+        if(cat != null) // m2 ëŠ” Cat ì„ ê°€ë¦¬í‚¤ê³  ìˆê¸° ë•Œë¬¸ì—, ë‹¤ìš´ìºìŠ¤íŒ…ì„ í•˜ì§€ ì•Šì•„ë„ ê°€ëŠ¥í•˜ë‹¤. m2 = new Mammal() ì´ì—ˆë‹¤ë©´ ë¶ˆê°€ëŠ¥.
         {
             cat.Meow();
         }

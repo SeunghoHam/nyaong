@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Indexer : MonoBehaviour
 {
-    // Indexer = ÀÎµ¦½º¸¦ ÀÌ¿ëÇØ¼­ °³µ ³»ÀÇ µ¥ÀÌÅÍ¿¡ Á¢±ÙÇÏ°Ô ÇØÁÖ´Â ÇÁ·ÎÆÛÆ¼. °´Ã¼¸¦ ¹è¿­Ã³·³ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+    // Indexer = ì¸ë±ìŠ¤ë¥¼ ì´ìš©í•´ì„œ ê°œê²£ ë‚´ì˜ ë°ì´í„°ì— ì ‘ê·¼í•˜ê²Œ í•´ì£¼ëŠ” í”„ë¡œí¼í‹°. ê°ì²´ë¥¼ ë°°ì—´ì²˜ëŸ¼ ì‚¬ìš©í•  ìˆ˜ ìˆë‹¤.
     // Start is called before the first frame update
     // https://grayt.tistory.com/103?category=683217
-
+    // ã…ã…
 
 }
 
