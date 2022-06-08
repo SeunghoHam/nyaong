@@ -7,7 +7,7 @@ using DG.Tweening;
 
 public class DragMovingOnOffButton : MonoBehaviour
 {
-    bool isON = true;
+    public bool isON = true;
     bool onoffMoving = false;
     float onoffPos = 0f;
     string onoffStr = "On";
@@ -38,16 +38,16 @@ public class DragMovingOnOffButton : MonoBehaviour
             if (isON) // on = Left
             {
                 isON = false;
-                Debug.Log("왼쪽으로 움직이기");
+                Debug.Log("오른쪽으로 움직이기");
                 btn.gameObject.transform.DOLocalMoveX(RIGHT, 0.2f).SetEase(Ease.Linear).OnComplete(() => { canbtnInput = true; });
-                text_Btn.text = "On";
+                text_Btn.text = "Off";
             }
             else // off = Right
             {
                 isON = true;
-                Debug.Log("오른쪽으로 움직이기");
+                Debug.Log("왼쪽으로 움직이기");
                 btn.gameObject.transform.DOLocalMoveX(LEFT, 0.2f).SetEase(Ease.Linear).OnComplete(() => { canbtnInput = true; });
-                text_Btn.text = "Off";
+                text_Btn.text = "On";
             }
         }
     }

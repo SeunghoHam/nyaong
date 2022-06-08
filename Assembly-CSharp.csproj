@@ -79,6 +79,7 @@
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
     <Compile Include="Assets\#Scripts\Game\InputMovement.cs" />
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
+    <Compile Include="Assets\#Scripts\SceneManager\DragMovingOnOffButton.cs" />
     <Compile Include="Assets\#Scripts\ScriptableObject\EnemData.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
@@ -113,7 +114,7 @@
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
     <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
-    <Compile Include="Assets\#Scripts\SceneManager\DragMovingOnOffButton.cs" />
+    <Compile Include="Assets\#Scripts\TurnActor\TurnActor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
