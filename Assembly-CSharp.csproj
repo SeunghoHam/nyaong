@@ -112,9 +112,11 @@
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
+    <Compile Include="Assets\#Scripts\TurnActor\TurnActor.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
     <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
-    <Compile Include="Assets\#Scripts\TurnActor\TurnActor.cs" />
+    <Compile Include="Assets\#Scripts\LostArk\TopviewRect.cs" />
+    <Compile Include="Assets\#Scripts\LostArk\TopviewCharacter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

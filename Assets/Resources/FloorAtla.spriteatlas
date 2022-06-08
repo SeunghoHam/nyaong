@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FloorAtla
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 71e629e1fc9ff914da8de75024abd4b3, type: 3}
+    - {fileID: 2800000, guid: e7f4098830d84e3448037d60aa5197c3, type: 3}
+    - {fileID: 2800000, guid: 622ab18d76c68eb4d914723583605f3e, type: 3}
+    - {fileID: 2800000, guid: 559d59d2ef6771e40b0be148deb5a941, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 71e629e1fc9ff914da8de75024abd4b3, type: 3}
+  - {fileID: 21300000, guid: 559d59d2ef6771e40b0be148deb5a941, type: 3}
+  - {fileID: 21300000, guid: e7f4098830d84e3448037d60aa5197c3, type: 3}
+  - {fileID: 21300000, guid: 622ab18d76c68eb4d914723583605f3e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - sprite_green
+  - sprite_yellow
+  - sprite_orange
+  - sprite_red
+  m_RenderDataMap: {}
+  m_Tag: FloorAtla
+  m_IsVariant: 0
