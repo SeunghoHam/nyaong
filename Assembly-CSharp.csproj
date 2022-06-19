@@ -65,6 +65,7 @@
     <Compile Include="Assets\Knife\Customizable Hologramm Shader\Scripts\MeshRendererOrder.cs" />
     <Compile Include="Assets\#Scripts\ScriptableObject\EnemManager.cs" />
     <Compile Include="Assets\#Scripts\Game\Move.cs" />
+    <Compile Include="Assets\#Scripts\RandomDefence\Pooling\PoolObjectData.cs" />
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\AimingRig\AimReticle.cs" />
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\#Scripts\Study\Dictionary\dic_Test.cs" />
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
     <Compile Include="Assets\#Scripts\Game\InputMovement.cs" />
+    <Compile Include="Assets\#Scripts\RandomDefence\Pooling\PoolObject.cs" />
     <Compile Include="Assets\Cinemachine\2.6.15\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
     <Compile Include="Assets\#Scripts\SceneManager\DragMovingOnOffButton.cs" />
     <Compile Include="Assets\#Scripts\ScriptableObject\EnemData.cs" />
@@ -127,8 +129,6 @@
     <Compile Include="Assets\#Scripts\TurnActor\TurnActor.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
     <Compile Include="Assets\#Scripts\Menu\MainMenu.cs" />
-    <Compile Include="Assets\#Scripts\RandomDefence\Pooling\PoolObjectData.cs" />
-    <Compile Include="Assets\#Scripts\RandomDefence\Pooling\PoolObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

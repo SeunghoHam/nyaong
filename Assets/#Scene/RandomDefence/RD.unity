@@ -395,7 +395,7 @@ GameObject:
   - component: {fileID: 1106934661}
   - component: {fileID: 1106934662}
   m_Layer: 0
-  m_Name: Manager_Main
+  m_Name: -----Manager_Main-----
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -470,7 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1abacb8c3fe1440ae0562598e7ebdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: 2c97df1d56d1cf54491d0f399c293c0e, type: 2}
+  data: {fileID: 0}
 --- !u!1 &1306242903
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 1497483999}
   - component: {fileID: 1497484000}
   m_Layer: 0
-  m_Name: Manager_Enemy
+  m_Name: -----Manager_Enemy-----
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
