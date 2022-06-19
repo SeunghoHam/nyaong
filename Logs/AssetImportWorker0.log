@@ -1,424 +1,706 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ko' Physical Memory: 32582 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ko' Physical Memory: 32687 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+D:\Unity\2020.3.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/UnityProject/nyaong
+D:/UnityProject/nyaong
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7400
-Successfully changed project path to: C:/UnityProject/nyaong
-C:/UnityProject/nyaong
+13112
+Successfully changed project path to: D:/UnityProject/nyaong
+D:/UnityProject/nyaong
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 123.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/UnityProject/nyaong/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/nyaong/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9bca)
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
     Vendor:   
-    VRAM:     16291 MB
-    Driver:   26.20.100.7870
+    VRAM:     8012 MB
+    Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Mono path[0] = 'D:/Unity/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002005 seconds.
+Register platform support module: D:/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001055 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 90.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
+- Completed reload, in  0.532 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1160ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (532ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (976ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (409ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (380ms)
+			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (166ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.019613 seconds.
+Registered in 0.004194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 2.461000 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.084400 ms MarkObjects: 2.142200 ms  DeleteObjects: 0.070200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/#Scripts/RandomDefence/Enemy/EnemyPoolingManager.cs
+  artifactKey: Guid(d3ad192b56202444cba86403e052e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Enemy/EnemyPoolingManager.cs using Guid(d3ad192b56202444cba86403e052e8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd546f833c43a16eff2e038d00524e639') in 0.051870 seconds 
+  Import took 0.055927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/#Scripts/RandomDefence/Enemy/EnemyData.cs
+  artifactKey: Guid(b4f38a644dd1a174184a4a04b3e9aaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Enemy/EnemyData.cs using Guid(b4f38a644dd1a174184a4a04b3e9aaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a409095dc0603cc332e5ae9a144e651') in 0.004903 seconds 
+  Import took 0.007762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.592121 seconds.
+  path: Assets/#Scripts/RandomDefence/Enemy/Data/Strong.asset
+  artifactKey: Guid(0cebb5d37ca6fc348bec1e193e5cce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Enemy/Data/Strong.asset using Guid(0cebb5d37ca6fc348bec1e193e5cce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64c014b92aa48b8e1851d9d24ab0fa2') in 0.015060 seconds 
+  Import took 0.017716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.321889 seconds.
+  path: Assets/#Scripts/RandomDefence/Enemy/Data/Strong.asset
+  artifactKey: Guid(0cebb5d37ca6fc348bec1e193e5cce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Enemy/Data/Strong.asset using Guid(0cebb5d37ca6fc348bec1e193e5cce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f520487606dab3c9688028d66fa90f34') in 0.003485 seconds 
+  Import took 0.006541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.397175 seconds.
+  path: Assets/#Scripts/RandomDefence/Enemy/Data/Strong.asset
+  artifactKey: Guid(0cebb5d37ca6fc348bec1e193e5cce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Enemy/Data/Strong.asset using Guid(0cebb5d37ca6fc348bec1e193e5cce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3d9fed95afc01d7344d86deeeb4c1c') in 0.003440 seconds 
+  Import took 0.006285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 479.149151 seconds.
+  path: Assets/#Scripts/RandomDefence/Pooling
+  artifactKey: Guid(0cfc1dda463004d4c8d259d794a6eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Pooling using Guid(0cfc1dda463004d4c8d259d794a6eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b53a1c84341e645accfc189856e692') in 0.005818 seconds 
+  Import took 0.009191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.651754 seconds.
+  path: Assets/#Scripts/RandomDefence/Pooling/PoolingObjectData.cs
+  artifactKey: Guid(72886cceed58d704eae81cf8d24e00fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Pooling/PoolingObjectData.cs using Guid(72886cceed58d704eae81cf8d24e00fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31cb466fc19934c600abb485fa15eaf') in 0.007167 seconds 
+  Import took 0.011485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.971612 seconds.
+  path: Assets/#Scripts/RandomDefence/Pooling/PoolingObject.cs
+  artifactKey: Guid(05cf20764dff8454d844e94d4d2b1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Pooling/PoolingObject.cs using Guid(05cf20764dff8454d844e94d4d2b1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82a2ddf45e6af87ff6eab543453fe0d') in 0.006790 seconds 
+  Import took 0.010372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 199.374218 seconds.
+  path: Assets/#Scripts/RandomDefence/Enemy/Data/Normal.asset
+  artifactKey: Guid(61e63a0744a94934da8c574d841b8ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Enemy/Data/Normal.asset using Guid(61e63a0744a94934da8c574d841b8ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1b2bd4d49bc55ba46b7038e27f317f') in 0.005942 seconds 
+  Import took 0.009324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/#Scripts/RandomDefence/Enemy/Data/Strong.asset
+  artifactKey: Guid(0cebb5d37ca6fc348bec1e193e5cce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Enemy/Data/Strong.asset using Guid(0cebb5d37ca6fc348bec1e193e5cce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcd654910df8c8c7105e1ac4d999538') in 0.006018 seconds 
+  Import took 0.009010 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Domain Reload Profiling:
+	ReloadAssembly (828ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (687ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.8 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 2.326200 ms (FindLiveObjects: 0.142900 ms CreateObjectMapping: 0.077700 ms MarkObjects: 2.086700 ms  DeleteObjects: 0.018100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.8 MB.
+System memory in use after: 176.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2570.
+Total: 2.258200 ms (FindLiveObjects: 0.148900 ms CreateObjectMapping: 0.069300 ms MarkObjects: 2.023600 ms  DeleteObjects: 0.015500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (849ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (696ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2572.
+Total: 2.173700 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.942000 ms  DeleteObjects: 0.013600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 2.111600 ms (FindLiveObjects: 0.143700 ms CreateObjectMapping: 0.060000 ms MarkObjects: 1.892000 ms  DeleteObjects: 0.015100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 205.697118 seconds.
+  path: Assets/#Scripts/RandomDefence/Enemy/Data/준기.asset
+  artifactKey: Guid(2c97df1d56d1cf54491d0f399c293c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Enemy/Data/준기.asset using Guid(2c97df1d56d1cf54491d0f399c293c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee9a15e2669476c5cba1a2fb2d3d961') in 0.028177 seconds 
+  Import took 0.030826 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2576.
+Total: 2.939000 ms (FindLiveObjects: 0.258400 ms CreateObjectMapping: 0.174100 ms MarkObjects: 2.487800 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 431.661723 seconds.
+  path: Assets/#Scripts/RandomDefence/Pooling/PoolingObjectData.cs
+  artifactKey: Guid(72886cceed58d704eae81cf8d24e00fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Pooling/PoolingObjectData.cs using Guid(72886cceed58d704eae81cf8d24e00fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b352f4e62171c41369966cfa66898f') in 0.005977 seconds 
+  Import took 0.009006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.709521 seconds.
+  path: Assets/#Scripts/RandomDefence/Pooling/PoolingObject.cs
+  artifactKey: Guid(05cf20764dff8454d844e94d4d2b1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Pooling/PoolingObject.cs using Guid(05cf20764dff8454d844e94d4d2b1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051a04d8aa3063ca1794d5017e088063') in 0.002782 seconds 
+  Import took 0.006520 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (918ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2578.
+Total: 2.355400 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.045000 ms  DeleteObjects: 0.093900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3292.690380 seconds.
+  path: Assets/#Scripts/RandomDefence/Pooling/PoolingObject.cs
+  artifactKey: Guid(05cf20764dff8454d844e94d4d2b1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Pooling/PoolingObject.cs using Guid(05cf20764dff8454d844e94d4d2b1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3068e386b313fa6fd82214e962962db9') in 0.004293 seconds 
+  Import took 0.007162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.328021 seconds.
+  path: Assets/#Scripts/RandomDefence/Pooling/PoolObject.cs
+  artifactKey: Guid(05cf20764dff8454d844e94d4d2b1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Pooling/PoolObject.cs using Guid(05cf20764dff8454d844e94d4d2b1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ed5188a3683a0fe7787fc8ded2e275') in 0.006215 seconds 
+  Import took 0.009911 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (850ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 2.174600 ms (FindLiveObjects: 0.148800 ms CreateObjectMapping: 0.068700 ms MarkObjects: 1.944300 ms  DeleteObjects: 0.012100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3.789740 seconds.
+  path: Assets/#Scripts/RandomDefence/Pooling/PoolingObjectData.cs
+  artifactKey: Guid(72886cceed58d704eae81cf8d24e00fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Pooling/PoolingObjectData.cs using Guid(72886cceed58d704eae81cf8d24e00fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee9c4a8271edc1585a8e9a77133a9c4') in 0.004345 seconds 
+  Import took 0.007072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.517074 seconds.
+  path: Assets/#Scripts/RandomDefence/Pooling/PoolObjectData.cs
+  artifactKey: Guid(72886cceed58d704eae81cf8d24e00fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#Scripts/RandomDefence/Pooling/PoolObjectData.cs using Guid(72886cceed58d704eae81cf8d24e00fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83eccffaf676c0d1936e8f7fb5d57d15') in 0.005074 seconds 
+  Import took 0.008056 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004146 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.632 seconds
+- Completed reload, in  0.898 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1635ms)
-		BeginReloadAssembly (237ms)
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1287ms)
-			LoadAssemblies (204ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (479ms)
+			SetupTypeCache (268ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (437ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.4 MB.
-System memory in use after: 173.4 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2541.
-Total: 3.711400 ms (FindLiveObjects: 0.227200 ms CreateObjectMapping: 0.098200 ms MarkObjects: 3.263800 ms  DeleteObjects: 0.120600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScenePrefab.prefab
-  artifactKey: Guid(fd04eba1f9a87034f8ed311eb9200a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScenePrefab.prefab using Guid(fd04eba1f9a87034f8ed311eb9200a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0bce0e24a88b37b122d60597664326') in 2.011374 seconds 
-  Import took 2.021675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_builtin_pipeline.unity
-  artifactKey: Guid(39a75289481b17942af8f57ef86a75f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_builtin_pipeline.unity using Guid(39a75289481b17942af8f57ef86a75f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1be2be74f21dc06cad80912e0bd40d') in 0.017681 seconds 
-  Import took 0.025459 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019376 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.905 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4906ms)
-		BeginReloadAssembly (372ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (119ms)
-		EndReloadAssembly (4267ms)
-			LoadAssemblies (452ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1731ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (201ms)
-			SetupLoadedEditorAssemblies (1388ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (324ms)
-				ProcessInitializeOnLoadAttributes (972ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.9 MB.
-System memory in use after: 175.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2553.
-Total: 14.169700 ms (FindLiveObjects: 0.470400 ms CreateObjectMapping: 0.308300 ms MarkObjects: 13.144000 ms  DeleteObjects: 0.243200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 110.761330 seconds.
-  path: Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_hdrp.unity
-  artifactKey: Guid(d24de02260cafa448b3d3c5919df248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_hdrp.unity using Guid(d24de02260cafa448b3d3c5919df248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0325b121193205ae783ab755eeff0489') in 0.037620 seconds 
-  Import took 0.043843 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.036998 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.500 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6502ms)
-		BeginReloadAssembly (443ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (162ms)
-		EndReloadAssembly (5685ms)
-			LoadAssemblies (478ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2448ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (302ms)
-			SetupLoadedEditorAssemblies (1794ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (456ms)
-				ProcessInitializeOnLoadAttributes (1232ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (27ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.9 MB.
-System memory in use after: 175.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2555.
-Total: 6.475800 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.184200 ms MarkObjects: 5.783500 ms  DeleteObjects: 0.163200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 23.948280 seconds.
-  path: Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_urp.unity
-  artifactKey: Guid(0ce3da0b1321e384a9b561822b6983f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_urp.unity using Guid(0ce3da0b1321e384a9b561822b6983f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120e45613e5f5a8f67277938f70cec79') in 0.036260 seconds 
-  Import took 0.043571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.392449 seconds.
-  path: Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoStressTest.unity
-  artifactKey: Guid(5a65372c6011338468eddf39b0084626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoStressTest.unity using Guid(5a65372c6011338468eddf39b0084626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de98de8143e623cdf940f6427f34a7a') in 0.024690 seconds 
-  Import took 0.031398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.452619 seconds.
-  path: Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoStressTest.unity
-  artifactKey: Guid(5a65372c6011338468eddf39b0084626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoStressTest.unity using Guid(5a65372c6011338468eddf39b0084626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc4736d0bbb48755f76f4337a29fcad') in 0.005580 seconds 
-  Import took 0.011194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.523262 seconds.
-  path: Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_builtin_pipeline.unity
-  artifactKey: Guid(39a75289481b17942af8f57ef86a75f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_builtin_pipeline.unity using Guid(39a75289481b17942af8f57ef86a75f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cd5544ed399c4ce2a70c5cf78505e1') in 0.012503 seconds 
-  Import took 0.021019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.889864 seconds.
-  path: Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_builtin_pipelineSettings.lighting
-  artifactKey: Guid(7328c4426ffec93429749c72e925120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoScene_builtin_pipelineSettings.lighting using Guid(7328c4426ffec93429749c72e925120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '22cd628cc564894e28ee6d9bed0e157d') in 0.017351 seconds 
-  Import took 0.023127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.581811 seconds.
-  path: Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoStressTestSettings.lighting
-  artifactKey: Guid(e5ad1201d78ec7b4391bf38392b081be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/Samples/Scenes/demoStressTestSettings.lighting using Guid(e5ad1201d78ec7b4391bf38392b081be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '2294d7076e464bac2b8a539dfceba592') in 0.011932 seconds 
-  Import took 0.018802 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014623 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.848 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3849ms)
-		BeginReloadAssembly (293ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (87ms)
-		EndReloadAssembly (3332ms)
-			LoadAssemblies (337ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1252ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (211ms)
-			SetupLoadedEditorAssemblies (1083ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (273ms)
-				ProcessInitializeOnLoadAttributes (737ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (23ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.0 MB.
-System memory in use after: 175.1 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2557.
-Total: 8.423600 ms (FindLiveObjects: 0.532000 ms CreateObjectMapping: 0.379900 ms MarkObjects: 7.273900 ms  DeleteObjects: 0.234400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020188 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1121ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (949ms)
-			LoadAssemblies (122ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (354ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (281ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.8 MB.
-System memory in use after: 175.6 MB.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.0 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2560.
-Total: 3.354600 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.073800 ms MarkObjects: 2.902600 ms  DeleteObjects: 0.187300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2582.
+Total: 2.552500 ms (FindLiveObjects: 0.166200 ms CreateObjectMapping: 0.080900 ms MarkObjects: 2.287800 ms  DeleteObjects: 0.016600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -427,930 +709,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 157.979148 seconds.
-  path: Assets/Plugins/VolumetricLightBeam/com.saladgamer.volumetriclightbeam.asmdef
-  artifactKey: Guid(631024d009dacbb4397630a0f8e71ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/VolumetricLightBeam/com.saladgamer.volumetriclightbeam.asmdef using Guid(631024d009dacbb4397630a0f8e71ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9a7bde1797d04904702c216eddf73f') in 0.015845 seconds 
-  Import took 0.021065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.820094 seconds.
-  path: Assets/Resources/VLBConfigOverride.asset
-  artifactKey: Guid(8d269370b50ac8a4cb442596af37d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VLBConfigOverride.asset using Guid(8d269370b50ac8a4cb442596af37d228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f24ecb4861e317965cfac561ef9c4d') in 0.072402 seconds 
-  Import took 0.080527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.024977 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Demo scene/LightingData.asset
-  artifactKey: Guid(40c21a20c6408b84283ba53d40787163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Demo scene/LightingData.asset using Guid(40c21a20c6408b84283ba53d40787163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f45e87ad6a307723c7863f8839e0e06') in 0.012762 seconds 
-  Import took 0.019552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Demo scene/PP low.asset
-  artifactKey: Guid(70629691e8eede744b1c85c9ddcc4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Demo scene/PP low.asset using Guid(70629691e8eede744b1c85c9ddcc4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e636fcaa1ed3c86b37a6cce402d444') in 0.013484 seconds 
-  Import took 0.024321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-0.exr
-  artifactKey: Guid(4b09dc8ebfe8dfd45a7d312740e2e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-0.exr using Guid(4b09dc8ebfe8dfd45a7d312740e2e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7489594a1895bd8a1d6919321226bd35') in 0.127942 seconds 
-  Import took 0.135572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Demo scene/Lightmap-0_comp_dir.png
-  artifactKey: Guid(207366a7cf467ab4ca43ec889c4aef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Demo scene/Lightmap-0_comp_dir.png using Guid(207366a7cf467ab4ca43ec889c4aef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f8fee71ef062c7ce257fdf919be3f7') in 0.045577 seconds 
-  Import took 0.054724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-1.exr
-  artifactKey: Guid(064564f032a11344abbb0b11c4cc3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-1.exr using Guid(064564f032a11344abbb0b11c4cc3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be897cf001b94083e70eb73349f8f299') in 0.034556 seconds 
-  Import took 0.042356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Demo scene/Lightmap-0_comp_light.exr
-  artifactKey: Guid(cb04e5c5238aa7d40abf54c8a5885f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Demo scene/Lightmap-0_comp_light.exr using Guid(cb04e5c5238aa7d40abf54c8a5885f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855fa36121ebe70bd03fa665f294ca14') in 0.037006 seconds 
-  Import took 0.045407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.589134 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Demo scene/Demo magic circles 2.unity
-  artifactKey: Guid(66f2160c871299d41b94b1d00d81bbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Demo scene/Demo magic circles 2.unity using Guid(66f2160c871299d41b94b1d00d81bbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8976907c17ea5a35ec6d0c2be0a82fe') in 0.011037 seconds 
-  Import took 0.015469 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015463 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1153ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (949ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (334ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (330ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2073 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.1 MB.
-System memory in use after: 175.9 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2591.
-Total: 3.610400 ms (FindLiveObjects: 0.224900 ms CreateObjectMapping: 0.114900 ms MarkObjects: 3.051200 ms  DeleteObjects: 0.218200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 113.672293 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Models/Droplet.fbx
-  artifactKey: Guid(394f8e0beeeddc3489521819d62f4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Models/Droplet.fbx using Guid(394f8e0beeeddc3489521819d62f4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde286a6fc7dda38126cd2697fce8a3b') in 0.147943 seconds 
-  Import took 0.154830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.515360 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Materials/MaskPoint1.mat
-  artifactKey: Guid(0ae5b07cb509ca04ab936aa7e86e8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Materials/MaskPoint1.mat using Guid(0ae5b07cb509ca04ab936aa7e86e8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4411fc366d7bce075733d35a4d2d5ca') in 0.080902 seconds 
-  Import took 0.088468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075895 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Materials/Snow4bcg.mat
-  artifactKey: Guid(35f5e6dc715494f44b17248eee5426bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Materials/Snow4bcg.mat using Guid(35f5e6dc715494f44b17248eee5426bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bf25d145e122bfd03cbff52517149b') in 0.036513 seconds 
-  Import took 0.044804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.937871 seconds.
-  path: Assets/Hovl Studio/Magic circles Vol 2/Materials/Circle89bcg.mat
-  artifactKey: Guid(32f03b9a36856a74eb575cb04c36f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic circles Vol 2/Materials/Circle89bcg.mat using Guid(32f03b9a36856a74eb575cb04c36f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b0b45ad3b28a9610c524cad894856a') in 0.045874 seconds 
-  Import took 0.053420 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021367 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.451 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1452ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1214ms)
-			LoadAssemblies (158ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (433ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (416ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.4 MB.
-System memory in use after: 176.8 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2614.
-Total: 4.329800 ms (FindLiveObjects: 0.225700 ms CreateObjectMapping: 0.100800 ms MarkObjects: 3.450300 ms  DeleteObjects: 0.551700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 291.548434 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth.mat
-  artifactKey: Guid(b39cf593e663aca4784c2f092e8765b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth.mat using Guid(b39cf593e663aca4784c2f092e8765b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89638d76b838f2dc4365483fb21cc499') in 0.574489 seconds 
-  Import took 0.581376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000536 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Orbit.mat
-  artifactKey: Guid(bf6f890d159cdcb4b86631fc79bf8c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Orbit.mat using Guid(bf6f890d159cdcb4b86631fc79bf8c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c808348a175acd4493249f970648eed7') in 0.215590 seconds 
-  Import took 0.223252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Shaders/Hologram Line.asset
-  artifactKey: Guid(a6b4840f4c8a45041b49734edbb63562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Shaders/Hologram Line.asset using Guid(a6b4840f4c8a45041b49734edbb63562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a982c41099548fc65f4489f0b738f55b') in 0.018691 seconds 
-  Import took 0.025062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Gun Body.mat
-  artifactKey: Guid(1907de86f779ab84ea72d804f8acaf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Gun Body.mat using Guid(1907de86f779ab84ea72d804f8acaf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8368d1a0227e20cde345eb589f6609') in 0.777957 seconds 
-  Import took 0.785143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Orbit 3.mat
-  artifactKey: Guid(b4c5ecb1d6170494e98b7d5a24e15e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Orbit 3.mat using Guid(b4c5ecb1d6170494e98b7d5a24e15e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b119a227383b0bae93c4c19d725f836c') in 0.037979 seconds 
-  Import took 0.044280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Orbit 1.mat
-  artifactKey: Guid(f6ff8d0cfdc911f419da2873e8857671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Orbit 1.mat using Guid(f6ff8d0cfdc911f419da2873e8857671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0867f94b31684396929afbc2d84f3be6') in 0.035840 seconds 
-  Import took 0.043830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram KM Body.mat
-  artifactKey: Guid(b866b2dafaa16594eb8198d65a1b8363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram KM Body.mat using Guid(b866b2dafaa16594eb8198d65a1b8363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98f8a9e1b98aecc4030c04042a7986f') in 0.598120 seconds 
-  Import took 0.605496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Space Ship.mat
-  artifactKey: Guid(ee970999e846149438f23f36b1ecd2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Space Ship.mat using Guid(ee970999e846149438f23f36b1ecd2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca7aea791ef08cc58fdedbefbc4cf59') in 0.541197 seconds 
-  Import took 0.546240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram KM Cloth.mat
-  artifactKey: Guid(676ab4f47be0eaf4e82a50c2816ab001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram KM Cloth.mat using Guid(676ab4f47be0eaf4e82a50c2816ab001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece2b3179d8700192058452fa89047f5') in 0.090021 seconds 
-  Import took 0.097110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Material Ball.mat
-  artifactKey: Guid(2664aa71df85e7247a08e331bb6d23df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Material Ball.mat using Guid(2664aa71df85e7247a08e331bb6d23df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e2cea4168668ad247e13f244bc2b3f') in 0.732272 seconds 
-  Import took 0.739173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Textures/Boiler/hologram low 1_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(9c0687b4296a84c4c9676a72ad8e04e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Textures/Boiler/hologram low 1_DefaultMaterial_AlbedoTransparency.png using Guid(9c0687b4296a84c4c9676a72ad8e04e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e26229ec977047741aa856d5503904a') in 0.077787 seconds 
-  Import took 0.083501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Orbit 2.mat
-  artifactKey: Guid(84063d460b7671f43b5677213aa482c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Orbit 2.mat using Guid(84063d460b7671f43b5677213aa482c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cad086457e7b0f6ac7084b72dd4832b') in 0.060583 seconds 
-  Import took 0.067442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Textures/Boiler/hologram low 1_DefaultMaterial_Normal.png
-  artifactKey: Guid(8e577a1209ff3014e8c983e4fea605ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Textures/Boiler/hologram low 1_DefaultMaterial_Normal.png using Guid(8e577a1209ff3014e8c983e4fea605ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02443605a6110377865c001e783e08a') in 0.092669 seconds 
-  Import took 0.101472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000777 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Terrain Dots.mat
-  artifactKey: Guid(1ecd8222bf1cc9546b223e2a68b1d697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Terrain Dots.mat using Guid(1ecd8222bf1cc9546b223e2a68b1d697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418050d7f43f74db4d2d8ec05ff9fb22') in 0.352401 seconds 
-  Import took 0.361887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Wall Label.mat
-  artifactKey: Guid(73d0535bc97eec34c8c073dc1ab266d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Wall Label.mat using Guid(73d0535bc97eec34c8c073dc1ab266d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03a190f94a4bc9c714284809dc0c833') in 0.481997 seconds 
-  Import took 0.489712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Signal.mat
-  artifactKey: Guid(ded6584724028934693f6b96e2f41a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Signal.mat using Guid(ded6584724028934693f6b96e2f41a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba3159b77e3a6208fdaf2f1239c2268') in 0.363569 seconds 
-  Import took 0.370421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Gun Details.mat
-  artifactKey: Guid(41b8f5115534fa542a43cd2323f5f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Gun Details.mat using Guid(41b8f5115534fa542a43cd2323f5f771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90bf1c321c3e43858f415b4a1d2bb28') in 0.664911 seconds 
-  Import took 0.670386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Textures/Boiler/hologram low 1_DefaultMaterial_SpecularSmoothness.png
-  artifactKey: Guid(25d5336202a5fcf4da65d59634ed80ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Textures/Boiler/hologram low 1_DefaultMaterial_SpecularSmoothness.png using Guid(25d5336202a5fcf4da65d59634ed80ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260f6cb38013ec305f3b3aa11f08c7ea') in 0.088537 seconds 
-  Import took 0.098652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Dots.mat
-  artifactKey: Guid(25acab39904406d4b93f389c63e531bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Earth Dots.mat using Guid(25acab39904406d4b93f389c63e531bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3891a83d0a297b403100ce01fc89507') in 0.262031 seconds 
-  Import took 0.271153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Black.mat
-  artifactKey: Guid(fdc398d9a0b6a5a48bcb3bd93f4d05cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Black.mat using Guid(fdc398d9a0b6a5a48bcb3bd93f4d05cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c9ff75f888aa37141fbe93092637fd') in 0.071371 seconds 
-  Import took 0.079323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/tunnel final Variant.prefab
-  artifactKey: Guid(d8b0a21be14a4b747bf73ac5d05de018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/tunnel final Variant.prefab using Guid(d8b0a21be14a4b747bf73ac5d05de018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30f29177871501147b321e5daeb60e1') in 0.173495 seconds 
-  Import took 0.185535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000549 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/Prism Variant.prefab
-  artifactKey: Guid(880432f435d06f6468998e1ca85d8b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/Prism Variant.prefab using Guid(880432f435d06f6468998e1ca85d8b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7128a8f0cc6944564d807edca5c601f9') in 0.430089 seconds 
-  Import took 0.441906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000587 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/Talking2.fbx
-  artifactKey: Guid(14fef0fbb8d8d624199c3213bd21f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/Talking2.fbx using Guid(14fef0fbb8d8d624199c3213bd21f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ec96aaab69a7c4cbd4d24612cc1f2c') in 0.038906 seconds 
-  Import took 0.049108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-12.exr
-  artifactKey: Guid(104c250700b6e8346a8fede942acbbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-12.exr using Guid(104c250700b6e8346a8fede942acbbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbf1a9b7d8fd8163bda3117e3221638') in 0.072085 seconds 
-  Import took 0.082265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-9.exr
-  artifactKey: Guid(e8d85501f393f774fbcbbde1f07eb63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-9.exr using Guid(e8d85501f393f774fbcbbde1f07eb63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f75467a8995b3690e9ed00686cbaeb4') in 0.053608 seconds 
-  Import took 0.064409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-22.exr
-  artifactKey: Guid(c7efc7397170b92499b01769bb1abda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-22.exr using Guid(c7efc7397170b92499b01769bb1abda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e04dffea85b3bb82dd427e4a50d2e97') in 0.097096 seconds 
-  Import took 0.105563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/KnifeMan_t_pose Variant.prefab
-  artifactKey: Guid(04d795d377701304a8c08db63ab9e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/KnifeMan_t_pose Variant.prefab using Guid(04d795d377701304a8c08db63ab9e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af148910b0674be84bee7fac809e2086') in 0.151246 seconds 
-  Import took 0.162398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-1.exr
-  artifactKey: Guid(0667dfeeb91984947885405bc6d182d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-1.exr using Guid(0667dfeeb91984947885405bc6d182d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0388981f85e45af7c3b9e93f93db9c') in 0.077606 seconds 
-  Import took 0.088615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000673 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Environment.mat
-  artifactKey: Guid(4f9b2ee64acf33841b9e3118dfb1ea59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Environment.mat using Guid(4f9b2ee64acf33841b9e3118dfb1ea59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcfb7bd485a7bd7499a9533d00592c6') in 0.188837 seconds 
-  Import took 0.199568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000552 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-6.exr
-  artifactKey: Guid(ddc9328ec686c8b41a50f80e8981e473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-6.exr using Guid(ddc9328ec686c8b41a50f80e8981e473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f63e50b1be8f09242d1945e1c11c033') in 0.078683 seconds 
-  Import took 0.088210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-17.exr
-  artifactKey: Guid(e709cc5b80b0eac4eadb00b1ab24e699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-17.exr using Guid(e709cc5b80b0eac4eadb00b1ab24e699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea1e48c5b65b08c2444f03cafe076cb') in 0.079531 seconds 
-  Import took 0.088226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-23.exr
-  artifactKey: Guid(7fd7d1acf058c384e927e7844c02f69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-23.exr using Guid(7fd7d1acf058c384e927e7844c02f69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbb77f6a84a6c3b5ddebd59dda92781') in 0.080532 seconds 
-  Import took 0.090363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000601 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/Talking1.fbx
-  artifactKey: Guid(89320f55f7cfbb44aaf12febe1c189fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/Talking1.fbx using Guid(89320f55f7cfbb44aaf12febe1c189fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d548a4e06488f1751947c3313a1281') in 0.047659 seconds 
-  Import took 0.057148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/space ship Variant.prefab
-  artifactKey: Guid(ac2dbabf910e84b438088556b15267f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/space ship Variant.prefab using Guid(ac2dbabf910e84b438088556b15267f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b058fcb784e40320fa45f5cd56894d66') in 0.092277 seconds 
-  Import took 0.105854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/gun.fbx
-  artifactKey: Guid(5b6978d85a1b93444b7b14a426ccaaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/gun.fbx using Guid(5b6978d85a1b93444b7b14a426ccaaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c8cadb2b019fda5434e27595dc428b') in 0.241263 seconds 
-  Import took 0.253130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-3.exr
-  artifactKey: Guid(40e9212faba21db43b831e6562c2c76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-3.exr using Guid(40e9212faba21db43b831e6562c2c76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbdfe8f0d5b1b13cc0a9bdabcda65dc') in 0.066243 seconds 
-  Import took 0.076877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-19.exr
-  artifactKey: Guid(7d401b647dc167d45aabd376dff77286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-19.exr using Guid(7d401b647dc167d45aabd376dff77286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7d5b122a7891f19b1024152ace5991') in 0.071859 seconds 
-  Import took 0.081099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-5.exr
-  artifactKey: Guid(43f2071092946644ea210c829f211560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-5.exr using Guid(43f2071092946644ea210c829f211560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204a63995983abe0c5b3fc3d5b2b7a56') in 0.067346 seconds 
-  Import took 0.076485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/Material Ball Variant.prefab
-  artifactKey: Guid(f1b475e47f32cfb4b924fa3ff9dcda2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/Material Ball Variant.prefab using Guid(f1b475e47f32cfb4b924fa3ff9dcda2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58396137b86f034672edc08b3e40c41a') in 0.065911 seconds 
-  Import took 0.074664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/Conus_2.fbx
-  artifactKey: Guid(fc4c81e1b0f6b8d4a8fc33d4967e487b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/Conus_2.fbx using Guid(fc4c81e1b0f6b8d4a8fc33d4967e487b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d06f8051f7d2ee9a50d27e11d3518e') in 0.080150 seconds 
-  Import took 0.089420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/gun Variant.prefab
-  artifactKey: Guid(9cf9454dfb2829c479cae2bc54ce7665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/gun Variant.prefab using Guid(9cf9454dfb2829c479cae2bc54ce7665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85f0e0041a13070b3c121212818b960') in 0.096553 seconds 
-  Import took 0.106686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-13.exr
-  artifactKey: Guid(bbbda62176490f14aa2e031ee7ea90a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-13.exr using Guid(bbbda62176490f14aa2e031ee7ea90a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979cd5307b378db4eeb22ff8126611b2') in 0.070636 seconds 
-  Import took 0.079969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Glow Quad.mat
-  artifactKey: Guid(4e7c4d46f29987541ab4c9de067899d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Glow Quad.mat using Guid(4e7c4d46f29987541ab4c9de067899d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e95559d105b202cdcb5a5e45e63cbbb') in 0.233300 seconds 
-  Import took 0.240099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/KnifeMan_t_pose.fbx
-  artifactKey: Guid(d5ec9c74e3956dd478a8c34ec7126518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/KnifeMan_t_pose.fbx using Guid(d5ec9c74e3956dd478a8c34ec7126518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90f0baf98492acdcd65f3aa1ff535c6') in 0.546273 seconds 
-  Import took 0.553256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/Terrain.FBX
-  artifactKey: Guid(95dfcb05ad3633546ba0364cbb415aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/Terrain.FBX using Guid(95dfcb05ad3633546ba0364cbb415aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e69d31f025c46aa2f8159bfa7ef44d') in 1.528739 seconds 
-  Import took 1.540343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/Terrain Variant.prefab
-  artifactKey: Guid(3d7e48279fc6fa342bba35cbf7e687c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/Terrain Variant.prefab using Guid(3d7e48279fc6fa342bba35cbf7e687c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5a8a1d38d0152ef0b91efaa328e53e') in 0.200345 seconds 
-  Import took 0.212210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Holo Wall/Hologram Wall.mat
-  artifactKey: Guid(3223e943439ae2141a25e96e1c6b31a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Holo Wall/Hologram Wall.mat using Guid(3223e943439ae2141a25e96e1c6b31a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0e7b515249716cdbbbc38098a022d5') in 0.144484 seconds 
-  Import took 0.151132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/Material Ball.fbx
-  artifactKey: Guid(9feef318553c24648af1dc8851875112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/Material Ball.fbx using Guid(9feef318553c24648af1dc8851875112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d300c063d9a6a5c0abef0f09949d15') in 0.138984 seconds 
-  Import took 0.150541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-11.exr
-  artifactKey: Guid(a68e731f95927604e83d3c40ce7e0865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-11.exr using Guid(a68e731f95927604e83d3c40ce7e0865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b892059743ac52ce91fdd4dc1824d38') in 0.057075 seconds 
-  Import took 0.069111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000803 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/Conus_2 Variant.prefab
-  artifactKey: Guid(abcaeb2b43407124cb5019c470c8c570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/Conus_2 Variant.prefab using Guid(abcaeb2b43407124cb5019c470c8c570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05aaed6b895937ec098fb66151697228') in 0.118985 seconds 
-  Import took 0.129513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo_Profiles/PPV Profile.asset
-  artifactKey: Guid(602089d62fa697045bd8eebbd8bf7930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo_Profiles/PPV Profile.asset using Guid(602089d62fa697045bd8eebbd8bf7930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc555d9536db1cb5a66c72a419d5c9b') in 0.020091 seconds 
-  Import took 0.029390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Unlit.mat
-  artifactKey: Guid(78298b236e25d8c49ac088c4834f51d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Unlit.mat using Guid(78298b236e25d8c49ac088c4834f51d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75da40b40259fb2ff4b4cd898a881aa') in 0.634502 seconds 
-  Import took 0.642770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-10.exr
-  artifactKey: Guid(857da782b60bef34e87d5d77d1a816af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-10.exr using Guid(857da782b60bef34e87d5d77d1a816af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756e4938725043921faa123778b1f15d') in 0.057511 seconds 
-  Import took 0.064604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/tunnel Variant.prefab
-  artifactKey: Guid(51765fe550313094ab9f585c1de8daa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/tunnel Variant.prefab using Guid(51765fe550313094ab9f585c1de8daa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3b54979996dcdd0bbbdd67d8cabcd4') in 0.726496 seconds 
-  Import took 0.743992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/boiler.FBX
-  artifactKey: Guid(b9a9ec5444a7aef4a866aba8489192f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/boiler.FBX using Guid(b9a9ec5444a7aef4a866aba8489192f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339ec33d2b1cf122210cb3a9bd70245a') in 0.667175 seconds 
-  Import took 0.679189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000522 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/LightingData.asset
-  artifactKey: Guid(55baf1301d00941499f7f3a80ec90dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/LightingData.asset using Guid(55baf1301d00941499f7f3a80ec90dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f6909a91a8ce9d8d3f68110946ce9b') in 0.022343 seconds 
-  Import took 0.029518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Cone Red.mat
-  artifactKey: Guid(aab20c0443e89c6459dc412a21ea13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Cone Red.mat using Guid(aab20c0443e89c6459dc412a21ea13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524d1de5158cfaa95b08598b8effdd94') in 0.076436 seconds 
-  Import took 0.084137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-14.exr
-  artifactKey: Guid(5e6960ac0781d0b4094a08159c2483b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-14.exr using Guid(5e6960ac0781d0b4094a08159c2483b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4f0efa4cb80744ef6c90dfdcd3bcb9') in 0.067363 seconds 
-  Import took 0.074317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/km_pose.fbx
-  artifactKey: Guid(8baa74e68ca36de4fa7115cd54e017e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/km_pose.fbx using Guid(8baa74e68ca36de4fa7115cd54e017e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0988a508fdb1c774438b53e545f562fd') in 0.300496 seconds 
-  Import took 0.308033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000514 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-2.exr
-  artifactKey: Guid(d5bce11362d60da47bef485cdda7c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-2.exr using Guid(d5bce11362d60da47bef485cdda7c1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba7e854c7790c148bdb148708281b59') in 0.073205 seconds 
-  Import took 0.081271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/space ship.fbx
-  artifactKey: Guid(e2af50798316b734a8e9d4e9c3366eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/space ship.fbx using Guid(e2af50798316b734a8e9d4e9c3366eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334906a362d1fc15620ea203cd2f48c0') in 0.108102 seconds 
-  Import took 0.116204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/Earth Variant.prefab
-  artifactKey: Guid(989767ff6e47651479af0917053c1e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/Earth Variant.prefab using Guid(989767ff6e47651479af0917053c1e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab243b51ac5a8ec29f61f6ab37be51b') in 0.096843 seconds 
-  Import took 0.107126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/tunnel.fbx
-  artifactKey: Guid(1bc2c1190991a9744a383d7ec85d84ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/tunnel.fbx using Guid(1bc2c1190991a9744a383d7ec85d84ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ebe61b6d8f226b94791e492c74ca38') in 0.216533 seconds 
-  Import took 0.233183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-20.exr
-  artifactKey: Guid(2b241b2bf76707f4e907b35720e62379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-20.exr using Guid(2b241b2bf76707f4e907b35720e62379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3083593438e8bbef9150c3de2a2cbfc4') in 0.062542 seconds 
-  Import took 0.070975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-4.exr
-  artifactKey: Guid(d28fd0ad82f962d4bb821e0a5fcbaec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-4.exr using Guid(d28fd0ad82f962d4bb821e0a5fcbaec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8b00794bbac1b7d18ad275c06cb4a0') in 0.072567 seconds 
-  Import took 0.080123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/Prism.fbx
-  artifactKey: Guid(951a28410326dbf47b8a1a422a63a122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/Prism.fbx using Guid(951a28410326dbf47b8a1a422a63a122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e026fb33066eb53051997fdc3b97cd') in 0.100353 seconds 
-  Import took 0.106922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-21.exr
-  artifactKey: Guid(63b06357ba327c5409a980cb3c8a0a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-21.exr using Guid(63b06357ba327c5409a980cb3c8a0a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143de8801e7cfa6f7e9c9f2929b4d50e') in 0.071899 seconds 
-  Import took 0.079434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-7.exr
-  artifactKey: Guid(14a6aba54ee162549a6f738e3251cc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-7.exr using Guid(14a6aba54ee162549a6f738e3251cc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7703cc4d9eadc116db6e1b90a013eb05') in 0.071046 seconds 
-  Import took 0.078848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Glow Quad 1.mat
-  artifactKey: Guid(3b62abb7717e8204c898490eabb3d00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Glow Quad 1.mat using Guid(3b62abb7717e8204c898490eabb3d00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e83f9db7b23b28a38a658670bbb273') in 0.075218 seconds 
-  Import took 0.083267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-16.exr
-  artifactKey: Guid(2e03db7664cb8a74db7b9e5b7c88b099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-16.exr using Guid(2e03db7664cb8a74db7b9e5b7c88b099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e7e98f0124e4531492b5fbae27ef87') in 0.075562 seconds 
-  Import took 0.083067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-0.exr
-  artifactKey: Guid(f2a4c59816031c24790804fb4620dd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-0.exr using Guid(f2a4c59816031c24790804fb4620dd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcb6898621a811ffe6c3bc1094f066e') in 0.070384 seconds 
-  Import took 0.078413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-18.exr
-  artifactKey: Guid(20f7a283c1a4c4745a84d14050588b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-18.exr using Guid(20f7a283c1a4c4745a84d14050588b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb283598f71ced7c4f1b23fb291aa391') in 0.080002 seconds 
-  Import took 0.088546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/Room_1.fbx
-  artifactKey: Guid(78c05df0c17272c4bb1212ffb997309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/Room_1.fbx using Guid(78c05df0c17272c4bb1212ffb997309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ba03fee451e18402f796e32e6c6856') in 0.173093 seconds 
-  Import took 0.179481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Models/Sphere.FBX
-  artifactKey: Guid(045fdb266be06d44686228045e742f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Models/Sphere.FBX using Guid(045fdb266be06d44686228045e742f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249db9c43e27b85f92eabbe11c5c1ca9') in 0.211512 seconds 
-  Import took 0.216969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-8.exr
-  artifactKey: Guid(4a4e8643ad38c8448acad1295f889d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-8.exr using Guid(4a4e8643ad38c8448acad1295f889d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ed5e9f756bd5c83c81f779aa48f4c7') in 0.097187 seconds 
-  Import took 0.102308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-15.exr
-  artifactKey: Guid(953bf2134a17b7c4eb3ff86d36e09853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo/ReflectionProbe-15.exr using Guid(953bf2134a17b7c4eb3ff86d36e09853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fbc5ed62598523999a996d08f7f322') in 0.032617 seconds 
-  Import took 0.037850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Boiler.mat
-  artifactKey: Guid(64eb989404d31a343b66968bf1831eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Boiler.mat using Guid(64eb989404d31a343b66968bf1831eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289caede5738e765f4e35415b90de439') in 0.140119 seconds 
-  Import took 0.148557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Prefabs/boiler Variant.prefab
-  artifactKey: Guid(f61de300440be864f8cc66b498da3ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Prefabs/boiler Variant.prefab using Guid(f61de300440be864f8cc66b498da3ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ecbe981d109c0b49f69fa9bca8cde9') in 0.601510 seconds 
-  Import took 0.614513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Ground.mat
-  artifactKey: Guid(14e32c1ec0b97a041b006cf50055f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Ground.mat using Guid(14e32c1ec0b97a041b006cf50055f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecd44895b2a6dbff787296ee2da4887') in 0.122685 seconds 
-  Import took 0.129521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Scenes/Demo.unity
-  artifactKey: Guid(70a9691d4d1e50648a986f7ba521487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Scenes/Demo.unity using Guid(70a9691d4d1e50648a986f7ba521487f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403b406944a417fc07cf72f1039e0053') in 0.018536 seconds 
-  Import took 0.025889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000621 seconds.
-  path: Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Terrain.mat
-  artifactKey: Guid(81aa44bf15e71764eb076719a7cda802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Knife/Customizable Hologramm Shader/Materials/Hologram Terrain.mat using Guid(81aa44bf15e71764eb076719a7cda802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820b1b581988c5d24fa99b640f6933d5') in 0.121416 seconds 
-  Import took 0.137265 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014791 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.149 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4151ms)
-		BeginReloadAssembly (351ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (105ms)
-		EndReloadAssembly (3560ms)
-			LoadAssemblies (429ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1250ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (185ms)
-			SetupLoadedEditorAssemblies (1235ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (307ms)
-				ProcessInitializeOnLoadAttributes (846ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (23ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (41ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.6 MB.
-System memory in use after: 191.5 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2626.
-Total: 9.222000 ms (FindLiveObjects: 0.586100 ms CreateObjectMapping: 0.515100 ms MarkObjects: 7.672200 ms  DeleteObjects: 0.444900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

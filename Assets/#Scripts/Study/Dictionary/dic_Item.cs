@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class dic_Item : MonoBehaviour
 {
-    private string name;
+    private string _name;
     private int str;
     private int dex;
 
