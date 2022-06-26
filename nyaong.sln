@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.saladgamer.volumetriclightbeam", "com.saladgamer.volumetriclightbeam.csproj", "{C703C47C-6701-0968-317F-E3672ACD1913}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{22CD8E91-0507-9637-61CE-4BF594187FB6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2295BD8E-141B-735A-D9D9-DD862083420F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{D3E69F8B-A2FF-4359-AC21-DE209AA93C98}"
@@ -28,10 +26,6 @@ Global
 		{C703C47C-6701-0968-317F-E3672ACD1913}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C703C47C-6701-0968-317F-E3672ACD1913}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C703C47C-6701-0968-317F-E3672ACD1913}.Release|Any CPU.Build.0 = Release|Any CPU
-		{22CD8E91-0507-9637-61CE-4BF594187FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22CD8E91-0507-9637-61CE-4BF594187FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22CD8E91-0507-9637-61CE-4BF594187FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22CD8E91-0507-9637-61CE-4BF594187FB6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2295BD8E-141B-735A-D9D9-DD862083420F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2295BD8E-141B-735A-D9D9-DD862083420F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2295BD8E-141B-735A-D9D9-DD862083420F}.Release|Any CPU.ActiveCfg = Release|Any CPU
