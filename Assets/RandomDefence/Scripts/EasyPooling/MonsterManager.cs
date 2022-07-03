@@ -21,7 +21,7 @@ public class MonsterManager : MonoBehaviour
         //pool.Init(10);
         MonsterPool.Instance.Init(10);
         sw.Stop();
-        Debug.Log("<color=red>" + sw.ElapsedMilliseconds.ToString() + "</color> ms");
+        Debug.Log("미리 풀링시켜놓는데 걸린 시간 : <color=red>" + sw.ElapsedMilliseconds.ToString() + "</color> ms");
         
         //MonsterPool.GetMonster();
     }
