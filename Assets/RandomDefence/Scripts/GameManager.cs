@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
             sw.Stop();
             Debug.Log("<color=aqua> 오브젝트 생성에 걸린 시간 </color>: " + "<color=red>" + sw.ElapsedMilliseconds.ToString() + "</color> ms");
         }
-
+    
         if (Input.GetMouseButtonDown(0))
         {
             MouseInput_Movement();
@@ -60,6 +60,7 @@ public class GameManager : MonoBehaviour
     void MouseInput_Movement()
     {
         Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        
         hitPosition = hitData.point;
         hitDistance = hitData.distance;
         if (Physics.Raycast(ray, out hitData))
