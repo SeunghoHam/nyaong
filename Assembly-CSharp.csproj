@@ -79,6 +79,7 @@
      <Compile Include="Assets\NotGame\#Scripts\Study\Indexer\Indexer.cs" />
      <Compile Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
      <Compile Include="Assets\NotGame\#Scripts\Study\Dictionary\dic_Test.cs" />
+     <Compile Include="Assets\RandomDefence\Scripts\Character\Character.cs" />
      <Compile Include="Assets\NotGame\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
      <Compile Include="Assets\NotGame\#Scripts\Game\InputMovement.cs" />
      <Compile Include="Assets\RandomDefence\Scripts\EasyPooling\MonsterManager.cs" />
@@ -137,7 +138,6 @@
      <Compile Include="Assets\NotGame\#Scripts\TurnActor\TurnActor.cs" />
      <Compile Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
      <Compile Include="Assets\NotGame\#Scripts\Menu\MainMenu.cs" />
-     <Compile Include="Assets\RandomDefence\Scripts\Character\Character.cs" />
      <None Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\NotGame\Hovl Studio\Magic circles Vol 2\Demo scene\HDRP and URP(LWRP).txt" />

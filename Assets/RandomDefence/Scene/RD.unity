@@ -892,7 +892,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Map: {fileID: 1306242907}
   prefab_Character1: {fileID: 8291098386478644396, guid: 42ec83a49ef4e9a46ad553214e2c0d56, type: 3}
-  prefab_Character2: {fileID: 0}
+  prefab_Character2: {fileID: 8291098386478644396, guid: c7f8d656f10a4274598355bb7cf0cccf, type: 3}
+  _probability: 
 --- !u!4 &976618580
 Transform:
   m_ObjectHideFlags: 0
@@ -1061,6 +1062,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSelect: 0
+  isMoving: 0
+  go_SelectCharacter: {fileID: 0}
+  _destination: {x: 0, y: 0, z: 0}
+  _movePos: {x: 0, y: 0, z: 0}
 --- !u!1 &1186144575
 GameObject:
   m_ObjectHideFlags: 0

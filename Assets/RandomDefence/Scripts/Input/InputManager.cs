@@ -10,9 +10,12 @@ public class InputManager : MonoBehaviour
 {
     // CharcterInputMove
     [SerializeField] private bool isSelect;
+    [SerializeField] private bool isMoving;
     public GameObject go_SelectCharacter;
 
     public Vector3 _destination;
+
+    public Vector3 _movePos;
     // Checking Input
     private Camera camera;
     private RaycastHit hitData;
@@ -31,7 +34,7 @@ public class InputManager : MonoBehaviour
         hitDistance = hitData.distance;
         if (Physics.Raycast(ray, out hitData))
         {
-            go_SelectCharacter = null;
+            //go_SelectCharacter = null;
             isSelect = false;
             Debug.Log(hitData.transform.name);
             if (hitData.transform.tag.Contains("Character"))
@@ -40,12 +43,13 @@ public class InputManager : MonoBehaviour
                 isSelect = true;
                 go_SelectCharacter = hitData.transform.gameObject;
             }
-            /*else
+            else if(hitData.transform.tag.Contains(""))
             {
+                Debug.Log("태그가 비어있는 애 클릭함");
                 GameManager.Instance._ui.setSelectCharacterName("");
                 isSelect = false;
 
-            }*/
+            }
         }
     }
 
@@ -63,6 +67,7 @@ public class InputManager : MonoBehaviour
             //go_SelectCharacter.transform.rotation = Quaternion.LookRotation(dir);
 
             _destination = dir.normalized;
+            _movePos = hitData.point;
         }
     }
     
@@ -76,19 +81,46 @@ public class InputManager : MonoBehaviour
         {
             if (isSelect)
             {
+                isMoving = true;
                 MouseInput_Movement();
             }
         }
+        else if (Input.GetMouseButton(1))
+        {
+            if(isSelect)
+                MouseInput_Movement();
+        }
+        
         Movement();
     }
 
     void Movement()
     {
-        if(isSelect)
+        if (isMoving)
+        {
             go_SelectCharacter.transform.Translate(
                 //new Vector3(_destination.x, 0.85f, _destination.z)
                 _destination
                 * Time.deltaTime * 2f, Space.World);
-        
+
+
+            if(Mathf.Approximately(go_SelectCharacter.transform.position.x , _movePos.x)) //&&
+               //Mathf.Approximately(go_SelectCharacter.transform.position.z , _destination.z))
+               //if(go_SelectCharacter.transform.position == _movePos)
+            
+            
+            
+            //if(go_SelectCharacter.transform.position.x >_movePos.x) // 이동하려는 지점이 왼쪽에 있음  
+            {
+                Debug.Log("근사값 도착");
+                isMoving = false;
+            }
+            else
+            {
+                
+                Debug.Log("이동중 남은 거리 : " + (go_SelectCharacter.transform.position.x)+ " , " + (_movePos.x));
+            }
+        }
+            
     }
 }
