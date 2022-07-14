@@ -244,6 +244,7 @@ MonoBehaviour:
   text_Hp: {fileID: 141823576}
   _Hp: 0
   _gold: 0
+  text_SelectCharacter: {fileID: 1215557043}
   chaMgr: {fileID: 976618578}
 --- !u!1 &141823574
 GameObject:
@@ -889,6 +890,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc8cf56dc751fb48936e267aaf4d38e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Map: {fileID: 1306242907}
+  prefab_Character1: {fileID: 8291098386478644396, guid: 42ec83a49ef4e9a46ad553214e2c0d56, type: 3}
+  prefab_Character2: {fileID: 0}
 --- !u!4 &976618580
 Transform:
   m_ObjectHideFlags: 0
@@ -1009,6 +1013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106934661}
   - component: {fileID: 1106934662}
+  - component: {fileID: 1106934663}
   m_Layer: 0
   m_Name: -----Manager_Main-----
   m_TagString: Untagged
@@ -1043,6 +1048,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ui: {fileID: 31939160}
+--- !u!114 &1106934663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106934660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b4b6c46cb7bf746b4b501f39c6939c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSelect: 0
 --- !u!1 &1186144575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,7 +1152,7 @@ GameObject:
   - component: {fileID: 1215557044}
   - component: {fileID: 1215557043}
   m_Layer: 5
-  m_Name: text_hp
+  m_Name: text_SelectCharacterName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
