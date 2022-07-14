@@ -22,11 +22,7 @@ public class GameManager : MonoBehaviour
     // UI
     public UIManager _ui;
     
-    // Checking Input
-    private Camera camera;
-    private RaycastHit hitData;
-    private Vector3 hitPosition;
-    private float hitDistance;
+
     private void Awake()
     {
         if(instance == null)
@@ -40,7 +36,7 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-        camera = Camera.main;
+
     }
 
     void Update()
@@ -54,23 +50,10 @@ public class GameManager : MonoBehaviour
             Debug.Log("<color=aqua> 오브젝트 생성에 걸린 시간 </color>: " + "<color=red>" + sw.ElapsedMilliseconds.ToString() + "</color> ms");
         }
     
-        if (Input.GetMouseButtonDown(0))
-        {
-            MouseInput_Movement();
-        }
+
     }
     
-    void MouseInput_Movement()
-    {
-        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-        
-        hitPosition = hitData.point;
-        hitDistance = hitData.distance;
-        if (Physics.Raycast(ray, out hitData))
-        {
-            Debug.Log(hitData.transform.name);
-        }
-    }
+
 
 
 

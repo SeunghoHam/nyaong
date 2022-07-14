@@ -22,6 +22,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private int _gold;
     
     
+    // About Select
+    public Text text_SelectCharacter;    
     
     // CharacterManager
     [Header("캐릭터매니저")] // 인스펙터에 드래그로 가져오는 방식으로 되어있는데, 자동으로 찾는 방법 찾아야함
@@ -33,6 +35,12 @@ public class UIManager : MonoBehaviour
          
          _Hp = _maxHp;
          text_Hp.text = _Hp + "/" + _maxHp;
+    }
+
+
+    public void setSelectCharacterName(string _name)
+    {
+        text_SelectCharacter.text = _name;
     }
     
     /// <summary>

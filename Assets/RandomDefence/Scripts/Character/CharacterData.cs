@@ -9,8 +9,8 @@ public class CharacterData : ScriptableObject
     /// <summary> 이름 </summary>
     public string _name;
 
-    /// <summary> 간단한 설명 </summary>
-    public string _desc;
+    /// <summary> 코드값 </summary>
+    public string _code;
 
     /// <summary> 이동속도 </summary>
     public float _speed;
@@ -19,5 +19,5 @@ public class CharacterData : ScriptableObject
     public int _damage;
 
     /// <summary> 공격 속도 </summary>
-    public int _attackSpeed;
+    public float _attackSpeed;
 }
