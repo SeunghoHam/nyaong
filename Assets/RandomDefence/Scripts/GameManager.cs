@@ -19,8 +19,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-    public Camera camera;
+    // UI
+    public UIManager _ui;
+    
+    // Checking Input
+    private Camera camera;
     private RaycastHit hitData;
     private Vector3 hitPosition;
     private float hitDistance;
@@ -68,4 +71,14 @@ public class GameManager : MonoBehaviour
             Debug.Log(hitData.transform.name);
         }
     }
+
+
+
+    /// <summary> _damage 만큼의 피해를 플레이어에게 입힌다. </summary>
+    /// <param name="_damage"></param>
+    public void PlayerAttacked(int _damage)
+    {
+        _ui.ChangeHp(_damage);
+    }
+    
 }

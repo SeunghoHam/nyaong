@@ -7,31 +7,34 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public Button btn_Create;
-    // Start is called before the first frame update
+
+    public Button btn_Create_Character;
+    
     
     
     // About HP
     public Text text_Hp;
     [SerializeField] private int _Hp;
     private int _maxHp;
+    
+    
+    // About Money
+    [SerializeField] private int _gold;
+    
+    
+    
+    // CharacterManager
+    [Header("캐릭터매니저")] // 인스펙터에 드래그로 가져오는 방식으로 되어있는데, 자동으로 찾는 방법 찾아야함
+    public CharacterManager chaMgr;
     private void Awake()
     {
          btn_Create.onClick.AddListener(btnFunc_Create);
+         btn_Create_Character.onClick.AddListener(btnFunc_Create_Character);
+         
          _Hp = _maxHp;
          text_Hp.text = _Hp + "/" + _maxHp;
     }
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     /// <summary>
     /// 체력에 변경사항이 있을 경우 호출됨.
     /// </summary>
@@ -58,6 +61,11 @@ public class UIManager : MonoBehaviour
     void btnFunc_Create()
     {
         MonsterPool.GetMonster();
+    }
+
+    void btnFunc_Create_Character()
+    {
+        chaMgr.RandomCreate();
     }
     
 }

@@ -123,6 +123,7 @@
      <Compile Include="Assets\RandomDefence\Scripts\Enemy\MonsterData.cs" />
      <Compile Include="Assets\NotGame\#Scripts\Game\Cam_Game.cs" />
      <Compile Include="Assets\NotGame\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\RandomDefence\Scripts\Input\InputManager.cs" />
      <Compile Include="Assets\NotGame\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
      <Compile Include="Assets\NotGame\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\3rdPersonWithAimMode\ActivateOnKeypress.cs" />
      <Compile Include="Assets\NotGame\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
@@ -134,7 +135,8 @@
      <Compile Include="Assets\NotGame\#Scripts\TurnActor\TurnActor.cs" />
      <Compile Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
      <Compile Include="Assets\NotGame\#Scripts\Menu\MainMenu.cs" />
-     <Compile Include="Assets\RandomDefence\Scripts\Input\InputManager.cs" />
+     <Compile Include="Assets\RandomDefence\Scripts\Character\CharacterData.cs" />
+     <Compile Include="Assets\RandomDefence\Scripts\Character\CharacterManager.cs" />
      <None Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\NotGame\Hovl Studio\Magic circles Vol 2\Demo scene\HDRP and URP(LWRP).txt" />
