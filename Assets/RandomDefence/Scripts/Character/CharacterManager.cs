@@ -16,7 +16,7 @@ public class CharacterManager : MonoBehaviour
 
 
     private int _SpawnObjectRange;
-    private int[] _probability; // probability
+    [SerializeField] private int[] _probability; // probability
 
     private int _level;
     private void Awake()
@@ -63,18 +63,22 @@ public class CharacterManager : MonoBehaviour
 
     void RandomCreate_Normal()
     {
+        
     }
 
     void RandomCreate_Rare()
     {
+        
     }
 
     void RandomCreate_Epic()
     {
+        
     }
 
     void RandomCreate_Legend()
     {
+        
     }
 
     float GetRandomPosition()
