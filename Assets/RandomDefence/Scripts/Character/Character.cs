@@ -7,16 +7,19 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     [SerializeField] public CharacterData _data;
+    [SerializeField] private GameObject _target;
 
-    private void Update()
+    private void OnEnable()
     {
-        //Movement(_destination);
+        StartCoroutine(BehaviorTree());
     }
 
-    private Vector3 _destination;
-    public void Movement(Vector3 _Des)
+    IEnumerator BehaviorTree()
     {
-        //_destination = _Des;
-        //this.gameObject.transform.Translate(_destination * _data._speed * Time.deltaTime, Space.World);
+        while (_target == null)
+        {
+            
+        }
+        yield return null;
     }
 }
