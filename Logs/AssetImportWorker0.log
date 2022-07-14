@@ -15,11 +15,11 @@ C:/UnityProject/nyaong
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-12056
+14005
 Successfully changed project path to: C:/UnityProject/nyaong
 C:/UnityProject/nyaong
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 79.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001230 seconds.
+Registered in 0.001278 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  0.633 seconds
 Domain Reload Profiling:
-	ReloadAssembly (547ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (633ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (435ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (187ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (174ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (178ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (80ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (79ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,51 +73,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003850 seconds.
+Registered in 0.004164 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.288 seconds
+- Completed reload, in  1.039 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1290ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1052ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (426ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (316ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2115 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 176.1 MB.
 System memory in use after: 176.2 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2571.
-Total: 3.208000 ms (FindLiveObjects: 0.256300 ms CreateObjectMapping: 0.149800 ms MarkObjects: 2.723700 ms  DeleteObjects: 0.077000 ms)
+Total: 2.823400 ms (FindLiveObjects: 0.153400 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.526200 ms  DeleteObjects: 0.066300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,224 +132,913 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/RandomDefence/Scripts/Character/Data/Physics2.asset
-  artifactKey: Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Scripts/Character/Data/Physics2.asset using Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10df16168ab8f48da6b12bfdb76bbba9') in 0.033605 seconds 
-  Import took 0.037052 seconds .
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Knight.prefab
+  artifactKey: Guid(7248632fb471af143947a88a47eae959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Knight.prefab using Guid(7248632fb471af143947a88a47eae959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712b07525cb9432e948bcd8237682f6a') in 0.088835 seconds 
+  Import took 0.092130 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.140782 seconds.
-  path: Assets/RandomDefence/Scripts/Character/Data/Physics1.asset
-  artifactKey: Guid(1ae9fa92f76b81945bbcb03c2e2dbd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Scripts/Character/Data/Physics1.asset using Guid(1ae9fa92f76b81945bbcb03c2e2dbd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bd23ef4959a04489550336a5ca33de') in 0.009066 seconds 
-  Import took 0.013119 seconds .
+  Time since last request: 0.000248 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Board.dae
+  artifactKey: Guid(f10c2e64b5383f04f840dea170590ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Board.dae using Guid(f10c2e64b5383f04f840dea170590ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126a0d6454dfde83ae81bf8ed59bf047') in 0.059188 seconds 
+  Import took 0.062799 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/RandomDefence/Scripts/Character/Data/Physics2.asset
-  artifactKey: Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Scripts/Character/Data/Physics2.asset using Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3926515f8974ea3c6bbe422d91efedfa') in 0.003280 seconds 
-  Import took 0.007892 seconds .
+  Time since last request: 0.000328 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Knight.dae
+  artifactKey: Guid(69faab6ae9c00a848a82d036ac8c75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Knight.dae using Guid(69faab6ae9c00a848a82d036ac8c75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951cc27170728bd2eaf425dab5c8f66f') in 0.027748 seconds 
+  Import took 0.031631 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.977954 seconds.
-  path: Assets/RandomDefence/Scripts/Character/Data/Physics2.asset
-  artifactKey: Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Scripts/Character/Data/Physics2.asset using Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf48e3128cde59f4602deff78cc805c2') in 0.004486 seconds 
-  Import took 0.009182 seconds .
+  Time since last request: 0.000259 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Pawn.dae
+  artifactKey: Guid(6730016ba0e329c499d89e81bd550346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Pawn.dae using Guid(6730016ba0e329c499d89e81bd550346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e6fe41789c139388eea2bff9d0c83d') in 0.028902 seconds 
+  Import took 0.033047 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.930142 seconds.
-  path: Assets/RandomDefence/Scripts/Character/Data/Physics1.asset
-  artifactKey: Guid(1ae9fa92f76b81945bbcb03c2e2dbd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Scripts/Character/Data/Physics1.asset using Guid(1ae9fa92f76b81945bbcb03c2e2dbd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64473bb3b2daef203c81c270713cff01') in 0.004773 seconds 
-  Import took 0.009827 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Bishop.prefab
+  artifactKey: Guid(cd05c23b470229c44a8d53d6e86225f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Bishop.prefab using Guid(cd05c23b470229c44a8d53d6e86225f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d2c48d94249ad1b525d3e7c60e8238') in 0.023076 seconds 
+  Import took 0.027502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White King.dae
+  artifactKey: Guid(763435837405bc24691af77936be360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White King.dae using Guid(763435837405bc24691af77936be360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119ef88d98cc1190a21d1affa7a4fb88') in 0.033825 seconds 
+  Import took 0.039044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Board.prefab
+  artifactKey: Guid(31270e9f38d5e7a448ae050b9633fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Board.prefab using Guid(31270e9f38d5e7a448ae050b9633fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652828f4f5a1ec6532960068ef512ff3') in 0.030140 seconds 
+  Import took 0.037282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Bishop.dae
+  artifactKey: Guid(66ad00b166b914e47acce78daea25aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Bishop.dae using Guid(66ad00b166b914e47acce78daea25aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee05fb65b4d26c58f986131fdb4afcc') in 0.035300 seconds 
+  Import took 0.041976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Knight.dae
+  artifactKey: Guid(639050e749c3ce444a196d84e803b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Knight.dae using Guid(639050e749c3ce444a196d84e803b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb0f512ca4412175812076e6ca72905') in 0.041418 seconds 
+  Import took 0.046606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae
+  artifactKey: Guid(695bd15b69d9eac408b599c22f9de55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae using Guid(695bd15b69d9eac408b599c22f9de55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f00fbcdb8abd68870ff9a2cef85237') in 0.035321 seconds 
+  Import took 0.041124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Materials/Chess Material.mat
+  artifactKey: Guid(fdf806cb46d6a40418581d1568ff1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Materials/Chess Material.mat using Guid(fdf806cb46d6a40418581d1568ff1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16ab210b807d6e36531cfde2434a17a') in 0.054256 seconds 
+  Import took 0.059833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Rook.dae
+  artifactKey: Guid(c61872173bf5220469786c549644854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Rook.dae using Guid(c61872173bf5220469786c549644854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac16982bdedc1274adb276c9f392574') in 0.035703 seconds 
+  Import took 0.041478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab
+  artifactKey: Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab using Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65763a943758b264cca3f99c6e163fd7') in 0.023175 seconds 
+  Import took 0.028933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Queen.dae
+  artifactKey: Guid(5d7a66b35fd81564380721b6bfcaaa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Queen.dae using Guid(5d7a66b35fd81564380721b6bfcaaa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271f646e91fb90e9d3eb56520c62108e') in 0.031421 seconds 
+  Import took 0.038350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Bishop.prefab
+  artifactKey: Guid(a71fd906a2159e247ab4d632e46947db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Bishop.prefab using Guid(a71fd906a2159e247ab4d632e46947db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353221fcffb497196ea88748352efe14') in 0.020307 seconds 
+  Import took 0.025977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Rook.prefab
+  artifactKey: Guid(43ef2ba32fda59c42a1410ea490d494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Rook.prefab using Guid(43ef2ba32fda59c42a1410ea490d494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18def6f48b663852e4afd7ea8dbed90') in 0.021862 seconds 
+  Import took 0.027442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black King.prefab
+  artifactKey: Guid(861e95a585868b643bf2e4a1d0ae63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black King.prefab using Guid(861e95a585868b643bf2e4a1d0ae63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f431a15489bf8a63cdc02a2be4de9a5') in 0.023133 seconds 
+  Import took 0.028465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black King.dae
+  artifactKey: Guid(a1edea9a41e71514f94a737abaf1410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black King.dae using Guid(a1edea9a41e71514f94a737abaf1410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc38f8cd1581bfe169e9d8b2bdc64034') in 0.024731 seconds 
+  Import took 0.030119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Rook.prefab
+  artifactKey: Guid(9d3e9c36668dcfe44b524760a4c3a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Rook.prefab using Guid(9d3e9c36668dcfe44b524760a4c3a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94c2f3813b5a34057cef4e03b1bf267') in 0.015983 seconds 
+  Import took 0.021046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Pawn.prefab
+  artifactKey: Guid(48d5ea4ff810d0e4ea36af7235dd5fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Pawn.prefab using Guid(48d5ea4ff810d0e4ea36af7235dd5fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54077fc50c68efa048248fa33f76ae32') in 0.015538 seconds 
+  Import took 0.020531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Knight.prefab
+  artifactKey: Guid(b6c7ad354ac474944ba26b2895a59759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Knight.prefab using Guid(b6c7ad354ac474944ba26b2895a59759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab96704cf50f7088662f54592e34f76b') in 0.017080 seconds 
+  Import took 0.021801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Bishop.dae
+  artifactKey: Guid(1e1130c2d0732f44eb82b057a9dcf58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Bishop.dae using Guid(1e1130c2d0732f44eb82b057a9dcf58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616475d4ace6d173bfe04acfe1b4cda8') in 0.022311 seconds 
+  Import took 0.026850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Queen.prefab
+  artifactKey: Guid(6f38c700bedefe64f8364436528e5c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Queen.prefab using Guid(6f38c700bedefe64f8364436528e5c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194d732578439f86c52973ade62cb52c') in 0.016849 seconds 
+  Import took 0.021387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Pawn.dae
+  artifactKey: Guid(8fbcce33444d4ce4db5b61f8d0eeb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Pawn.dae using Guid(8fbcce33444d4ce4db5b61f8d0eeb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a963aa24a4568895bacc501b938eac') in 0.019709 seconds 
+  Import took 0.024146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Queen.prefab
+  artifactKey: Guid(1f7a3b3d104b8e44cb39f5356ae1d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Queen.prefab using Guid(1f7a3b3d104b8e44cb39f5356ae1d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ade57a34623a9266943dfa17918c759') in 0.015393 seconds 
+  Import took 0.019900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White King.prefab
+  artifactKey: Guid(9e4e635002b6a524ca896adb28e8e388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White King.prefab using Guid(9e4e635002b6a524ca896adb28e8e388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b8365c634bd282edd46560ac65af2c') in 0.014765 seconds 
+  Import took 0.019118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Queen.dae
+  artifactKey: Guid(3d88c9550087ec84c95090f5be583f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Queen.dae using Guid(3d88c9550087ec84c95090f5be583f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c2b8e9a04288ea2dc23d864e49be89') in 0.019080 seconds 
+  Import took 0.023244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.231685 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Textures/Chess Color Scheme.png
+  artifactKey: Guid(2a6c422d6735b0540baa3ebf661f1b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Textures/Chess Color Scheme.png using Guid(2a6c422d6735b0540baa3ebf661f1b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b85ee6f82b66d46186a7d1743c0e6a') in 0.033565 seconds 
+  Import took 0.037385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.398939 seconds.
+  path: Assets/NotGame/Knife/Customizable Hologramm Shader/Textures/UI/button 1 normal.png
+  artifactKey: Guid(7b5c1c6b08a2db649972566c7aba33c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Knife/Customizable Hologramm Shader/Textures/UI/button 1 normal.png using Guid(7b5c1c6b08a2db649972566c7aba33c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae37cae7455a21397d46bb6036a76c86') in 0.035762 seconds 
+  Import took 0.040160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Concrete slab_MetallicSmoothness.png
+  artifactKey: Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Concrete slab_MetallicSmoothness.png using Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f457943efefce714e797099b2f59b68') in 0.036303 seconds 
+  Import took 0.041304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif
+  artifactKey: Guid(7299335822211614ba0371ee22e46641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif using Guid(7299335822211614ba0371ee22e46641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01ccc278e0a6103c6f465db75edba83') in 0.050883 seconds 
+  Import took 0.055565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_SpecSmooth.tif
+  artifactKey: Guid(06686e008e7b12547a5a262955f45de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_SpecSmooth.tif using Guid(06686e008e7b12547a5a262955f45de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9393501ebecc5b2ed11dcdea33e9e068') in 0.029787 seconds 
+  Import took 0.034631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/NotGame/Knife/Customizable Hologramm Shader/Textures/Boiler/DefaultMaterial_Mixed_AO.png
+  artifactKey: Guid(cea28993743366846a34fd183de2d0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Knife/Customizable Hologramm Shader/Textures/Boiler/DefaultMaterial_Mixed_AO.png using Guid(cea28993743366846a34fd183de2d0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0989afe92388cc4d33ecee0eddd5c1ab') in 0.036196 seconds 
+  Import took 0.041261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Scenes/Anywhere Door/CAM1.renderTexture
+  artifactKey: Guid(e6d6687ecf534413f9989d00d53729b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Scenes/Anywhere Door/CAM1.renderTexture using Guid(e6d6687ecf534413f9989d00d53729b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1efa37f21acf881367782ce071c91c') in 0.037689 seconds 
+  Import took 0.043804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle82.png
+  artifactKey: Guid(8b6bf70124d203e40b832e1c9ae24061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle82.png using Guid(8b6bf70124d203e40b832e1c9ae24061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f31cf9cda77fa9af9495526745ccac') in 0.038084 seconds 
+  Import took 0.044598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/DEFAULT_NORMAL.tga
+  artifactKey: Guid(f90e3449ad3674016962a3aba3d31a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/DEFAULT_NORMAL.tga using Guid(f90e3449ad3674016962a3aba3d31a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc04e49579796f5bfb5db4453d4fb1c') in 0.045050 seconds 
+  Import took 0.050956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/NotGame/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450c94b18014482d3747f50abac7df3d') in 0.026943 seconds 
+  Import took 0.033251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/NotGame/Knife/Customizable Hologramm Shader/Textures/Checkers.png
+  artifactKey: Guid(42b529449250f2440af7e3f52a68d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Knife/Customizable Hologramm Shader/Textures/Checkers.png using Guid(42b529449250f2440af7e3f52a68d70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e539965e915b2a2066dcffd11dd5f5') in 0.034939 seconds 
+  Import took 0.042982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Concrete slab_Height.png
+  artifactKey: Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Concrete slab_Height.png using Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45af49da95a47e93e6ce23716273df7') in 0.036080 seconds 
+  Import took 0.044665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png
+  artifactKey: Guid(214f7e62633ee4585a55b459cc6d0f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/SplashScreen/Logo/Dark_Silhouette.png using Guid(214f7e62633ee4585a55b459cc6d0f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62c965af90cd522d6bfcbab68550463') in 0.037813 seconds 
+  Import took 0.045438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Concrete slab_Normal.png
+  artifactKey: Guid(3a0dde7201a17f646865e8deeac56596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Concrete slab_Normal.png using Guid(3a0dde7201a17f646865e8deeac56596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92f708a87489cfcd87c16d234d92ec3') in 0.041044 seconds 
+  Import took 0.047426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Occlusion.tif
+  artifactKey: Guid(6ea50cf81e05dce4395defcd7888072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Occlusion.tif using Guid(6ea50cf81e05dce4395defcd7888072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72e920d34ae5d6b06b559a43c73b017') in 0.031181 seconds 
+  Import took 0.037963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/NotGame/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eb3ce0b63f5830ae5a1ca2f128d4b4') in 0.027633 seconds 
+  Import took 0.034185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Textures/checkerboard.png
+  artifactKey: Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Textures/checkerboard.png using Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e137407f70befeac5fd5dd5a3bf7dff8') in 0.034040 seconds 
+  Import took 0.042864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/png/Dark_Silhouette.png
+  artifactKey: Guid(e534fa5e8d6bad340bbc9196dabe6f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/png/Dark_Silhouette.png using Guid(e534fa5e8d6bad340bbc9196dabe6f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e87af96b715296876525a9d67cdec2') in 0.036053 seconds 
+  Import took 0.043219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle18.png
+  artifactKey: Guid(aaab2c059dc876441ab6a1b07f6f8d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle18.png using Guid(aaab2c059dc876441ab6a1b07f6f8d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7e272c79766bc61f9648ffcee4acda') in 0.036450 seconds 
+  Import took 0.044534 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000349 seconds.
-  path: Assets/RandomDefence/Scripts/Character/Data/Physics2.asset
-  artifactKey: Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Scripts/Character/Data/Physics2.asset using Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70690bb4dbeae8f7a95100d7b55e2ce') in 0.002677 seconds 
-  Import took 0.007443 seconds .
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Scenes/Anywhere Door/CAM2.renderTexture
+  artifactKey: Guid(86f96f4f6f9f949b0a56a1bbdc719e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Scenes/Anywhere Door/CAM2.renderTexture using Guid(86f96f4f6f9f949b0a56a1bbdc719e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c97b33cd64fbe5bfc5739659c8981e7') in 0.037073 seconds 
+  Import took 0.045176 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.284733 seconds.
-  path: Assets/RandomDefence/Scripts/Character/Data/Physics2.asset
-  artifactKey: Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Scripts/Character/Data/Physics2.asset using Guid(23d20e2aac319ab419c2fdc33551135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d848bac3d03237955ffceebde42a237') in 0.005062 seconds 
-  Import took 0.010221 seconds .
+  Time since last request: 0.000385 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle67.png
+  artifactKey: Guid(5e62d7fb0beb18944ac70ce86456720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle67.png using Guid(5e62d7fb0beb18944ac70ce86456720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e39aa246f09b07cfd5a6f8c0e49c7d') in 0.038013 seconds 
+  Import took 0.044753 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.892207 seconds.
-  path: Assets/RandomDefence/Prefab/character/Characer 1.prefab
-  artifactKey: Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Prefab/character/Characer 1.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0291273c14c9777d148e93401dc0ab') in 0.111036 seconds 
-  Import took 0.117926 seconds .
+  Time since last request: 0.000331 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle89.png
+  artifactKey: Guid(009752f10c9d8f94fbdedf3b366ca5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle89.png using Guid(009752f10c9d8f94fbdedf3b366ca5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cca7eef12e9ebca9842e87d92efe17') in 0.027774 seconds 
+  Import took 0.035577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.319176 seconds.
-  path: Assets/RandomDefence/Prefab/character/Character1.prefab
-  artifactKey: Guid(42ec83a49ef4e9a46ad553214e2c0d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Prefab/character/Character1.prefab using Guid(42ec83a49ef4e9a46ad553214e2c0d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4007fbe7468180fc2972c35769cf9714') in 0.016479 seconds 
-  Import took 0.022647 seconds .
+  Time since last request: 0.000417 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Textures/crosshair.png
+  artifactKey: Guid(1a1da36a104725048b8d2388fb8d321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Textures/crosshair.png using Guid(1a1da36a104725048b8d2388fb8d321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcf979dcd445d76e10f7d4eca74f350') in 0.046538 seconds 
+  Import took 0.055150 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.631387 seconds.
-  path: Assets/RandomDefence/Prefab/character/Cha_2.prefab
-  artifactKey: Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Prefab/character/Cha_2.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55e626859b33f69c285894dd78eef52') in 0.018312 seconds 
-  Import took 0.022330 seconds .
+  Time since last request: 0.000423 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Normal.tif
+  artifactKey: Guid(dd91d06b39ab6db48974409beafe5d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Normal.tif using Guid(dd91d06b39ab6db48974409beafe5d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4728898b73736b4e5c6093e31ed823dd') in 0.040689 seconds 
+  Import took 0.047335 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.689785 seconds.
+  Time since last request: 0.000399 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/cheek_00.tga
+  artifactKey: Guid(89ede59217e3847c39c444f223f4084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/cheek_00.tga using Guid(89ede59217e3847c39c444f223f4084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f89215cd83614818db9527c03a35f46') in 0.038153 seconds 
+  Import took 0.045751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/jpg/Dark_Silhouette.jpg
+  artifactKey: Guid(29ceb9749c224174e9177a5c1ab7a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Documentation/UnityChanLicense2.0/License Logo/Others/jpg/Dark_Silhouette.jpg using Guid(29ceb9749c224174e9177a5c1ab7a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36934adc810a097d82c3cd0935eea95') in 0.060273 seconds 
+  Import took 0.069248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle10.png
+  artifactKey: Guid(0b277460e14a57344b1d6353bd093af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle10.png using Guid(0b277460e14a57344b1d6353bd093af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e2e5aa0af95814a90f647f33b859be') in 0.038676 seconds 
+  Import took 0.046415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Concrete slab.png
+  artifactKey: Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Concrete slab.png using Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde8919a0c6425f7cad6b6b21933ed89') in 0.040947 seconds 
+  Import took 0.047956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/CircleBigMask.png
+  artifactKey: Guid(f9b2ffd8221a8584bb0198fe1857f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/CircleBigMask.png using Guid(f9b2ffd8221a8584bb0198fe1857f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356fad1b3cb67b8a4306b08a9d84598d') in 0.038588 seconds 
+  Import took 0.046017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle38.png
+  artifactKey: Guid(4d41495f05e1e7a46b981c43293cb751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Textures/Circle38.png using Guid(4d41495f05e1e7a46b981c43293cb751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54e6ce8f2263e8533aed5539b105551') in 0.037612 seconds 
+  Import took 0.043876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.408171 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Models/BoxUnityChan.fbx
+  artifactKey: Guid(d6dad0fb52ba12f458cc7ffb66882391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Models/BoxUnityChan.fbx using Guid(d6dad0fb52ba12f458cc7ffb66882391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd27d7716835987da0a2d32f69369315') in 0.203146 seconds 
+  Import took 0.207660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  artifactKey: Guid(8f0565f23a2b58541a475bd3c1393052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx using Guid(8f0565f23a2b58541a475bd3c1393052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1370d25889338c7388b15f835180715') in 0.549345 seconds 
+  Import took 0.553724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/СylindricalСone.fbx
+  artifactKey: Guid(8a32b27e8f16c3143b5895f52bccd93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/СylindricalСone.fbx using Guid(8a32b27e8f16c3143b5895f52bccd93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d69afc3df5bc015f602fdc2bf7bbb63') in 0.042626 seconds 
+  Import took 0.046287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.503430 seconds.
   path: Assets/RandomDefence/Prefab/character/Cha_1.prefab
   artifactKey: Guid(42ec83a49ef4e9a46ad553214e2c0d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Prefab/character/Cha_1.prefab using Guid(42ec83a49ef4e9a46ad553214e2c0d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade61b4563c54befa840ba70f00b8f1a') in 0.015608 seconds 
-  Import took 0.022535 seconds .
+Start importing Assets/RandomDefence/Prefab/character/Cha_1.prefab using Guid(42ec83a49ef4e9a46ad553214e2c0d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32b1609d4530612b467c58458234943') in 0.019956 seconds 
+  Import took 0.026840 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.375688 seconds.
+  Time since last request: 14.031641 seconds.
   path: Assets/RandomDefence/Prefab/character/Cha_2.prefab
   artifactKey: Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Prefab/character/Cha_2.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3846dcd3aadf7b7b7b0ea0398e3b8b1e') in 0.013700 seconds 
-  Import took 0.018953 seconds .
+Start importing Assets/RandomDefence/Prefab/character/Cha_2.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e446b8bc704c0bad4614ef5532ce2e69') in 0.016236 seconds 
+  Import took 0.020875 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.952097 seconds.
-  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Stage/Materials/unitychan_tile5.mat
-  artifactKey: Guid(0fabbaa20a36d468a84e4925db02ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Stage/Materials/unitychan_tile5.mat using Guid(0fabbaa20a36d468a84e4925db02ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab274f8e4f0c2fa386f9d19c1d2bd86') in 0.174495 seconds 
-  Import took 0.179292 seconds .
+  Time since last request: 3.587011 seconds.
+  path: Assets/NotGame/Knife/Customizable Hologramm Shader/Models/Sphere.FBX
+  artifactKey: Guid(045fdb266be06d44686228045e742f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Knife/Customizable Hologramm Shader/Models/Sphere.FBX using Guid(045fdb266be06d44686228045e742f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2149659ac2aaa270a3065a5c509676c') in 0.177873 seconds 
+  Import took 0.183205 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/WaterSplash2cg.mat
-  artifactKey: Guid(0dbf04791027e924fac9ee9345b294a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/WaterSplash2cg.mat using Guid(0dbf04791027e924fac9ee9345b294a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8d842214b7b653096666f53cee4ae9') in 0.049095 seconds 
-  Import took 0.053734 seconds .
+  Time since last request: 0.000304 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/Skull1.fbx
+  artifactKey: Guid(e8416fe2d0e15304cac7e7a52c3e266c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/Skull1.fbx using Guid(e8416fe2d0e15304cac7e7a52c3e266c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87109f7b862d165f944738e2dfeadc9') in 0.060242 seconds 
+  Import took 0.067667 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/NotGame/Plugins/VolumetricLightBeam/Samples/Materials/white.mat
-  artifactKey: Guid(ad68a7436f4a15b4babc7f386f3a39eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NotGame/Plugins/VolumetricLightBeam/Samples/Materials/white.mat using Guid(ad68a7436f4a15b4babc7f386f3a39eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f87626162944b351587cf043217ebd') in 0.030201 seconds 
-  Import took 0.035595 seconds .
+  Time since last request: 0.000309 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Wall_10x4.fbx
+  artifactKey: Guid(8801006d6478aea478f9320df4476f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Wall_10x4.fbx using Guid(8801006d6478aea478f9320df4476f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b68b4dbcb79bb68c1c8768d0d8f6ff') in 0.126742 seconds 
+  Import took 0.133395 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Waves21cg2.mat
-  artifactKey: Guid(8a2d576b47babc843a00f97e63d4ef51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Waves21cg2.mat using Guid(8a2d576b47babc843a00f97e63d4ef51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f0a50914147f1f631e9e4f9ee7ca96') in 0.049990 seconds 
-  Import took 0.054829 seconds .
+  Time since last request: 0.000440 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_1Wall_10x10.fbx
+  artifactKey: Guid(f4737444c0dcc1a42804e080a539da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_1Wall_10x10.fbx using Guid(f4737444c0dcc1a42804e080a539da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b65b96896e806038a34e7822d0e1f9') in 0.076140 seconds 
+  Import took 0.082801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000625 seconds.
-  path: Assets/NotGame/Plugins/VolumetricLightBeam/Samples/Materials/yellow.mat
-  artifactKey: Guid(ca4190bfb837aad43b0033df1090d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NotGame/Plugins/VolumetricLightBeam/Samples/Materials/yellow.mat using Guid(ca4190bfb837aad43b0033df1090d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982468d4261ea6e43fbba02de5cfca2a') in 0.026666 seconds 
-  Import took 0.031778 seconds .
+  Time since last request: 0.000362 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_UWall_10x10.fbx
+  artifactKey: Guid(07bcacf203be81246a39038d917a137e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_UWall_10x10.fbx using Guid(07bcacf203be81246a39038d917a137e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c022f131d46d30e6df607f04657cd2') in 0.069862 seconds 
+  Import took 0.076851 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/NotGame/Plugins/VolumetricLightBeam/Shaders/VLBDummyMaterial.mat
-  artifactKey: Guid(46dd34aa1976a0b4281b7a597785b924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NotGame/Plugins/VolumetricLightBeam/Shaders/VLBDummyMaterial.mat using Guid(46dd34aa1976a0b4281b7a597785b924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd6f16eaa2b4b8504edc2b19b28236c') in 0.020494 seconds 
-  Import took 0.025676 seconds .
+  Time since last request: 0.000355 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/Petal.fbx
+  artifactKey: Guid(237d530d89452ca419f1b7b3b9412c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/Petal.fbx using Guid(237d530d89452ca419f1b7b3b9412c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33387e9c2112e964146ec5b53cda04ba') in 0.057189 seconds 
+  Import took 0.063089 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Stage/Materials/unitychan_tile6.mat
-  artifactKey: Guid(330274cf2c5de4464a4b4b243b59e371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Stage/Materials/unitychan_tile6.mat using Guid(330274cf2c5de4464a4b4b243b59e371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b589901f51c0a265c22cdda709dd56') in 0.036940 seconds 
-  Import took 0.043435 seconds .
+  Time since last request: 0.000323 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10.fbx
+  artifactKey: Guid(47d4df8e0a6e85a4c8448ec117ba07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10.fbx using Guid(47d4df8e0a6e85a4c8448ec117ba07df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbcf60442def95d744412567ecd45cc') in 0.064565 seconds 
+  Import took 0.070612 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.836546 seconds.
-  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Materials/Default_Prototype_Blue.mat
-  artifactKey: Guid(89db8b11e2538314a89bde42040c3c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Materials/Default_Prototype_Blue.mat using Guid(89db8b11e2538314a89bde42040c3c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c8d41f699919ebebb75f3d6c9a664d') in 0.041773 seconds 
-  Import took 0.045798 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01.fbx
+  artifactKey: Guid(87486f7b16eedbf4eb26567d70189058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01.fbx using Guid(87486f7b16eedbf4eb26567d70189058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86394746dbec6b1cf7ef0df346131c79') in 0.126843 seconds 
+  Import took 0.134492 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/NotGame/Knife/Customizable Hologramm Shader/Materials/Prism Blue.mat
-  artifactKey: Guid(269832e2d0b629c4d995a637c3b8b4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NotGame/Knife/Customizable Hologramm Shader/Materials/Prism Blue.mat using Guid(269832e2d0b629c4d995a637c3b8b4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bce3f0e31af373a89a9e5e8b91a5e22') in 0.043098 seconds 
-  Import took 0.047030 seconds .
+  Time since last request: 0.000327 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_B.fbx
+  artifactKey: Guid(20fd7934e77f68e4983c9c0fe97c7117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_B.fbx using Guid(20fd7934e77f68e4983c9c0fe97c7117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7773b45ada5eac73f752f5df320891e') in 0.140645 seconds 
+  Import took 0.148380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.087484 seconds.
+  Time since last request: 0.000329 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_L.fbx
+  artifactKey: Guid(564ea08c07b9a764d8be6f0bbdddfc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_L.fbx using Guid(564ea08c07b9a764d8be6f0bbdddfc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ea10337e240d6d71381836ba52440a') in 0.135174 seconds 
+  Import took 0.142371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_DAMAGED01.fbx
+  artifactKey: Guid(c895dff4365ad4506ab680fdc4a0afb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_DAMAGED01.fbx using Guid(c895dff4365ad4506ab680fdc4a0afb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8750eaaa8932ad1229ab3db9d596df35') in 0.124537 seconds 
+  Import took 0.131789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT00.fbx
+  artifactKey: Guid(0147e212f97e3d449a4b9e4f5d057180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT00.fbx using Guid(0147e212f97e3d449a4b9e4f5d057180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf2fc3f5437fc632e35ede414430e56') in 0.125649 seconds 
+  Import took 0.132017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT04.fbx
+  artifactKey: Guid(685e1a7587d604fd8a8a0a56834063bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT04.fbx using Guid(685e1a7587d604fd8a8a0a56834063bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20722e386eae92631a82343f83799fe6') in 0.114985 seconds 
+  Import took 0.120820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_UMATOBI00.fbx
+  artifactKey: Guid(8bf916c92a6742d4ea62fd210c3fd0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_UMATOBI00.fbx using Guid(8bf916c92a6742d4ea62fd210c3fd0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db012c5bc07572725e552749edae1926') in 0.112474 seconds 
+  Import took 0.118556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT01.fbx
+  artifactKey: Guid(1e79f5e733df84044a45d6ab05035627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT01.fbx using Guid(1e79f5e733df84044a45d6ab05035627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ababae0c1967be8991c6e5077665fe49') in 0.119882 seconds 
+  Import took 0.126109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x4.fbx
+  artifactKey: Guid(52ec9a50889c9784f920590c3e0d8c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x4.fbx using Guid(52ec9a50889c9784f920590c3e0d8c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d66177f80e30d3c817efa02118fa2a') in 0.060727 seconds 
+  Import took 0.066162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_F.fbx
+  artifactKey: Guid(e52be2fa48716194ea1d9d76686005f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WALK00_F.fbx using Guid(e52be2fa48716194ea1d9d76686005f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f496459df166402072def5e125816d') in 0.110698 seconds 
+  Import took 0.117613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_DAMAGED00.fbx
+  artifactKey: Guid(6dd5b57ca7c0d48e4b3e9061e1c88d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_DAMAGED00.fbx using Guid(6dd5b57ca7c0d48e4b3e9061e1c88d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb85575075c88903bf4eb508899b8863') in 0.118501 seconds 
+  Import took 0.124956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_2Walls_10x10.fbx
+  artifactKey: Guid(d0a29522a2fadfb4f8ca407cd2e8e1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_2Walls_10x10.fbx using Guid(d0a29522a2fadfb4f8ca407cd2e8e1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dfaa335300a3401050f394cd189ce9') in 0.062952 seconds 
+  Import took 0.068455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/QuadToCircle2.fbx
+  artifactKey: Guid(f9896acea3a0a684cb936e4f008edaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/QuadToCircle2.fbx using Guid(f9896acea3a0a684cb936e4f008edaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bebef4753ba4d0f572c27a3df97a37') in 0.045517 seconds 
+  Import took 0.052548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_REFLESH00.fbx
+  artifactKey: Guid(842226a6a478847f9b6f5c746ae1cb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_REFLESH00.fbx using Guid(842226a6a478847f9b6f5c746ae1cb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73a86a6289149a604128822726154c3') in 0.116382 seconds 
+  Import took 0.124173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT02.fbx
+  artifactKey: Guid(e54e2e1fa0a994b389fe0654511fac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_WAIT02.fbx using Guid(e54e2e1fa0a994b389fe0654511fac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dbcf868bd8e36c6405a8c169b3eaa5') in 0.135465 seconds 
+  Import took 0.142642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_L.fbx
+  artifactKey: Guid(dc7b7dc0360ab494ea2e7625162c6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_L.fbx using Guid(dc7b7dc0360ab494ea2e7625162c6ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb249e75ca4f3e0758946b8a222292b5') in 0.120038 seconds 
+  Import took 0.126268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01B.fbx
+  artifactKey: Guid(c49b7faf71cf048418fe526d8e233c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP01B.fbx using Guid(c49b7faf71cf048418fe526d8e233c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9074f1a1cc326be7199b57fff46490') in 0.109258 seconds 
+  Import took 0.114869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_LWall_10x10.fbx
+  artifactKey: Guid(b6e2207db377b584bb472dd15da85dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_LWall_10x10.fbx using Guid(b6e2207db377b584bb472dd15da85dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86b1024b163ac958600a4f7c3ab6521') in 0.058374 seconds 
+  Import took 0.063393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10_BluePedestal.fbx
+  artifactKey: Guid(fb8b35ae430517a4989c461955168bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Cinemachine/2.6.15/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10_BluePedestal.fbx using Guid(fb8b35ae430517a4989c461955168bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a114dc77e4ac588e2002fd356a9a4ae') in 0.058876 seconds 
+  Import took 0.065014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.891381 seconds.
   path: Assets/RandomDefence/Prefab/character/Cha_2.prefab
   artifactKey: Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RandomDefence/Prefab/character/Cha_2.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae618565d803c96a0235ce6f8070e500') in 0.015828 seconds 
-  Import took 0.019921 seconds .
+Start importing Assets/RandomDefence/Prefab/character/Cha_2.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093184aae692690a64dbddf96a19ce58') in 0.016072 seconds 
+  Import took 0.020463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.807233 seconds.
+  path: Assets/RandomDefence/Prefab/character/Cha_2.prefab
+  artifactKey: Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence/Prefab/character/Cha_2.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf469abe9068c5b6b3a72bc752c785ba') in 0.013301 seconds 
+  Import took 0.020308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.992762 seconds.
+  path: Assets/RandomDefence/Prefab/character/Cha_2.prefab
+  artifactKey: Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence/Prefab/character/Cha_2.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447861a31a89edd76e174b2a6c9cb5ab') in 0.014160 seconds 
+  Import took 0.020385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.734526 seconds.
+  path: Assets/NotGame/Knife/Customizable Hologramm Shader/Models/tunnel.fbx
+  artifactKey: Guid(1bc2c1190991a9744a383d7ec85d84ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Knife/Customizable Hologramm Shader/Models/tunnel.fbx using Guid(1bc2c1190991a9744a383d7ec85d84ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188fcdd4598dd8351414d00244482514') in 0.206733 seconds 
+  Import took 0.214996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_LOSE00.fbx
+  artifactKey: Guid(c7df2ec8d896a4a15abc7636d440631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_LOSE00.fbx using Guid(c7df2ec8d896a4a15abc7636d440631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c3c06bbe13448f0f8e87b85927769b') in 0.094578 seconds 
+  Import took 0.099744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_HANDUP00_R.fbx
+  artifactKey: Guid(84ce5ea31570e6b4ca2949b8fe13ee42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_HANDUP00_R.fbx using Guid(84ce5ea31570e6b4ca2949b8fe13ee42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536fa41019264dbf1dc60f842d8bf6d3') in 0.103103 seconds 
+  Import took 0.108253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_R.fbx
+  artifactKey: Guid(ffe87c9e4c26d174b8df06771ce447bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_R.fbx using Guid(ffe87c9e4c26d174b8df06771ce447bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1f4be55742e84889cd6d3105c4d308') in 0.095622 seconds 
+  Import took 0.100787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/BeamMesh.fbx
+  artifactKey: Guid(be6a3d2471646a348914698de60b3306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/BeamMesh.fbx using Guid(be6a3d2471646a348914698de60b3306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342c0cb6d0b6ea7555b03baf9820065c') in 0.045650 seconds 
+  Import took 0.050223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP00B.fbx
+  artifactKey: Guid(d6fd0c7048894427c8663615237d6a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP00B.fbx using Guid(d6fd0c7048894427c8663615237d6a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24f30959f744586ed6c5f942cc08c51') in 0.098884 seconds 
+  Import took 0.104794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_F.fbx
+  artifactKey: Guid(26055e26f15260e4e8e0e51f50c41926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_RUN00_F.fbx using Guid(26055e26f15260e4e8e0e51f50c41926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdf006b0dee0e62a6cf596e97e97611') in 0.117483 seconds 
+  Import took 0.123277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/BambooLeaves1.fbx
+  artifactKey: Guid(0e2dcc422ba8c754ba9a56a941679b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/BambooLeaves1.fbx using Guid(0e2dcc422ba8c754ba9a56a941679b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bfe8c14b09675554c33fcff809ee76') in 0.052239 seconds 
+  Import took 0.057513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_SLIDE00.fbx
+  artifactKey: Guid(a3657ebe445392e44a81a7b112b9cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_SLIDE00.fbx using Guid(a3657ebe445392e44a81a7b112b9cf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc8cb6fc171a703a078a4b8cc13dbcf') in 0.104265 seconds 
+  Import took 0.110911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP00.fbx
+  artifactKey: Guid(ac75d16809dc0054d8e3449e7ba665f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Art/Animations/unitychan_JUMP00.fbx using Guid(ac75d16809dc0054d8e3449e7ba665f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78c1305b98d32402bbe674779ee3ca2') in 0.126573 seconds 
+  Import took 0.132398 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003563 seconds.
+Registered in 0.004445 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
+- Completed reload, in  2.512 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1152ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (2512ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (2318ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (701ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (949ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (258ms)
+				ProcessInitializeOnLoadAttributes (629ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.5 MB.
+System memory in use after: 192.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 7.445600 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.188500 ms MarkObjects: 6.819000 ms  DeleteObjects: 0.138400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003771 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1258ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (976ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (1087ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (381ms)
+			SetupTypeCache (380ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (316ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (406ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.8 MB.
-System memory in use after: 176.9 MB.
+System memory in use before: 192.5 MB.
+System memory in use after: 192.7 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2614.
-Total: 2.917300 ms (FindLiveObjects: 0.170600 ms CreateObjectMapping: 0.071900 ms MarkObjects: 2.658200 ms  DeleteObjects: 0.015700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 3.785000 ms (FindLiveObjects: 0.206100 ms CreateObjectMapping: 0.084800 ms MarkObjects: 3.467900 ms  DeleteObjects: 0.024200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -365,48 +1054,682 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004630 seconds.
+Registered in 0.004187 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.811 seconds
+- Completed reload, in  2.201 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1811ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (2202ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1632ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (2028ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (126ms)
-			SetupLoadedEditorAssemblies (699ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (976ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (265ms)
-				ProcessInitializeOnLoadAttributes (389ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (257ms)
+				ProcessInitializeOnLoadAttributes (604ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (72ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.6 MB.
+System memory in use after: 192.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2635.
+Total: 6.199800 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.190300 ms MarkObjects: 5.669200 ms  DeleteObjects: 0.029300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 372.479890 seconds.
+  path: Assets/RandomDefence/Prefab/character/Cha_2.prefab
+  artifactKey: Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence/Prefab/character/Cha_2.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168148cfec199c15b770bf6f3b139a0e') in 0.069144 seconds 
+  Import took 0.073827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.673850 seconds.
+  path: Assets/RandomDefence/Prefab/character/Cha_1.prefab
+  artifactKey: Guid(42ec83a49ef4e9a46ad553214e2c0d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence/Prefab/character/Cha_1.prefab using Guid(42ec83a49ef4e9a46ad553214e2c0d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30f26aae749c2bcf222395a70db84c3') in 0.012822 seconds 
+  Import took 0.017715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.623369 seconds.
+  path: Assets/RandomDefence/Prefab/character/Cha_2.prefab
+  artifactKey: Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence/Prefab/character/Cha_2.prefab using Guid(c7f8d656f10a4274598355bb7cf0cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e4510782ea79008ffa0829e35cc035') in 0.012910 seconds 
+  Import took 0.017455 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2383ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (2211ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (618ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (926ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (262ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.6 MB.
+System memory in use after: 192.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 5.337800 ms (FindLiveObjects: 0.260600 ms CreateObjectMapping: 0.149200 ms MarkObjects: 4.897100 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 211.711603 seconds.
+  path: Assets/NotGame/Font/EliceDigitalBaeum_Regular.ttf
+  artifactKey: Guid(8c3b338d791f9d04d870ec3c3019d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Font/EliceDigitalBaeum_Regular.ttf using Guid(8c3b338d791f9d04d870ec3c3019d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3eec9ff6e4ec39d8f7edc6101cd002') in 0.131551 seconds 
+  Import took 0.136070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.769726 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/LightingData.asset
+  artifactKey: Guid(40c21a20c6408b84283ba53d40787163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/LightingData.asset using Guid(40c21a20c6408b84283ba53d40787163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9832564ccd7a0d19486b64062d06de9d') in 0.015517 seconds 
+  Import took 0.019376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/PP low.asset
+  artifactKey: Guid(70629691e8eede744b1c85c9ddcc4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/PP low.asset using Guid(70629691e8eede744b1c85c9ddcc4bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7605681a264bd1cfa7ec8c6ada9f095c') in 0.008485 seconds 
+  Import took 0.013393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-0.exr
+  artifactKey: Guid(4b09dc8ebfe8dfd45a7d312740e2e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-0.exr using Guid(4b09dc8ebfe8dfd45a7d312740e2e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c436903d4bb772df3a15b64ce46c3e') in 0.030323 seconds 
+  Import took 0.033885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(207366a7cf467ab4ca43ec889c4aef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/Lightmap-0_comp_dir.png using Guid(207366a7cf467ab4ca43ec889c4aef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d756b77d304c61cd36d39d9b7ef31b2') in 0.032443 seconds 
+  Import took 0.037100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-1.exr
+  artifactKey: Guid(064564f032a11344abbb0b11c4cc3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/ReflectionProbe-1.exr using Guid(064564f032a11344abbb0b11c4cc3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45944634f0f1b2e63b7077b4f597b0bf') in 0.033884 seconds 
+  Import took 0.039359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Distortion.mat
+  artifactKey: Guid(630ddcbab420440459087f91bcd9f4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Distortion.mat using Guid(630ddcbab420440459087f91bcd9f4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83cbe5ccba3b66a902df109d868285f') in 0.041465 seconds 
+  Import took 0.046815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Leaf11bcg.mat
+  artifactKey: Guid(b182838e5f35b7e478aff33d07ec4d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Leaf11bcg.mat using Guid(b182838e5f35b7e478aff33d07ec4d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ee885d7da73504e71fd971f3312bfe') in 0.044195 seconds 
+  Import took 0.050231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle67cg.mat
+  artifactKey: Guid(239a9c89439a0e243bbc4436205d55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle67cg.mat using Guid(239a9c89439a0e243bbc4436205d55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c1771f59a7f9588b3d996bc493a1dc') in 0.025694 seconds 
+  Import took 0.030708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle49bcg.mat
+  artifactKey: Guid(616f97785970c554da15235f1a322112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle49bcg.mat using Guid(616f97785970c554da15235f1a322112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5c9fe3797399a358635a8b63ab8ce5') in 0.032624 seconds 
+  Import took 0.037593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicQuad4cg.mat
+  artifactKey: Guid(b7741902d955d094f9b5fa798da9c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicQuad4cg.mat using Guid(b7741902d955d094f9b5fa798da9c20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8e4376591efa00d7ed732217bae6af') in 0.047460 seconds 
+  Import took 0.053516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Electricity3be.mat
+  artifactKey: Guid(5ad844e7da982324f804713c728193a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Electricity3be.mat using Guid(5ad844e7da982324f804713c728193a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682fb9a95e0d3c5a11c46a1521de3b17') in 0.053589 seconds 
+  Import took 0.059441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Flare4cg.mat
+  artifactKey: Guid(8a6e728ea97b2bf4399f7190a57a3735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Flare4cg.mat using Guid(8a6e728ea97b2bf4399f7190a57a3735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2551accfea73449689a40d0c04e0b3a') in 0.045757 seconds 
+  Import took 0.051279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle10bcg.mat
+  artifactKey: Guid(8af3f513c3ae589439e25a76297acc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle10bcg.mat using Guid(8af3f513c3ae589439e25a76297acc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52611117b585bde36bc6a96858624f9e') in 0.026935 seconds 
+  Import took 0.032996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Leave9bcg.mat
+  artifactKey: Guid(e21f9ecd82830b34b8f82ad9409cee9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Leave9bcg.mat using Guid(e21f9ecd82830b34b8f82ad9409cee9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf70c942f847ac59e9a88e85566b6a1') in 0.041873 seconds 
+  Import took 0.047670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/FlashGroundCG.mat
+  artifactKey: Guid(d5dfb7b499f5de840871d37b9f54d073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/FlashGroundCG.mat using Guid(d5dfb7b499f5de840871d37b9f54d073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacc058dac2de4eb3e811873ae47efc3') in 0.039856 seconds 
+  Import took 0.046071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Electricity2be.mat
+  artifactKey: Guid(c5c586ae260ffaf4aad3e21714c0ae01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Electricity2be.mat using Guid(c5c586ae260ffaf4aad3e21714c0ae01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00766405aecafc8f59e6bf238b8b5ab') in 0.029565 seconds 
+  Import took 0.035319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle46bbcg.mat
+  artifactKey: Guid(ee7d6808896f2514095b59f1fbb1aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle46bbcg.mat using Guid(ee7d6808896f2514095b59f1fbb1aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4314e7503b0124b3faaf62567b62a648') in 0.048703 seconds 
+  Import took 0.054312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle82cg.mat
+  artifactKey: Guid(116d7d2f482df434486404257ac15276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle82cg.mat using Guid(116d7d2f482df434486404257ac15276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ab918caca72f67160c21e920c620af') in 0.027933 seconds 
+  Import took 0.033903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle41bcg.mat
+  artifactKey: Guid(dcdb333a127e57b49abd8388820ac891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle41bcg.mat using Guid(dcdb333a127e57b49abd8388820ac891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f383dfaebb69b1533a288bd642cf08') in 0.037785 seconds 
+  Import took 0.043212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle46abcg.mat
+  artifactKey: Guid(86c893e5963c59f4a8b1975daa8aca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle46abcg.mat using Guid(86c893e5963c59f4a8b1975daa8aca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8c4b92e0f46197061e61d9650a5553') in 0.047081 seconds 
+  Import took 0.052461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Fire3bcg.mat
+  artifactKey: Guid(e4621b6df0d1a5640b9d48cd87e8f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Fire3bcg.mat using Guid(e4621b6df0d1a5640b9d48cd87e8f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b9ba2ea81507d3a3149e0df63113f4') in 0.042278 seconds 
+  Import took 0.049335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Flash21cg.mat
+  artifactKey: Guid(14b26389eb7f9f64e91d096f23c8ad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Flash21cg.mat using Guid(14b26389eb7f9f64e91d096f23c8ad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b938921d25a5552d7941bcf966b7b08') in 0.034074 seconds 
+  Import took 0.039717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle38bcg.mat
+  artifactKey: Guid(e66cd59071c4766449e08b9058f02cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle38bcg.mat using Guid(e66cd59071c4766449e08b9058f02cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59ff32cc0911f8616cf46ca3d2edd98') in 0.045743 seconds 
+  Import took 0.052233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle44cg.mat
+  artifactKey: Guid(09e0dbbace3669b4087c1ac3cf03c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle44cg.mat using Guid(09e0dbbace3669b4087c1ac3cf03c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b1f5340807437e50d1895ee7ba141e') in 0.046652 seconds 
+  Import took 0.053196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle38cg2.mat
+  artifactKey: Guid(fdbf37ac877776848babebf041981271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle38cg2.mat using Guid(fdbf37ac877776848babebf041981271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad5c8c14d4f6e5062519f693d439807') in 0.041577 seconds 
+  Import took 0.048912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle89bcg.mat
+  artifactKey: Guid(32f03b9a36856a74eb575cb04c36f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle89bcg.mat using Guid(32f03b9a36856a74eb575cb04c36f8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046a06bd5878124272b6de29d89a6411') in 0.031808 seconds 
+  Import took 0.039268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle18cg.mat
+  artifactKey: Guid(ca370df8d8c80334e91ddb011e79085a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Circle18cg.mat using Guid(ca370df8d8c80334e91ddb011e79085a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd944bc3ad1173fea98787dcddeb3c3fe') in 0.028334 seconds 
+  Import took 0.034521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle42bcg.mat
+  artifactKey: Guid(2da70c3f760ac044887827abec97b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle42bcg.mat using Guid(2da70c3f760ac044887827abec97b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b93695223a1d72ca23011122c471a0') in 0.047624 seconds 
+  Import took 0.053497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/DustCG.mat
+  artifactKey: Guid(4ed786132a8eb6e4b933ae14461562c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/DustCG.mat using Guid(4ed786132a8eb6e4b933ae14461562c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647a57be1dffca20f95efb65a03786ce') in 0.044910 seconds 
+  Import took 0.051316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Flare6cg.mat
+  artifactKey: Guid(82f16bfe1d124c54e877ead985da0dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Flare6cg.mat using Guid(82f16bfe1d124c54e877ead985da0dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0974e6ffc622e3ba76e7c9220e7c2049') in 0.045985 seconds 
+  Import took 0.053144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/Droplet.fbx
+  artifactKey: Guid(394f8e0beeeddc3489521819d62f4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/Droplet.fbx using Guid(394f8e0beeeddc3489521819d62f4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb7b9e5c84dbebca85a5fb0958877ac') in 0.090633 seconds 
+  Import took 0.096819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/HalfSphere3.fbx
+  artifactKey: Guid(8daeb94efb71a1746a62d9f47a714f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/HalfSphere3.fbx using Guid(8daeb94efb71a1746a62d9f47a714f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51598d22e11bbffa11d1da920dfba1ff') in 0.040659 seconds 
+  Import took 0.045960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/HalfSphere2.fbx
+  artifactKey: Guid(7e6272ab2661b9041a233144ff1617eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Models/HalfSphere2.fbx using Guid(7e6272ab2661b9041a233144ff1617eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee75bcfdeb56453d5c7289e8d05dd37') in 0.047516 seconds 
+  Import took 0.055495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(cb04e5c5238aa7d40abf54c8a5885f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Demo scene/Lightmap-0_comp_light.exr using Guid(cb04e5c5238aa7d40abf54c8a5885f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b72e68b2acfeaf19f48bcff8d419f1d') in 0.033562 seconds 
+  Import took 0.039540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle47bcg.mat
+  artifactKey: Guid(ddf253464ce543b4e80e6ce5fc040f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/MagicCircle47bcg.mat using Guid(ddf253464ce543b4e80e6ce5fc040f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06574d77c6f37d7013a6f2486bc1a3c7') in 0.035745 seconds 
+  Import took 0.041368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Floor3.mat
+  artifactKey: Guid(ca6fd35d7de69cb449d560ab9228d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Floor3.mat using Guid(ca6fd35d7de69cb449d560ab9228d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571005aa852f3f24da54274eedec2216') in 0.063341 seconds 
+  Import took 0.069482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125708 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 12.prefab
+  artifactKey: Guid(d9d19380460a0d04b810cd61b55d7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 12.prefab using Guid(d9d19380460a0d04b810cd61b55d7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53877e4114d5e66dd2c93f4e76c7587') in 0.079487 seconds 
+  Import took 0.085580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 15.prefab
+  artifactKey: Guid(7ea2d6f460a54634bb4c04310de7146c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 15.prefab using Guid(7ea2d6f460a54634bb4c04310de7146c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5088f13e02484ae8de583291e4a64774') in 0.043536 seconds 
+  Import took 0.049048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic shield 6.prefab
+  artifactKey: Guid(e07d37dd5ebf3174c94aeffe25de7280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic shield 6.prefab using Guid(e07d37dd5ebf3174c94aeffe25de7280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef523eb88ed0086c3490862850aab71') in 0.215896 seconds 
+  Import took 0.223474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 20.prefab
+  artifactKey: Guid(f0e92438c6014a144be5528ebe0bb9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 20.prefab using Guid(f0e92438c6014a144be5528ebe0bb9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fc9c6ed5d4d0fbb4be5f6e2030de7a') in 0.043638 seconds 
+  Import took 0.048950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 19.prefab
+  artifactKey: Guid(82b5ba94883497945bc55d9d95348307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 19.prefab using Guid(82b5ba94883497945bc55d9d95348307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c55fefbb4fa202aa48d6dc625297876') in 0.027593 seconds 
+  Import took 0.034055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 16.prefab
+  artifactKey: Guid(881ae05eed10e4e4aaf6b52458a68ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 16.prefab using Guid(881ae05eed10e4e4aaf6b52458a68ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8462a0efef4d0239881b9626b40eaf') in 0.034296 seconds 
+  Import took 0.040487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 18 loop.prefab
+  artifactKey: Guid(64c38e6316837fb49b27f698a0a10789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 18 loop.prefab using Guid(64c38e6316837fb49b27f698a0a10789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40115cd2a5a30e238548557bfd2207ab') in 0.041586 seconds 
+  Import took 0.047573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 14.prefab
+  artifactKey: Guid(57692b1d836ae3b4098a2a93642ff355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 14.prefab using Guid(57692b1d836ae3b4098a2a93642ff355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b52441ce660b2f7ba670f489e9e8fb1') in 0.054209 seconds 
+  Import took 0.062197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 17.prefab
+  artifactKey: Guid(049453725f5139647abe5be41dcbd181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 17.prefab using Guid(049453725f5139647abe5be41dcbd181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2224b5f53f3292c563f7b8efcd4b12c') in 0.048047 seconds 
+  Import took 0.055685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 21.prefab
+  artifactKey: Guid(d691bea6172f0ce4194744ff89af57d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 21.prefab using Guid(d691bea6172f0ce4194744ff89af57d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de502bd8f9e8feeeb26034f289459509') in 0.032478 seconds 
+  Import took 0.039848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 23.prefab
+  artifactKey: Guid(f9d8e4476f97f87428cf82af539ed618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 23.prefab using Guid(f9d8e4476f97f87428cf82af539ed618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598cfd3958450dc7d7a8dd553d1c3372') in 0.055339 seconds 
+  Import took 0.061628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Nano-shield.prefab
+  artifactKey: Guid(5d6e98640b0c58b4ba9d0c6446a2e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Nano-shield.prefab using Guid(5d6e98640b0c58b4ba9d0c6446a2e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2a579ca0177253d91c3511d56d8261') in 0.027336 seconds 
+  Import took 0.033692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic shield 5.prefab
+  artifactKey: Guid(8689428cdd6125d4997454d0e73f9991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic shield 5.prefab using Guid(8689428cdd6125d4997454d0e73f9991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680b4c810ae87c0a661535800acad02d') in 0.078115 seconds 
+  Import took 0.085148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 18.prefab
+  artifactKey: Guid(205e6cd72449c7244957ac0f0d026f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 18.prefab using Guid(205e6cd72449c7244957ac0f0d026f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf6b07c818842f242c5a78217020cbe') in 0.034474 seconds 
+  Import took 0.041558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 13.prefab
+  artifactKey: Guid(2bb872316813d8e4e80b3aced9070178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 13.prefab using Guid(2bb872316813d8e4e80b3aced9070178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498117f87e5e5b9625220a70775dbbff') in 0.046207 seconds 
+  Import took 0.055492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 22.prefab
+  artifactKey: Guid(c6d5c13442cab5b4aa66188067915b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Prefabs/Magic circle 22.prefab using Guid(c6d5c13442cab5b4aa66188067915b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad6b6f1ce24ee5898c8eb862d904746') in 0.044948 seconds 
+  Import took 0.053128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.404069 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Point12cg.mat
+  artifactKey: Guid(9aaa13d175bcf1c4b8acc4d930ee06ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Point12cg.mat using Guid(9aaa13d175bcf1c4b8acc4d930ee06ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec52ef3d9bbadc57dd913bc81b1938e') in 0.018047 seconds 
+  Import took 0.023437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.642983 seconds.
+  path: Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Quad2ts.mat
+  artifactKey: Guid(ba95222b84765c548804ee1775205e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/Hovl Studio/Magic circles Vol 2/Materials/Quad2ts.mat using Guid(ba95222b84765c548804ee1775205e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3155aca5f65494f12ea7f2b9832c75') in 0.020140 seconds 
+  Import took 0.026918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.083365 seconds.
+  path: Assets/Hovl Studio/Fantastic cartoon VFX/Materials/Glow1cg.mat
+  artifactKey: Guid(12fb1d84a82a2de4f8b3e8b1f2747b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Fantastic cartoon VFX/Materials/Glow1cg.mat using Guid(12fb1d84a82a2de4f8b3e8b1f2747b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb04738a07e9488b75152af327fe4c48') in 0.033391 seconds 
+  Import took 0.041248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Hovl Studio/Fantastic cartoon VFX/Materials/Trail29cg.mat
+  artifactKey: Guid(a1b5342d56c8edf4caeeb103dcf3053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Fantastic cartoon VFX/Materials/Trail29cg.mat using Guid(a1b5342d56c8edf4caeeb103dcf3053e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd439f513ff60567caafca90c1dcafdcb') in 0.034108 seconds 
+  Import took 0.041503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Hovl Studio/Fantastic cartoon VFX/Materials/MagicCircle23bcg.mat
+  artifactKey: Guid(4473021d276d6f541874d74fa86176df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Fantastic cartoon VFX/Materials/MagicCircle23bcg.mat using Guid(4473021d276d6f541874d74fa86176df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca094c66cd6149b65f89264a68820ca1') in 0.028772 seconds 
+  Import took 0.036306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.423837 seconds.
+  path: Assets/Hovl Studio/Fantastic cartoon VFX/Prefabs/Magic aura 2.prefab
+  artifactKey: Guid(7b1a499ed155fd14ba1d46444a2b79cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Fantastic cartoon VFX/Prefabs/Magic aura 2.prefab using Guid(7b1a499ed155fd14ba1d46444a2b79cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bb4dbb22c1a92fe5cc572e9288845e') in 0.040878 seconds 
+  Import took 0.048588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.475107 seconds.
+  path: Assets/RandomDefence
+  artifactKey: Guid(3731b6afe7dd36e44b9d9f1838fbc2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence using Guid(3731b6afe7dd36e44b9d9f1838fbc2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d96957645c5043e854da0e87d9b931') in 0.006212 seconds 
+  Import took 0.010389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.526780 seconds.
+  path: Assets/RandomDefence/Prefab/Effect
+  artifactKey: Guid(6a6598191eddade4491a889586ca0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence/Prefab/Effect using Guid(6a6598191eddade4491a889586ca0898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f71818f89c84f7702c007fe3f6fb156') in 0.008622 seconds 
+  Import took 0.014265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.339776 seconds.
+  path: Assets/Hovl Studio/Fantastic cartoon VFX/Textures/MagicCircle23.png
+  artifactKey: Guid(4ca3a6d757e699743a44a2b194ae4582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Fantastic cartoon VFX/Textures/MagicCircle23.png using Guid(4ca3a6d757e699743a44a2b194ae4582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad5696696d1c08119f9a89323e9f6b8') in 0.018165 seconds 
+  Import took 0.023863 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.8 MB.
-System memory in use after: 177.0 MB.
+System memory in use before: 192.9 MB.
+System memory in use after: 193.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2616.
-Total: 3.151900 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.076100 ms MarkObjects: 2.871400 ms  DeleteObjects: 0.016700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 4.230500 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.107900 ms MarkObjects: 3.816100 ms  DeleteObjects: 0.096800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
