@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,7 +36,7 @@ public class UIManager : MonoBehaviour
          btn_Create_Character.onClick.AddListener(btnFunc_Create_Character);
          
          _Hp = _maxHp;
-         text_Hp.text = _Hp + "/" + _maxHp;
+         text_Hp.text = "현재체력 : " + _Hp + " / 최대체력 : " + _maxHp;
     }
 
 
@@ -56,7 +58,7 @@ public class UIManager : MonoBehaviour
     /// <summary> 체력을 검사하여 죽었는지 확인 </summary>
     void CheckHp()
     {
-        text_Hp.text = _Hp + "/" + _maxHp;
+        text_Hp.text = "현재체력 : " + _Hp + " / 최대체력 : " + _maxHp;
         if (_Hp > 0)
         {
             // 살아있다.
@@ -71,9 +73,11 @@ public class UIManager : MonoBehaviour
         MonsterPool.GetMonster();
     }
 
+    /// <summary>
+    /// 캐릭터 생성 함수
+    /// </summary>
     void btnFunc_Create_Character()
     {
-        chaMgr.RandomCreate();
+        chaMgr.RandomCreate(); 
     }
-    
 }

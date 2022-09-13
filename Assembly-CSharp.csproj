@@ -138,6 +138,8 @@
      <Compile Include="Assets\NotGame\#Scripts\TurnActor\TurnActor.cs" />
      <Compile Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
      <Compile Include="Assets\NotGame\#Scripts\Menu\MainMenu.cs" />
+     <Compile Include="Assets\RandomDefence\Scripts\Character\range_Select.cs" />
+     <Compile Include="Assets\RandomDefence\Scripts\Character\range_Attack.cs" />
      <None Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\NotGame\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\NotGame\Hovl Studio\Magic circles Vol 2\Demo scene\HDRP and URP(LWRP).txt" />

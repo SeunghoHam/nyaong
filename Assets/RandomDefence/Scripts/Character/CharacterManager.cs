@@ -26,7 +26,7 @@ public class CharacterManager : MonoBehaviour
     private int amount_Epic = 3;
     private int amount_Legend = 2;
 
-    private float posY = 0.85f;
+    private float posY = 0f; // 캐릭터 생성 위치
     private void Awake()
     {
         _probability = new int[4];
