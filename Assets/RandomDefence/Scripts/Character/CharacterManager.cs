@@ -77,13 +77,14 @@ public class CharacterManager : MonoBehaviour
     void RandomCreate_Normal()
     {
         int ran = Random.Range(0, amount_Normal); // 0, 1
+        GameObject _obj;
         switch (ran)
         {
             case 0:
-                Instantiate(prefab_Character1, new Vector3(0, posY, 0), quaternion.identity, Map);
+                 _obj = Instantiate(prefab_Character1, new Vector3(0, posY, 0), quaternion.identity, Map);
                 break;
             case 1:
-                Instantiate(prefab_Character2, new Vector3(0, posY, 0), quaternion.identity, Map);
+                _obj = Instantiate(prefab_Character2, new Vector3(0, posY, 0), quaternion.identity, Map);
                 break;
                     
         }

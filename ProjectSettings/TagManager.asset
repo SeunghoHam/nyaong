@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Character
+  - SelectRange
+  - AttackRange
   - Monster
-  - Select
   layers:
   - Default
   - TransparentFX

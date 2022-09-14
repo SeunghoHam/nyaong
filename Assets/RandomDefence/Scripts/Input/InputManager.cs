@@ -20,7 +20,7 @@ public class InputManager : MonoBehaviour
     public Vector3 _movePoint;
     // Checking Input
     private Camera camera;
-    private RaycastHit hitData;
+    //private RaycastHit hitData;
     private Vector3 hitPosition;
     private float hitDistance;
 
@@ -31,22 +31,25 @@ public class InputManager : MonoBehaviour
     void MouseInput_Select()
     {
         Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-        
-        if (Physics.Raycast(ray, out hitData))
+        RaycastHit hitData;
+  
+        if (Physics.Raycast(ray, out hitData, 1000f))
         {
             isSelect = false;
-            if (hitData.transform.tag.Contains("Select")) // 캐릭터를 이동 or 스킬 사용을 위해 클릭함
+            //if (hitData.transform.tag.Contains("SelectRange")) // 캐릭터를 이동 or 스킬 사용을 위해 클릭함
+            if(hitData.transform.CompareTag("SelectRange"))
             {
+                Debug.DrawRay(camera.transform.position, hitData.transform.position ,Color.blue ,1f);
+                Debug.Log("캐릭터 클릭 성공");
                 GameManager.Instance._ui.setSelectCharacterName(hitData.transform.parent.GetComponent<Character>()._data._name);
                 isSelect = true;
-                go_SelectCharacter = hitData.transform.parent.gameObject;
+                go_SelectCharacter = hitData.transform.parent.gameObject; // SelectRange 부모에 캐릭터
             }
-            else if(hitData.transform.tag.Contains(""))
+            else
             {
                 Debug.Log("태그가 비어있는 애 클릭함");
                 GameManager.Instance._ui.setSelectCharacterName("");
                 isSelect = false;
-
             }
         }
     }
@@ -55,7 +58,8 @@ public class InputManager : MonoBehaviour
     void MouseInput_Movement()
     {
         Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-        
+        RaycastHit hitData;
+
         //hitPosition = hitData.point;
         //hitDistance = hitData.distance;
         if (Physics.Raycast(ray, out hitData))
@@ -76,12 +80,16 @@ public class InputManager : MonoBehaviour
         {
             MouseInput_Select();
         }
-        else if(Input.GetMouseButtonDown(1))
+        else if (Input.GetMouseButtonDown(1))
         {
             if (isSelect)
             {
                 isMoving = true;
                 MouseInput_Movement();
+            }
+            else
+            {
+                Debug.Log("선택 안하고 우클릭");
             }
         }
         else if (Input.GetMouseButton(1))

@@ -44,7 +44,7 @@ public class MonsterPool : MonoBehaviour
         //Debug.Log("풀링오브젝트큐 카운트 : " + Instance.poolingObjectQueue.Count);
         if(Instance.poolingObjectQueue.Count > 0)
         {
-            Debug.Log("<color=fushsia>" + "오브젝트 생성" + " </color>");
+            Debug.Log("<color=yellow>" + "오브젝트 생성" + " </color>");
             var obj = Instance.poolingObjectQueue.Dequeue();
             obj.transform.SetParent(MonsterPool.Instance.ActivePool); // 어디 자식으로 할당되는게 아니라 하이어라키에 그냥 존재하게된다.[ 수정필요 ]
             obj.gameObject.SetActive(true);
@@ -53,7 +53,7 @@ public class MonsterPool : MonoBehaviour
         }
         else
         {
-            Debug.Log("<color = magenta>"  +"초기 설정값보다 더 생성하려고 함 </color>");
+            Debug.Log("<color=magenta>"  +"초기 설정값보다 더 생성하려고 함 </color>");
             var newObj = Instance.CreateNewMonster();
             newObj.gameObject.SetActive(true);
             newObj.transform.SetParent(MonsterPool.Instance.ActivePool);
