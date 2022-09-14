@@ -3,23 +3,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class Character : MonoBehaviour
 {
     [SerializeField] public CharacterData _data;
     [SerializeField] private GameObject _target;
 
-    private void OnEnable()
+    [HideInInspector] public bool isAttacking;
+    
+    
+
+
+    public void AttackMode()
     {
-        StartCoroutine(BehaviorTree());
+        // 공격 진행 후, 사정거리 밖이거나 공격하던 몬스터 사망 시 리셋 필요함
+        Debug.Log("나 공격모드다!");
     }
 
-    IEnumerator BehaviorTree()
+    private Ray ray;
+
+    private void Update()
     {
-        while (_target == null)
+        //Physics.Raycast(ray, )
+        allDirectionRay();
+    }
+
+
+    void allDirectionRay()
+    {
+        ray = new Ray(this.transform.position, transform.forward);
+        RaycastHit hitData;
+        Debug.DrawRay(this.transform.position, Vector3.forward * 5f, Color.red);
+        
+        if (Physics.Raycast(ray, out hitData))
         {
             
         }
-        yield return null;
+
     }
+    
 }

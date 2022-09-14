@@ -16,9 +16,11 @@ public class InputManager : MonoBehaviour
     public Vector3 _destination;
 
     public Vector3 _movePos;
+
+    public Vector3 _movePoint;
     // Checking Input
     private Camera camera;
-    private RaycastHit hitData;
+    //private RaycastHit hitData;
     private Vector3 hitPosition;
     private float hitDistance;
 
@@ -29,26 +31,25 @@ public class InputManager : MonoBehaviour
     void MouseInput_Select()
     {
         Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-        
-        hitPosition = hitData.point;
-        hitDistance = hitData.distance;
-        if (Physics.Raycast(ray, out hitData))
+        RaycastHit hitData;
+  
+        if (Physics.Raycast(ray, out hitData, 1000f))
         {
-            //go_SelectCharacter = null;
             isSelect = false;
-            Debug.Log(hitData.transform.name);
-            if (hitData.transform.tag.Contains("Character"))
+            //if (hitData.transform.tag.Contains("SelectRange")) // 캐릭터를 이동 or 스킬 사용을 위해 클릭함
+            if(hitData.transform.CompareTag("SelectRange"))
             {
-                GameManager.Instance._ui.setSelectCharacterName(hitData.transform.GetComponent<Character>()._data._name);
+                Debug.DrawRay(camera.transform.position, hitData.transform.position ,Color.blue ,1f);
+                Debug.Log("캐릭터 클릭 성공");
+                GameManager.Instance._ui.setSelectCharacterName(hitData.transform.parent.GetComponent<Character>()._data._name);
                 isSelect = true;
-                go_SelectCharacter = hitData.transform.gameObject;
+                go_SelectCharacter = hitData.transform.parent.gameObject; // SelectRange 부모에 캐릭터
             }
-            else if(hitData.transform.tag.Contains(""))
+            else
             {
                 Debug.Log("태그가 비어있는 애 클릭함");
                 GameManager.Instance._ui.setSelectCharacterName("");
                 isSelect = false;
-
             }
         }
     }
@@ -57,6 +58,8 @@ public class InputManager : MonoBehaviour
     void MouseInput_Movement()
     {
         Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hitData;
+
         //hitPosition = hitData.point;
         //hitDistance = hitData.distance;
         if (Physics.Raycast(ray, out hitData))
@@ -77,12 +80,16 @@ public class InputManager : MonoBehaviour
         {
             MouseInput_Select();
         }
-        else if(Input.GetMouseButtonDown(1))
+        else if (Input.GetMouseButtonDown(1))
         {
             if (isSelect)
             {
                 isMoving = true;
                 MouseInput_Movement();
+            }
+            else
+            {
+                Debug.Log("선택 안하고 우클릭");
             }
         }
         else if (Input.GetMouseButton(1))
@@ -96,7 +103,7 @@ public class InputManager : MonoBehaviour
 
     void Movement()
     {
-        if (isMoving)
+        if (isMoving) // 사용자가 임의로 이동을 했다면 공격상태 취소하고 이동이 우선시되도록
         {
             go_SelectCharacter.transform.Translate(
                 //new Vector3(_destination.x, 0.85f, _destination.z)
@@ -107,20 +114,23 @@ public class InputManager : MonoBehaviour
             if(Mathf.Approximately(go_SelectCharacter.transform.position.x , _movePos.x)) //&&
                //Mathf.Approximately(go_SelectCharacter.transform.position.z , _destination.z))
                //if(go_SelectCharacter.transform.position == _movePos)
-            
-            
-            
-            //if(go_SelectCharacter.transform.position.x >_movePos.x) // 이동하려는 지점이 왼쪽에 있음  
             {
                 Debug.Log("근사값 도착");
                 isMoving = false;
             }
             else
             {
-                
-                Debug.Log("이동중 남은 거리 : " + (go_SelectCharacter.transform.position.x)+ " , " + (_movePos.x));
+                //Debug.Log("이동중 남은 거리 : " + (go_SelectCharacter.transform.position.x)+ " , " + (_movePos.x));
             }
         }
             
+    }
+
+
+    /// <summary> 마우스 우클릭으로 "이동 명령 내린 위치 || 캐릭터 현재 위치" 를 검사하여 멈추는 지점을 설정한다.</summary>
+    /// _movePos = 이동해야할 지점
+    void CheckPosition() 
+    {
+        //if(_movePos )
     }
 }

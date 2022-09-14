@@ -9,8 +9,6 @@ public class MonsterManager : MonoBehaviour
     System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
     MonsterPool pool;
     
-
-
     private void Awake()
     {
         pool = this.gameObject.GetComponent<MonsterPool>();

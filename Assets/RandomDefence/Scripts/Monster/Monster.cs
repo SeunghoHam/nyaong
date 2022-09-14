@@ -29,9 +29,10 @@ public class Monster : MonoBehaviour
     float delay = 5f;
     private void Update()
     {
+        // 몬스터 공격 테스트를 위한 주석처리
+        /*
         this.gameObject.transform.Translate(Vector3.left * Time.deltaTime * delay);
-
-        TurnActor();
+        TurnActor();*/
     }
 
     void IsReset()
