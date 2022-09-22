@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RandomDefence/Scene/RD.unity
     guid: 8efe6a6b8bdf51a4889b36eff089ea33
+  - enabled: 1
+    path: Assets/RandomDefence/Scene/Menu.unity
+    guid: 9680b31069bb99340beaf02d493f0c62
   m_configObjects: {}

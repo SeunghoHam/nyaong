@@ -13,20 +13,29 @@ public class InputManager : MonoBehaviour
     [SerializeField] private bool isMoving;
     public GameObject go_SelectCharacter;
 
-    public Vector3 _destination;
+    private Vector3 _direction;
+    private Vector3 _movePos;
 
-    public Vector3 _movePos;
-
-    public Vector3 _movePoint;
+    [SerializeField] private bool canTransfer; // 이동 시킬때의 딜레이 ( 꾹누르기 방지 )
+    
     // Checking Input
     private Camera camera;
     //private RaycastHit hitData;
     private Vector3 hitPosition;
     private float hitDistance;
 
+
+    [SerializeField] private GameObject movementCollider;
+
+
+
+    [SerializeField] private List<Character> List_Character = new List<Character>();
+    [SerializeField] private List<MovementCollider> List_MovementObject = new List<MovementCollider>();
+    
     private void Awake()
     {
         camera = Camera.main;
+        canTransfer = true;
     }
     void MouseInput_Select()
     {
@@ -39,16 +48,20 @@ public class InputManager : MonoBehaviour
             //if (hitData.transform.tag.Contains("SelectRange")) // 캐릭터를 이동 or 스킬 사용을 위해 클릭함
             if(hitData.transform.CompareTag("SelectRange"))
             {
-                Debug.DrawRay(camera.transform.position, hitData.transform.position ,Color.blue ,1f);
                 Debug.Log("캐릭터 클릭 성공");
-                GameManager.Instance._ui.setSelectCharacterName(hitData.transform.parent.GetComponent<Character>()._data._name);
-                isSelect = true;
                 go_SelectCharacter = hitData.transform.parent.gameObject; // SelectRange 부모에 캐릭터
+                //Debug.DrawRay(camera.transform.position, hitData.transform.position ,Color.blue ,1f);
+                GameManager.Instance._ui.setSelectCharacterName(go_SelectCharacter.GetComponent<Character>()._data._name);
+                //go_SelectCharacter.GetComponent<Character>().SetMoveRange(true);
+                isSelect = true;
+                List_Character.Add(go_SelectCharacter.GetComponent<Character>());
             }
             else
             {
                 Debug.Log("태그가 비어있는 애 클릭함");
                 GameManager.Instance._ui.setSelectCharacterName("");
+                //go_SelectCharacter.GetComponent<Character>().SetMoveRange(false);
+                go_SelectCharacter = null;
                 isSelect = false;
             }
         }
@@ -59,19 +72,37 @@ public class InputManager : MonoBehaviour
     {
         Ray ray = camera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hitData;
-
+        
         //hitPosition = hitData.point;
         //hitDistance = hitData.distance;
         if (Physics.Raycast(ray, out hitData))
         {
+            Debug.Log("캐릭터 이동");
+            // LookAt
+            //go_SelectCharacter.transform.DOLookAt(hitData.transform.position, 0.15f).SetEase(Ease.Linear);
+            go_SelectCharacter.transform.LookAt(hitData.transform.position);
+            
+            // 이동
             Vector3 dir = new Vector3(hitData.point.x - go_SelectCharacter.transform.position.x,
                 0f,
                 hitData.point.z - go_SelectCharacter.transform.position.z);
-            //go_SelectCharacter.transform.rotation = Quaternion.LookRotation(dir);
-
-            _destination = dir.normalized;
-            _movePos = hitData.point;
+            _direction = dir.normalized; // 방향벡터
+            _movePos = hitData.point; // 목적지의 위치
+            var mmObject = Instantiate(movementCollider, _movePos, Quaternion.identity);
+            //go_SelectCharacter.GetComponent<Character>().TransferMoveCollider(_movePos);
+            go_SelectCharacter.GetComponent<Character>().GetMovePos(_movePos, _direction);
+            List_MovementObject.Add(mmObject.GetComponent<MovementCollider>());
+            Debug.Log("리스트 확인. 캐릭터 : " + List_Character.FindIndex(x=>x.Equals(go_SelectCharacter)).ToString() 
+                                      +"mm오브젝트 : " + List_MovementObject.FindIndex(x => x.Equals(mmObject)));
+            canTransfer = false;
+            StartCoroutine(CRT_TransferDelay());
         }
+    }
+
+    IEnumerator CRT_TransferDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        canTransfer =true;
     }
     
     void Update()
@@ -80,7 +111,7 @@ public class InputManager : MonoBehaviour
         {
             MouseInput_Select();
         }
-        else if (Input.GetMouseButtonDown(1))
+        else if (Input.GetMouseButtonDown(1) && canTransfer)
         {
             if (isSelect)
             {
@@ -92,41 +123,14 @@ public class InputManager : MonoBehaviour
                 Debug.Log("선택 안하고 우클릭");
             }
         }
-        else if (Input.GetMouseButton(1))
+        /*
+        else if (Input.GetMouseButton(1) && canTransfer)
         {
             if(isSelect)
                 MouseInput_Movement();
-        }
-        
-        Movement();
+        }*/
     }
-
-    void Movement()
-    {
-        if (isMoving) // 사용자가 임의로 이동을 했다면 공격상태 취소하고 이동이 우선시되도록
-        {
-            go_SelectCharacter.transform.Translate(
-                //new Vector3(_destination.x, 0.85f, _destination.z)
-                _destination
-                * Time.deltaTime * 2f, Space.World);
-
-
-            if(Mathf.Approximately(go_SelectCharacter.transform.position.x , _movePos.x)) //&&
-               //Mathf.Approximately(go_SelectCharacter.transform.position.z , _destination.z))
-               //if(go_SelectCharacter.transform.position == _movePos)
-            {
-                Debug.Log("근사값 도착");
-                isMoving = false;
-            }
-            else
-            {
-                //Debug.Log("이동중 남은 거리 : " + (go_SelectCharacter.transform.position.x)+ " , " + (_movePos.x));
-            }
-        }
-            
-    }
-
-
+    
     /// <summary> 마우스 우클릭으로 "이동 명령 내린 위치 || 캐릭터 현재 위치" 를 검사하여 멈추는 지점을 설정한다.</summary>
     /// _movePos = 이동해야할 지점
     void CheckPosition() 
