@@ -6,6 +6,9 @@ MoveRange : MoveCollider를 파악하는 범위 ▷ Select된 상태가 아니�
 SelectRange : 사용자 입력을 받는 범위
 AttackRange : 적을 판단할 수 있는 범위
 
+[회전관련]
+이동 컴포넌트(Character스크립트 가지고 있는 애) 와 회전 컴포넌트를 다르게 할 필요가 있어보임
+
 [이동입력 관련]
 'InputManager'의 _movePos를 받아온 'Character' 에서 위치를 비교하여 알아서 멈추도록 해야함
 

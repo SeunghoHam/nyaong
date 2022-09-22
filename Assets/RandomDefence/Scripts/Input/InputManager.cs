@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine.Utility;
 using DG.Tweening;
 using Unity.Mathematics;
 using UnityEditor;
@@ -79,14 +80,18 @@ public class InputManager : MonoBehaviour
         {
             Debug.Log("캐릭터 이동");
             // LookAt
-            //go_SelectCharacter.transform.DOLookAt(hitData.transform.position, 0.15f).SetEase(Ease.Linear);
-            go_SelectCharacter.transform.LookAt(hitData.transform.position);
+            go_SelectCharacter.transform.GetChild(0).transform.LookAt(hitData.transform.position);
+            
             
             // 이동
-            Vector3 dir = new Vector3(hitData.point.x - go_SelectCharacter.transform.position.x,
+            Vector3 dir = new Vector3(
+                hitData.point.x - go_SelectCharacter.transform.position.x,
                 0f,
                 hitData.point.z - go_SelectCharacter.transform.position.z);
-            _direction = dir.normalized; // 방향벡터
+            
+            // 이미 방향을 정하지 않았나?
+            //_direction = dir.normalized; // 방향벡터
+            _direction = dir;
             _movePos = hitData.point; // 목적지의 위치
             var mmObject = Instantiate(movementCollider, _movePos, Quaternion.identity);
             //go_SelectCharacter.GetComponent<Character>().TransferMoveCollider(_movePos);
