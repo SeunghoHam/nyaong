@@ -1,2 +1,25 @@
 [이벤트_생성] 랜덤한 칸에 생성
 -> 생성 후 임의로 이동 가능?
+
+[캐릭터가 가지고 있는 콜라이더]
+MoveRange : MoveCollider를 파악하는 범위 ▷ Select된 상태가 아니라면 꺼둬야함
+SelectRange : 사용자 입력을 받는 범위
+AttackRange : 적을 판단할 수 있는 범위
+
+[이동입력 관련]
+'InputManager'의 _movePos를 받아온 'Character' 에서 위치를 비교하여 알아서 멈추도록 해야함
+
+
+1개의 MovementCollider - 1개의 Character 
+목적지에 도달 했을 때만 두개 지우고, 다른거 클릭했을 대는 그대로 두기
+
+
+[리지드바디]
+캐릭터한테는 SelectRange에 리지드바디가 달려있어서 MoveRange에는 줄 수 없다. 어쩔 수 없이 MovementObject에 줘야함
+
+
+캐릭터 선택 후, 클릭 했을 때
+List_MovementObject ++
+List_Character ++
+캐릭터 선택을 바꾸지 않고 다시 이동을 했을 경우 List_MovementObject만 증가하게 됨.
+List_Character의 크기 위치의

@@ -1256,6 +1256,7 @@ MonoBehaviour:
   _destination: {x: 0, y: 0, z: 0}
   _movePos: {x: 0, y: 0, z: 0}
   _movePoint: {x: 0, y: 0, z: 0}
+  movementCollider: {fileID: 7718720924086765757, guid: b2cde9134c3dea34796779dad2eb1e7e, type: 3}
 --- !u!1 &1186144575
 GameObject:
   m_ObjectHideFlags: 0
