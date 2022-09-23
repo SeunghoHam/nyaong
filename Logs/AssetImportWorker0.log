@@ -1,0 +1,1094 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ko' Physical Memory: 32582 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/UnityProject/nyaong
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+10776
+Successfully changed project path to: C:/UnityProject/nyaong
+C:/UnityProject/nyaong
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 193.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProject/nyaong/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9bca)
+    Vendor:   
+    VRAM:     16291 MB
+    Driver:   26.20.100.7870
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007642 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 192.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1789ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1403ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (448ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (548ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (192ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 174.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.207 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2208ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1876ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (660ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (737ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3218 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.2 MB.
+System memory in use after: 220.4 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3674.
+Total: 8.198900 ms (FindLiveObjects: 0.323700 ms CreateObjectMapping: 0.240100 ms MarkObjects: 7.503000 ms  DeleteObjects: 0.130300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.072 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2073ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1621ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (616ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.9 MB.
+System memory in use after: 212.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3676.
+Total: 6.864600 ms (FindLiveObjects: 0.317400 ms CreateObjectMapping: 0.245600 ms MarkObjects: 6.275300 ms  DeleteObjects: 0.024800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/NotGame/unity-chan!/Unity-chan! Model/Scenes/ActionCheck.unity
+  artifactKey: Guid(82af19ed76a8ed74fb1dd5d45c780da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NotGame/unity-chan!/Unity-chan! Model/Scenes/ActionCheck.unity using Guid(82af19ed76a8ed74fb1dd5d45c780da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4951bf530358bdef66ee7b48d834ac72') in 0.041815 seconds 
+  Import took 0.057501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.876822 seconds.
+  path: Assets/RandomDefence/Scene/Menu/BackImage Profile.asset
+  artifactKey: Guid(66eef6d8e45eadc40a2676255cc86d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence/Scene/Menu/BackImage Profile.asset using Guid(66eef6d8e45eadc40a2676255cc86d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d7388269c3882c1de4eef1eec6bcef') in 0.048997 seconds 
+  Import took 0.055507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.287842 seconds.
+  path: Assets/RandomDefence/Scene/Menu.unity
+  artifactKey: Guid(9680b31069bb99340beaf02d493f0c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence/Scene/Menu.unity using Guid(9680b31069bb99340beaf02d493f0c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdeb86fb1e704590585ac7889b669079') in 0.008661 seconds 
+  Import took 0.019866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.020238 seconds.
+  path: Assets/RandomDefence/Scene/New Material.mat
+  artifactKey: Guid(6c3e61044ef73474e971057cba8816b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RandomDefence/Scene/New Material.mat using Guid(6c3e61044ef73474e971057cba8816b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becd5ebabec40951a1bdca234cb8595d') in 0.140646 seconds 
+  Import took 0.151410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.316 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3317ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2923ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (693ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (235ms)
+			SetupLoadedEditorAssemblies (1338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (10ms)
+				BeforeProcessingInitializeOnLoad (402ms)
+				ProcessInitializeOnLoadAttributes (853ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.9 MB.
+System memory in use after: 215.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3706.
+Total: 9.743500 ms (FindLiveObjects: 0.412400 ms CreateObjectMapping: 0.360500 ms MarkObjects: 8.924200 ms  DeleteObjects: 0.044000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 709.408558 seconds.
+  path: Assets/AssetStore/MonsterRat/Prefabs/MonsterRat.prefab
+  artifactKey: Guid(1b97b677eb757a04f9aacbd88e4ba22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MonsterRat/Prefabs/MonsterRat.prefab using Guid(1b97b677eb757a04f9aacbd88e4ba22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959d384832ed72bdcf638ca9befcc38b') in 0.256301 seconds 
+  Import took 0.269498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/AssetStore/MonsterRat/Prefabs/MonsterRat_WhiteFur.prefab
+  artifactKey: Guid(328f4625499f518409bad66094bf1d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MonsterRat/Prefabs/MonsterRat_WhiteFur.prefab using Guid(328f4625499f518409bad66094bf1d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a7dbf75b2779a667dee85af0955144') in 0.195250 seconds 
+  Import took 0.216919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/AssetStore/MonsterRat/Prefabs/MonsterRatRagdoll.prefab
+  artifactKey: Guid(b27b238fbb64f964ca4cba32cfa69831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/MonsterRat/Prefabs/MonsterRatRagdoll.prefab using Guid(b27b238fbb64f964ca4cba32cfa69831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172db705f6af6425684206285e04cf2e') in 0.127137 seconds 
+  Import took 0.142257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.337414 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Atlas1.mat
+  artifactKey: Guid(f11103d3e1d076245b09cb1dd6eb0ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Atlas1.mat using Guid(f11103d3e1d076245b09cb1dd6eb0ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daff5983d68fb19a1a1574759df081c') in 0.438899 seconds 
+  Import took 0.445598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Glass.prefab
+  artifactKey: Guid(39ebbe82e116cdf408479857c792bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Glass.prefab using Guid(39ebbe82e116cdf408479857c792bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671dbc1f682a3e774286e19cef2c41c8') in 0.025618 seconds 
+  Import took 0.039475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/BoxPile1.prefab
+  artifactKey: Guid(d441e6d13e050574593e086ddcc9f7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/BoxPile1.prefab using Guid(d441e6d13e050574593e086ddcc9f7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae78b70bf96373ee2fc83e7ef7da00bd') in 0.029182 seconds 
+  Import took 0.037125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Atlas2.mat
+  artifactKey: Guid(2f19b5314a777f747b9cd7b636a6427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Atlas2.mat using Guid(2f19b5314a777f747b9cd7b636a6427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223f578315ce420c0a195e5d353b8481') in 0.034168 seconds 
+  Import took 0.042641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Wood.mat
+  artifactKey: Guid(307bc9e29e8a41b40b4cbf8d04d02161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Wood.mat using Guid(307bc9e29e8a41b40b4cbf8d04d02161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c05cc3b954f7325450f1d850245ada9') in 0.025172 seconds 
+  Import took 0.036249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Boxes.mat
+  artifactKey: Guid(70db3c76b4e8e8447b81917467bc2ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Boxes.mat using Guid(70db3c76b4e8e8447b81917467bc2ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613d447f563d068ca2cc822031ba9f7') in 0.030159 seconds 
+  Import took 0.037373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Lockers.mat
+  artifactKey: Guid(ac31b96435b0b7c41a8c3eb2e708bf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Lockers.mat using Guid(ac31b96435b0b7c41a8c3eb2e708bf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d3fbaf479d2ebe88d13edc68b612fa') in 0.031592 seconds 
+  Import took 0.049374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001234 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/PhoneBin.mat
+  artifactKey: Guid(595412b77a845ce45abd80e7b19c4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/PhoneBin.mat using Guid(595412b77a845ce45abd80e7b19c4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8f57cc6af8da6e191f9442600f507e') in 0.026622 seconds 
+  Import took 0.034794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/TilesDiff.mat
+  artifactKey: Guid(d0bb85a8555de8f4f829b84758072be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/TilesDiff.mat using Guid(d0bb85a8555de8f4f829b84758072be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cd212ebf603f839715b9957876cd4f') in 0.027783 seconds 
+  Import took 0.040345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Brush.prefab
+  artifactKey: Guid(1075f73f8559af741bf97a14c6cf0b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Brush.prefab using Guid(1075f73f8559af741bf97a14c6cf0b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d94798ff856ed034b68e9a338d1ab7') in 0.033391 seconds 
+  Import took 0.041681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Door.prefab
+  artifactKey: Guid(e0c98bc6b01e0ae4b8540069a75cde3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Door.prefab using Guid(e0c98bc6b01e0ae4b8540069a75cde3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445560b9dc6574a63a6a74516b8bd5a8') in 0.032376 seconds 
+  Import took 0.048977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Closet.prefab
+  artifactKey: Guid(7ae3084784aa0824c8be29ed89403201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Closet.prefab using Guid(7ae3084784aa0824c8be29ed89403201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e568754b263ab829fcf5e381838ae049') in 0.030212 seconds 
+  Import took 0.042743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/LunchTable.prefab
+  artifactKey: Guid(e62f10794af8c1e4aaeafe1133a89558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/LunchTable.prefab using Guid(e62f10794af8c1e4aaeafe1133a89558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5501453ac2c9bb566548ede34ecc47') in 0.036744 seconds 
+  Import took 0.054390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Exit.prefab
+  artifactKey: Guid(c75b4cd962ac4bb4c95fd758ced3f625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Exit.prefab using Guid(c75b4cd962ac4bb4c95fd758ced3f625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e5de03966011d8d88a5e81dac0c2f0') in 0.029760 seconds 
+  Import took 0.037512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Closet_full.prefab
+  artifactKey: Guid(5f3f0b2436a8c564bae754ec28a2974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Closet_full.prefab using Guid(5f3f0b2436a8c564bae754ec28a2974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b73bd84a619fed8d05f78946815b32b') in 0.036126 seconds 
+  Import took 0.048552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Chair.prefab
+  artifactKey: Guid(d1e5fd282f8955648a0dba3ebae1c14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Chair.prefab using Guid(d1e5fd282f8955648a0dba3ebae1c14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724f772a1ef259d26d5ed266bfe98ef3') in 0.028426 seconds 
+  Import took 0.043550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Desk1_normal.prefab
+  artifactKey: Guid(8215b93a9ce137a4096b77a51859e6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Desk1_normal.prefab using Guid(8215b93a9ce137a4096b77a51859e6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f07490a53250d2aed8ed7bc78fdb31e') in 0.028318 seconds 
+  Import took 0.036124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Door2.mat
+  artifactKey: Guid(1794a3961e7a6c845a16c3e35976bb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Door2.mat using Guid(1794a3961e7a6c845a16c3e35976bb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afa99da89f68ab311be4cf2521441e7') in 0.032315 seconds 
+  Import took 0.041813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Group1.mat
+  artifactKey: Guid(e4aef5a77afdd1b45a8d4e928b3a1f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Group1.mat using Guid(e4aef5a77afdd1b45a8d4e928b3a1f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddea1c178080e1a61b4c39b1119d9d54') in 0.031539 seconds 
+  Import took 0.039817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Walls.mat
+  artifactKey: Guid(9a814e24737ddd845a8dc1118e3f200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Walls.mat using Guid(9a814e24737ddd845a8dc1118e3f200d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffbbac1c8f5d1c003edb93338a8f531') in 0.043020 seconds 
+  Import took 0.050595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Crate2.prefab
+  artifactKey: Guid(2bf071547184866449e67238bb46254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Crate2.prefab using Guid(2bf071547184866449e67238bb46254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f249bd6e1c79afb3d3a78aebf058574') in 0.039049 seconds 
+  Import took 0.047904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/DeskSet2.prefab
+  artifactKey: Guid(06dcf461991d5f8438b620e30b6437c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/DeskSet2.prefab using Guid(06dcf461991d5f8438b620e30b6437c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca8e44cd5a4e23639431f31319794a9') in 0.051127 seconds 
+  Import took 0.061452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Crate1.prefab
+  artifactKey: Guid(c4034ccdb324f4c47820ed4b9ec4af22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Crate1.prefab using Guid(c4034ccdb324f4c47820ed4b9ec4af22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2a7da8d2e15248de5ef566210526c7') in 0.037649 seconds 
+  Import took 0.048823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Cealing.mat
+  artifactKey: Guid(268926bc46835e845ad1d80c59e62289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Cealing.mat using Guid(268926bc46835e845ad1d80c59e62289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277e3fd4e14c578ef25f1dc4ebc7ef52') in 0.198005 seconds 
+  Import took 0.205044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Cup.prefab
+  artifactKey: Guid(6ec54d9242249014cb958f57ad12b9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Cup.prefab using Guid(6ec54d9242249014cb958f57ad12b9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9836a64c82bc6690df2ce8beb51098') in 0.025423 seconds 
+  Import took 0.032310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Glass1.mat
+  artifactKey: Guid(5ab6c70b200b825439251d68d0326e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Glass1.mat using Guid(5ab6c70b200b825439251d68d0326e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d53ac8c10f4e1ee77302a27055c04a') in 0.029385 seconds 
+  Import took 0.036342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Lamp.prefab
+  artifactKey: Guid(6475ed5f58fe9b74d878f14dd8031b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Lamp.prefab using Guid(6475ed5f58fe9b74d878f14dd8031b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef92dbd70a71578f5e1ae65081085df') in 0.031200 seconds 
+  Import took 0.043718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Lamp2.prefab
+  artifactKey: Guid(2ed8b982a2edd4245ae133e0fe8c0688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Lamp2.prefab using Guid(2ed8b982a2edd4245ae133e0fe8c0688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766b5cd2a6bf25f64fef9dc3c2f1c60b') in 0.028836 seconds 
+  Import took 0.036466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Door 1.prefab
+  artifactKey: Guid(8d101b87d9f09c54c9f2606c74222f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Door 1.prefab using Guid(8d101b87d9f09c54c9f2606c74222f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4f5ac136d4bf0f1c59148b904d2289') in 0.029513 seconds 
+  Import took 0.036779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Book.prefab
+  artifactKey: Guid(267465f47c123c44daaa639bcfa16bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Book.prefab using Guid(267465f47c123c44daaa639bcfa16bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6a4ada77e3703a907b5d2751943bfa') in 0.025596 seconds 
+  Import took 0.041193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/SmallStuff.mat
+  artifactKey: Guid(7013bb5936d4c17418cb85ee2d11f695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/SmallStuff.mat using Guid(7013bb5936d4c17418cb85ee2d11f695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54e445257edad3af727ce94bb29ddd6') in 0.026509 seconds 
+  Import took 0.034423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Locker1.prefab
+  artifactKey: Guid(3c21c217e6c52b74489fcb456b735b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Locker1.prefab using Guid(3c21c217e6c52b74489fcb456b735b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac01f6cdcb28dc9b78b5a698cd623adc') in 0.031485 seconds 
+  Import took 0.039105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStore/HorrorSchool/Saves/EnviroCube.cubemap
+  artifactKey: Guid(fa224bde8c5a25a4990579d99d8ea1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Saves/EnviroCube.cubemap using Guid(fa224bde8c5a25a4990579d99d8ea1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927c11bcb3fae5e9cc0b86d1ae55548f') in 0.178510 seconds 
+  Import took 0.191911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Locker2.prefab
+  artifactKey: Guid(ea55c798ab063ab418ac6bb3bf4c4421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Locker2.prefab using Guid(ea55c798ab063ab418ac6bb3bf4c4421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a2681ea8d88a4b6a7c472dd4eafb17') in 0.022808 seconds 
+  Import took 0.033458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/SmallStuffDiff.mat
+  artifactKey: Guid(71d3fb383c1668f40a040ea3a3cfe498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/SmallStuffDiff.mat using Guid(71d3fb383c1668f40a040ea3a3cfe498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb14642868775ef70605a72b2fc1f7d') in 0.033473 seconds 
+  Import took 0.041516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/LockerRow.prefab
+  artifactKey: Guid(63abb5b99d3df2241b5e577a0daeb79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/LockerRow.prefab using Guid(63abb5b99d3df2241b5e577a0daeb79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833c65524eda3141197f9149cede2dcb') in 0.035312 seconds 
+  Import took 0.044187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Board3.prefab
+  artifactKey: Guid(86c580bc2c0625046ac38f9c00d62c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Board3.prefab using Guid(86c580bc2c0625046ac38f9c00d62c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7891f454b3330002cc8ffea9fa99975f') in 0.044232 seconds 
+  Import took 0.052741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Atlas3.mat
+  artifactKey: Guid(da8f735926e1a194f9d0a11acb1f3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Atlas3.mat using Guid(da8f735926e1a194f9d0a11acb1f3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2a96644c97f7fa47002030aca55564') in 0.027236 seconds 
+  Import took 0.040690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Computer.prefab
+  artifactKey: Guid(360b006833dcdb845b8e4eb560adeb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Computer.prefab using Guid(360b006833dcdb845b8e4eb560adeb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846ebafb9c6ebf53fb40675abb1de0da') in 0.017919 seconds 
+  Import took 0.025810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Laptop.prefab
+  artifactKey: Guid(f09afb3e2d77aba408d1499d31ee0ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Laptop.prefab using Guid(f09afb3e2d77aba408d1499d31ee0ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989141624d2e3effc9ffaef92aa4195f') in 0.032020 seconds 
+  Import took 0.044818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Box2.prefab
+  artifactKey: Guid(ebbba7ceb3c74394e8c727e52ae8c8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Box2.prefab using Guid(ebbba7ceb3c74394e8c727e52ae8c8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcc36e50d9d61860df6f11a20461037') in 0.033912 seconds 
+  Import took 0.047160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/DeskSet.prefab
+  artifactKey: Guid(a0091b58486ad0d4ea4d3b3b8bbd975d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/DeskSet.prefab using Guid(a0091b58486ad0d4ea4d3b3b8bbd975d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b193317013478aa3e16fed0ec96008a') in 0.031006 seconds 
+  Import took 0.039288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Boards/SchoolBoards.fbx
+  artifactKey: Guid(9ed60014fb805564893922be7c1c93df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Boards/SchoolBoards.fbx using Guid(9ed60014fb805564893922be7c1c93df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a966487ff222f23d0210d7958b46644c') in 0.121409 seconds 
+  Import took 0.135492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/boxes/Boxes.fbx
+  artifactKey: Guid(c00f9151eef80104fb7ae43d5629c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/boxes/Boxes.fbx using Guid(c00f9151eef80104fb7ae43d5629c5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674f0b404f0b46d4d748560788ba7467') in 0.081885 seconds 
+  Import took 0.095496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/chair/Chair.fbx
+  artifactKey: Guid(35cea9defaf527b469dadf6e4b148cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/chair/Chair.fbx using Guid(35cea9defaf527b469dadf6e4b148cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07ef661543b0b911337a2a32abd3488') in 0.037822 seconds 
+  Import took 0.046603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Magazines.prefab
+  artifactKey: Guid(782e218cd05cb4248a6d53de18fdab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Magazines.prefab using Guid(782e218cd05cb4248a6d53de18fdab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddb9b551fcda0ec70076d7e5bf16f71') in 0.034112 seconds 
+  Import took 0.047725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Computer/Computer_d.jpg
+  artifactKey: Guid(0e7a2499a3d57e84e844da821dbec0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Computer/Computer_d.jpg using Guid(0e7a2499a3d57e84e844da821dbec0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc2374f65e26a27cfa1e32cc4d620a9') in 0.045728 seconds 
+  Import took 0.054027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Computer/ComputerLP.fbx
+  artifactKey: Guid(5bfc088ccf02be34985d3c11554790da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Computer/ComputerLP.fbx using Guid(5bfc088ccf02be34985d3c11554790da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5026e8d486907f7f59e769b655891938') in 0.094531 seconds 
+  Import took 0.102349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/desks/Desk1_broken.fbx
+  artifactKey: Guid(faa342d8170a2ce4ea467db8054877a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/desks/Desk1_broken.fbx using Guid(faa342d8170a2ce4ea467db8054877a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8708540901b3ff9b733604aa17612d5') in 0.038693 seconds 
+  Import took 0.048285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/door/Door_diff.psd
+  artifactKey: Guid(e677502207553524d88e97693dd8fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/door/Door_diff.psd using Guid(e677502207553524d88e97693dd8fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ae8158ea7fc4bd04da31447b06a0b7') in 0.048330 seconds 
+  Import took 0.065905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp2_d.jpg
+  artifactKey: Guid(a008c4c04801597439bfd3a71d19e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp2_d.jpg using Guid(a008c4c04801597439bfd3a71d19e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfca04174c28907eeb7d10326c33a9f') in 0.022294 seconds 
+  Import took 0.036177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Lamp/LampLP.fbx
+  artifactKey: Guid(67bc596fd3053d546b8c1a09b7db5705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Lamp/LampLP.fbx using Guid(67bc596fd3053d546b8c1a09b7db5705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903e9628a4ec55f9ba0ce53da862fd4b') in 0.082828 seconds 
+  Import took 0.097624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp_diff.jpg
+  artifactKey: Guid(56f0055d1fcf74643b91adbdc8bfa4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp_diff.jpg using Guid(56f0055d1fcf74643b91adbdc8bfa4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613fa9d451b4bc24accf74dbd8a7e324') in 0.022358 seconds 
+  Import took 0.040679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp2_n.jpg
+  artifactKey: Guid(6bf988658b4a33545a2635d60b1bbdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp2_n.jpg using Guid(6bf988658b4a33545a2635d60b1bbdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd610376a31090dda055317b258606cc4') in 0.036569 seconds 
+  Import took 0.045103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/desks/TeacherDesk.fbx
+  artifactKey: Guid(f3faa387f48efbb44aea168aa189c58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/desks/TeacherDesk.fbx using Guid(f3faa387f48efbb44aea168aa189c58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0831d3206241d3b3a6390c31d80d0a') in 0.036177 seconds 
+  Import took 0.044247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/door/Door_d.jpg
+  artifactKey: Guid(ce79b6f55ea7a834b95eec5d5f69b2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/door/Door_d.jpg using Guid(ce79b6f55ea7a834b95eec5d5f69b2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf8d5a366c2660971802f241821af13') in 0.024948 seconds 
+  Import took 0.032896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/desks/Desk1_normal.fbx
+  artifactKey: Guid(64dc899376100984593d27b739df07de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/desks/Desk1_normal.fbx using Guid(64dc899376100984593d27b739df07de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9522f2aa944e62e082ea11e5607056c') in 0.043810 seconds 
+  Import took 0.059020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/door/Door.fbx
+  artifactKey: Guid(e87386df9278e724593df8edfa6a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/door/Door.fbx using Guid(e87386df9278e724593df8edfa6a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fa8668d94c418e303cf9301dff98ed') in 0.073472 seconds 
+  Import took 0.082891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/sink/Sink.fbx
+  artifactKey: Guid(c34f532056d1cb946aaa60ce5e09f72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/sink/Sink.fbx using Guid(c34f532056d1cb946aaa60ce5e09f72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dbaf42c6fad2051e0b764d2a869353') in 0.084838 seconds 
+  Import took 0.092171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/SmallStuff/SmallStuff.fbx
+  artifactKey: Guid(53e8002837aa1a543b76602183370ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/SmallStuff/SmallStuff.fbx using Guid(53e8002837aa1a543b76602183370ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75eb6b8000c0062ed0a228e749e283e') in 0.116618 seconds 
+  Import took 0.127543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/desks/LunchTable.fbx
+  artifactKey: Guid(a08053e0b308ab14e9c22c27ce404eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/desks/LunchTable.fbx using Guid(a08053e0b308ab14e9c22c27ce404eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7723f99de0a93eb56f87f3a7e8f0b1c') in 0.029374 seconds 
+  Import took 0.036152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp2LP.fbx
+  artifactKey: Guid(598740fc1dce8ba4480b24666384a099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp2LP.fbx using Guid(598740fc1dce8ba4480b24666384a099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e2f911b0a629a158a568c488e819e0') in 0.062932 seconds 
+  Import took 0.070092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Props1/Props1.fbx
+  artifactKey: Guid(2ba3cc5e7dfa69649998f62e3f751202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Props1/Props1.fbx using Guid(2ba3cc5e7dfa69649998f62e3f751202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d8da856740ed0d4ff5b23eaa6fd4f2') in 1.754995 seconds 
+  Import took 1.770379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/door/Door_LP.fbx
+  artifactKey: Guid(c57bb6281dc21454898e8b4764c43e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/door/Door_LP.fbx using Guid(c57bb6281dc21454898e8b4764c43e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb300ec1fc080c4146491ce9fdf930a3') in 0.047771 seconds 
+  Import took 0.055516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/door/Door_s.tga
+  artifactKey: Guid(fc49a46eeaa047346b1f6133d543f2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/door/Door_s.tga using Guid(fc49a46eeaa047346b1f6133d543f2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9817d03f8e623b757e62d15434472d') in 0.041706 seconds 
+  Import took 0.048829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/door/Door_normals.jpg
+  artifactKey: Guid(91836a50d02ed744ba250b8ba7048161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/door/Door_normals.jpg using Guid(91836a50d02ed744ba250b8ba7048161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d91e9b4b5b499e5ef2558ae1578a521') in 0.026539 seconds 
+  Import took 0.033595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/sink/Sink_n.jpg
+  artifactKey: Guid(5a9c71b35103d2249ad6edeaf448b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/sink/Sink_n.jpg using Guid(5a9c71b35103d2249ad6edeaf448b02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bac98773f5e420a8b5f04f716dfe288') in 0.024568 seconds 
+  Import took 0.031554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp_nmr.jpg
+  artifactKey: Guid(d92bd07d8f599814cb898f2f9f516e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp_nmr.jpg using Guid(d92bd07d8f599814cb898f2f9f516e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cdc712c423f2c2a27c2769b9a6925f') in 0.029010 seconds 
+  Import took 0.037629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Lockers/Locker.fbx
+  artifactKey: Guid(7efe5cbfe9fb8c640826057fbd34c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Lockers/Locker.fbx using Guid(7efe5cbfe9fb8c640826057fbd34c36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83061ce3fb2bd63fcea28f421ebb8db7') in 0.052508 seconds 
+  Import took 0.073407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Pipes/Pipes.fbx
+  artifactKey: Guid(199caed532561094d8f7f0adb7d87947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Pipes/Pipes.fbx using Guid(199caed532561094d8f7f0adb7d87947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9543a4c6f737988889fa6d5f79a881') in 0.077021 seconds 
+  Import took 0.084758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/door/Door_n.jpg
+  artifactKey: Guid(01c127cfc2df3d1408a261b208d66d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/door/Door_n.jpg using Guid(01c127cfc2df3d1408a261b208d66d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff2b6f20743dc0dab5d41814869f4a6') in 0.021343 seconds 
+  Import took 0.030528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/sink/Sink_d.jpg
+  artifactKey: Guid(bdc571a5d86e45544b0b744972b7dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/sink/Sink_d.jpg using Guid(bdc571a5d86e45544b0b744972b7dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a2c5cf8ff45d88ff82813ec7d8d1b0') in 0.020605 seconds 
+  Import took 0.028513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Computer/Computer_n.jpg
+  artifactKey: Guid(d928dd184a549144dac8343c380e7b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Computer/Computer_n.jpg using Guid(d928dd184a549144dac8343c380e7b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889df224c428e5b0205b7479e061d5b8') in 0.024552 seconds 
+  Import took 0.033320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Lamp/Emissive.jpg
+  artifactKey: Guid(bda71d2b17bbfa849aaa6020dbc7100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Lamp/Emissive.jpg using Guid(bda71d2b17bbfa849aaa6020dbc7100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fdf57c78a26ef12b821bd4eda30641') in 0.030119 seconds 
+  Import took 0.043734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp2_emissive.jpg
+  artifactKey: Guid(bbd7e0fee928583489fc51a3e145841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Lamp/Lamp2_emissive.jpg using Guid(bbd7e0fee928583489fc51a3e145841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984b65a721115f2b909543d01a8b173a') in 0.025863 seconds 
+  Import took 0.034458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Computer.mat
+  artifactKey: Guid(01a596c200ecbfa48a8a8ac57ed7ece7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Computer.mat using Guid(01a596c200ecbfa48a8a8ac57ed7ece7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3fb9ec3c7c8e1dd845f6dd18ec39fc') in 0.026561 seconds 
+  Import took 0.034499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Board1.prefab
+  artifactKey: Guid(f389cfa1f49463444af8caaf4baaa9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Board1.prefab using Guid(f389cfa1f49463444af8caaf4baaa9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305a56e50d9334f1649d7b726b61ccac') in 0.026249 seconds 
+  Import took 0.043904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Box1.prefab
+  artifactKey: Guid(f5fe3a345e5c8a34d8458c317695d0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Box1.prefab using Guid(f5fe3a345e5c8a34d8458c317695d0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0885cf6f5f3f606383c708a96baf391') in 0.030099 seconds 
+  Import took 0.038087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Box3.prefab
+  artifactKey: Guid(8d769e43ae05fba40bc295146c715af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Box3.prefab using Guid(8d769e43ae05fba40bc295146c715af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed22d53dc3d51cae8635d4e80db76ce1') in 0.025762 seconds 
+  Import took 0.038404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/AssetStore/HorrorSchool/Materials/Group2.mat
+  artifactKey: Guid(74d2476f8ec577b409600c0b8705a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Materials/Group2.mat using Guid(74d2476f8ec577b409600c0b8705a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e568be73922c1b22efc9ab5da916f610') in 0.032103 seconds 
+  Import took 0.040507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/AssetStore/HorrorSchool/Prefabs/Desk1_broken.prefab
+  artifactKey: Guid(1ef83e33cf8ede64ea70f1dd25e85849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Prefabs/Desk1_broken.prefab using Guid(1ef83e33cf8ede64ea70f1dd25e85849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc3056d0a8b1783c881855de3b0eaeb') in 0.034800 seconds 
+  Import took 0.045330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.626733 seconds.
+  path: Assets/AssetStore/HorrorSchool/DecalSystem/Scene.unity
+  artifactKey: Guid(9eda6808c66ab1c46ab0f16df5b62ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/DecalSystem/Scene.unity using Guid(9eda6808c66ab1c46ab0f16df5b62ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656638462e879fad39210218f26aeb0e') in 0.007587 seconds 
+  Import took 0.014415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.108780 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Tcabin/ToiletHok.fbx
+  artifactKey: Guid(faf137cc32241cb42bba7135216934c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Tcabin/ToiletHok.fbx using Guid(faf137cc32241cb42bba7135216934c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe5ae07550a6095a295964aeec70278') in 0.041376 seconds 
+  Import took 0.047855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Tcabin/ToiletHok_n.jpg
+  artifactKey: Guid(4dcee91909c652741ae55c36c76c03e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Tcabin/ToiletHok_n.jpg using Guid(4dcee91909c652741ae55c36c76c03e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a564f44bf4daa6c5902e9e24713148') in 0.014998 seconds 
+  Import took 0.021044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Tcabin/ToiletHok_d.jpg
+  artifactKey: Guid(766991c37e01eb64f866c5fd7066b875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Tcabin/ToiletHok_d.jpg using Guid(766991c37e01eb64f866c5fd7066b875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8884ca4ae1c488b38dfb3a663f17388') in 0.016607 seconds 
+  Import took 0.023794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015942 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/trashcan/TrashCan.fbx
+  artifactKey: Guid(5fb521b6f9db86047a03ba63afc288ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/trashcan/TrashCan.fbx using Guid(5fb521b6f9db86047a03ba63afc288ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b9b92e122d3d0875ba5d0fbade0387') in 0.028673 seconds 
+  Import took 0.035988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/trashcan/Trashcan_n.jpg
+  artifactKey: Guid(7cd93a60a69e80245a4c839d1e0b43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/trashcan/Trashcan_n.jpg using Guid(7cd93a60a69e80245a4c839d1e0b43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83397cf5461625fef73ba2a29cdf3de5') in 0.016023 seconds 
+  Import took 0.023076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/trashcan/Trashcan_d.jpg
+  artifactKey: Guid(5221c31ed7673394ea4f649983f18c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/trashcan/Trashcan_d.jpg using Guid(5221c31ed7673394ea4f649983f18c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cf8a53fcba8aba035ffc6dd6d84442') in 0.015294 seconds 
+  Import took 0.022161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/trashcan/TrashCan.prefab
+  artifactKey: Guid(74cb24fd2933c744ea39660de3a53256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/trashcan/TrashCan.prefab using Guid(74cb24fd2933c744ea39660de3a53256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b740e08e320885db8e20f93443adeb4') in 0.019420 seconds 
+  Import took 0.027524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/vending/Vending1.fbx
+  artifactKey: Guid(833fb0e21b0b48548be923dd8c556067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/vending/Vending1.fbx using Guid(833fb0e21b0b48548be923dd8c556067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa90be7b0e803f6cbbac8d3478624f8') in 0.067533 seconds 
+  Import took 0.075201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Walls/Building.fbx
+  artifactKey: Guid(282b857eab6aa8547b3d562c2e7cc0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Walls/Building.fbx using Guid(282b857eab6aa8547b3d562c2e7cc0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a3196680e91eb088a1fd3d2f56a58a') in 4.303617 seconds 
+  Import took 4.318361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/Walls/ModularWalls.fbx
+  artifactKey: Guid(9a210815bac0f944ebbc36e5f1e6d2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/Walls/ModularWalls.fbx using Guid(9a210815bac0f944ebbc36e5f1e6d2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020e4a6fe34536fe3b59ca02e79e40d4') in 0.098300 seconds 
+  Import took 0.105406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/vending/Vending_Diff2.jpg
+  artifactKey: Guid(0a37afa392e3c30488248516734f7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/vending/Vending_Diff2.jpg using Guid(0a37afa392e3c30488248516734f7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b656d27751b0e20fe3eec2ada599e65') in 0.017382 seconds 
+  Import took 0.024444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/vending/Vending_d.jpg
+  artifactKey: Guid(b090408c508807445a2f6d43c2fcf0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/vending/Vending_d.jpg using Guid(b090408c508807445a2f6d43c2fcf0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3447922a1251db074b44dc3c80410d') in 0.016317 seconds 
+  Import took 0.024758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/vending/Vending_n.jpg
+  artifactKey: Guid(60c57ec82e7f9e749a1acfc76da805dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/vending/Vending_n.jpg using Guid(60c57ec82e7f9e749a1acfc76da805dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54adbaf3608cda43e0dbc9ce31813128') in 0.016911 seconds 
+  Import took 0.024238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/AssetStore/HorrorSchool/Assets/trashcan/Trashcan2.fbx
+  artifactKey: Guid(398a6ccae07d81f4299540c928f0c828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Assets/trashcan/Trashcan2.fbx using Guid(398a6ccae07d81f4299540c928f0c828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae154960b14ae7cfe3bd97cb86abf4e8') in 0.024716 seconds 
+  Import took 0.032855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.868067 seconds.
+  path: Assets/AssetStore/HorrorSchool/DecalSystem/Decals/DecalB.mat
+  artifactKey: Guid(4225299b42ebeef48b66f3553d2bb9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/DecalSystem/Decals/DecalB.mat using Guid(4225299b42ebeef48b66f3553d2bb9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20773ac6a9f6f351ef4dc8cda272981c') in 0.018967 seconds 
+  Import took 0.024208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/AssetStore/HorrorSchool/DecalSystem/Decals/decals_package_b.psd
+  artifactKey: Guid(23c5619a3ba9a7f4381fe9b64caab0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/DecalSystem/Decals/decals_package_b.psd using Guid(23c5619a3ba9a7f4381fe9b64caab0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e99b2fc1384b9da79ac21a6a9908ae6') in 0.114739 seconds 
+  Import took 0.119909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.649313 seconds.
+  path: Assets/AssetStore/HorrorSchool/Saves/Scene.unity
+  artifactKey: Guid(55d59c86b3b00b840bb62bf8813dc1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/HorrorSchool/Saves/Scene.unity using Guid(55d59c86b3b00b840bb62bf8813dc1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdfb0fe32dfb8f207f809d8c788d851') in 0.002862 seconds 
+  Import took 0.009550 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
