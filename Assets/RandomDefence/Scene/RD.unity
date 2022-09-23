@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1253,10 +1253,10 @@ MonoBehaviour:
   isSelect: 0
   isMoving: 0
   go_SelectCharacter: {fileID: 0}
-  _destination: {x: 0, y: 0, z: 0}
-  _movePos: {x: 0, y: 0, z: 0}
-  _movePoint: {x: 0, y: 0, z: 0}
+  canTransfer: 0
   movementCollider: {fileID: 7718720924086765757, guid: b2cde9134c3dea34796779dad2eb1e7e, type: 3}
+  List_Character: []
+  List_MovementObject: []
 --- !u!1 &1186144575
 GameObject:
   m_ObjectHideFlags: 0

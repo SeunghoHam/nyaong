@@ -33,7 +33,7 @@ public class Character : MonoBehaviour
     private void Awake()
     {
         _animator = this.gameObject.GetComponent<Animator>();
-        MoveRange = this.transform.GetChild(1).GetComponent<BoxCollider>();
+        MoveRange = this.transform.GetChild(2).GetComponent<BoxCollider>(); // 자식들 위치 바뀌게 되면 설정 다시 해줘야 함
         SetMoveRange(false);
     }
 
@@ -55,6 +55,10 @@ public class Character : MonoBehaviour
         KeyInput_Jump();
         
         Movement();
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            isMoveing = false;
+        }
     }   
     
     void Movement()
