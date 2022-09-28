@@ -10,14 +10,7 @@ public class Monster : MonoBehaviour
     int turnNum;
     private int TurnCount;
     private const int MAX_TURN_COUNT = 1;
-    private void OnEnable()
-    {
-        //MonsterMove();
-    }
-
-
-
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.name.Contains("TurnPosition"))
