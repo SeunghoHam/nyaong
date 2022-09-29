@@ -7,7 +7,7 @@ using DG.Tweening;
 
 public class MySceneManager : MonoBehaviour
 {
-	public CanvasGroup img_Fade; // 검정색 배경
+	public CanvasGroup img_Fade; // 검정색 배경 BlackBackGround
 	float fadeDuration = 2; // 암전되는 시간
 	public GameObject go_Loading; // 로딩 애니메이션 같은거 들어있는 게임 오브젝트
 	public Text text_Loading; // 퍼센트 게이지 텍스트
