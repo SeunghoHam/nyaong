@@ -137,6 +137,7 @@
      <Compile Include="Assets\AssetStore\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\AssetStore\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\DualTarget\PointAtAimTarget.cs" />
      <Compile Include="Assets\AssetStore\Customizable Hologramm Shader\Scripts\Demo.cs" />
+     <Compile Include="Assets\UnityChanGame\Scripts\Character\TestMovement.cs" />
      <Compile Include="Assets\AssetStore\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\RandomDefence\Scripts\Input\InputManager.cs" />
      <Compile Include="Assets\UnityChanGame\Scripts\UC_Camera.cs" />
@@ -144,7 +145,10 @@
      <Compile Include="Assets\AssetStore\Cinemachine\2.6.15\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
      <Compile Include="Assets\RandomDefence\Scripts\Character\CharacterManager.cs" />
      <Compile Include="Assets\NotGame\#Scripts\Menu\MainMenu.cs" />
-     <Compile Include="Assets\UnityChanGame\Scripts\Character\TestMovement.cs" />
+     <Compile Include="Assets\UnityChanGame\Scripts\Character\UC_AnimController.cs" />
+     <Compile Include="Assets\UnityChanGame\Scripts\Camera\UC_CameraController.cs" />
+     <Compile Include="Assets\UnityChanGame\Scripts\Impulse\ImpulseObject.cs" />
+     <Compile Include="Assets\UnityChanGame\Scripts\Character\UC_InputManager.cs" />
      <None Include="Assets\AssetStore\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\AssetStore\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\AssetStore\Hovl Studio\Hovl Studio\Magic circles Vol 2\Demo scene\HDRP and URP(LWRP).txt" />
