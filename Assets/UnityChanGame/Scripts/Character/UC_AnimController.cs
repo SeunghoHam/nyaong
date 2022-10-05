@@ -45,7 +45,11 @@ namespace UC
         {
             _animator.SetTrigger("Kick");
         }
-        
+
+        public void Punch()
+        {
+            _animator.SetTrigger("Punch");
+        }
     
         public void Stop()
         {

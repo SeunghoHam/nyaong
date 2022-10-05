@@ -22,7 +22,7 @@ public class ImpulseObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(CRT_Down());
+        //StartCoroutine(CRT_Down());
     }
 
     IEnumerator CRT_Down()
@@ -33,8 +33,8 @@ public class ImpulseObject : MonoBehaviour
     void Down()
     {
         Debug.Log("Down!!");
-        rigidbody.AddForce(transform.up * (100 * Random.Range(0.9f, 2f)), ForceMode.Impulse);
-        source.GenerateImpulse(Camera.main.transform.forward);    
+        //rigidbody.AddForce(transform.up * (100 * Random.Range(0.9f, 2f)), ForceMode.Impulse);
+        //source.GenerateImpulse(Camera.main.transform.forward);    
     }
     // Update is called once per frame
     void Update()

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
@@ -8,10 +9,17 @@ namespace UC
 {
     public class UC_CameraController : MonoBehaviour
     {
+        public CinemachineBrain brain;
         //[SerializeField] private CinemachineVirtualCamera _virtualCam;
+
+        private void Awake()
+        {
+            brain = this.GetComponent<CinemachineBrain>();
+        }
 
         [SerializeField] private GameObject cam_Default;
         [SerializeField] private GameObject cam_Game;
+        [SerializeField] private GameObject cam_Back; 
         /// <summary>
         /// 카메라 모드 변경
         /// </summary>
@@ -30,7 +38,18 @@ namespace UC
                     break;
             }
         }
-    
+
+        
+        public void BackShot()
+        {
+            
+            StartCoroutine(CRt_BackShot());
+        }
+
+        IEnumerator CRt_BackShot()
+        {
+            yield return null;
+        }
     }
 
 }
