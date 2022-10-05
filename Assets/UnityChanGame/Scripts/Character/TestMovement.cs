@@ -1,14 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Xml;
 using Cinemachine;
-using TMPro;
-using UnityEditor;
-using UnityEditor.UI;
 using UnityEngine;
-using UnityEngine.Rendering.UI;
 using UnityEngine.UI;
 
 namespace UC
@@ -49,6 +43,10 @@ namespace UC
             if (Input.GetKeyDown(KeyCode.J))
             {
                 _animController.Kick();
+            }
+            else if(Input.GetKeyDown(KeyCode.K))
+            {
+                _animController.Punch();
             }
 
             if (Input.GetKeyDown(KeyCode.Space))
