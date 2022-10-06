@@ -49,7 +49,7 @@ namespace UC
                 _animController.Punch();
             }
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.R))
             {
                 if (count % 2 == 0)
                 {
@@ -61,6 +61,11 @@ namespace UC
                 }
 
                 count++;
+            }
+            
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                _animController.Jump();
             }
         }
 
