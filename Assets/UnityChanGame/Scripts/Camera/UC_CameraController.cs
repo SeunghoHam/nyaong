@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 using Cinemachine;
+using UnityEditor;
 
 namespace UC
 {
@@ -40,6 +41,23 @@ namespace UC
             }
         }
 
+        /// <summary>
+        /// 카메라 1인칭 - 3인칭 변경
+        /// </summary>
+        public void ChangeSight(string _Mode)
+        {
+            switch (_Mode)
+            {
+                case "First":
+                    cam_1stSight.SetActive(true);
+                    cam_Default.SetActive(false);
+                    break;
+                case "Third":
+                    cam_1stSight.SetActive(false);
+                    cam_Default.SetActive(true);
+                    break;
+            }
+        }
         
         public void BackShot()
         {
