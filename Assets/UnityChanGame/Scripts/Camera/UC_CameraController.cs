@@ -19,7 +19,8 @@ namespace UC
 
         [SerializeField] private GameObject cam_Default;
         [SerializeField] private GameObject cam_Game;
-        [SerializeField] private GameObject cam_Back; 
+        [SerializeField] private GameObject cam_Back;
+        [SerializeField] private GameObject cam_1stSight;
         /// <summary>
         /// 카메라 모드 변경
         /// </summary>
